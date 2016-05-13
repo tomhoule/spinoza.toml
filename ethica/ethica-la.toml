@@ -1,0 +1,467 @@
+# Structured and hyperlinked edition of Spinoza’s *Ethica*, using Commonmark embedded in TOML
+
+# Status:
+# Latin (Gebhardt): In progress
+# English (?): In project
+# French (?): In project
+# Chinese (?): In project
+
+# Scripts:
+# Translation to portable SQL
+
+# Format:
+# Nesting in the form:
+# [type.{number}.subtype.{number}]
+# In each content node, a "txt" field for text.
+# References in the text follow the commonmark specified
+# then, targets are specified in an { identifier: target } map named "refs"
+# at the same level as the text.
+
+# Internal links may be specified by using the path of the desired node, like # pars.1.def.3
+
+# Future: maybe the rest of Spinoza’s bibliography
+
+# Acknowledgments: ethicadb
+
+# To decide: split files across languages? Or… Just put all the languages in one file. Maybe that.
+
+# Rationale:
+# I believe there is a difference between code and data, and I believe a good book is more code than data.
+# Rewriting books as structured data must be a first step towards more interesting usages.
+
+# Other projects built on this one:
+# ethica android app
+# ethica API
+# ethica web app
+
+# LICENSE: Spinoza’s work is in the public domain. Any part of this repository
+# where copyright is applicable is released under the GNU Public License
+# version 3. By contributing to this repository, you accept that your contribution
+# be attributed the same license.
+
+# Copyright 2016 Tom Houlé and contributors
+
+[pars.1]
+[pars.1.def.1]
+txt = """
+Per causam sui intelligo id cujus essentia involvit existentiam sive id cujus
+natura non potest concipi nisi existens.
+"""
+
+[pars.1.def.2]
+txt = """
+Ea res dicitur in suo genere finita quæ alia ejusdem naturæ terminari potest.
+
+Exempli gratia corpus dicitur finitum quia aliud semper majus concipimus.
+Sic cogitatio alia cogitatione terminatur.
+At corpus non terminatur cogitatione nec cogitatio corpore.
+"""
+
+[pars.1.def.3]
+txt = """
+Per substantiam intelligo id quod in se est et per se concipitur hoc est id
+cujus conceptus non indiget conceptu alterius rei a quo formari debeat.
+"""
+
+[pars.1.def.4]
+txt = """
+Per attributum intelligo id quod intellectus de substantia percipit tanquam
+ejusdem essentiam constituens.
+"""
+
+[pars.1.def.5]
+txt = """
+Per modum intelligo substantiae affectiones sive id quod in alio est, per quod
+etiam concipitur.
+"""
+
+[pars.1.def.6]
+txt = """
+Per Deum intelligo ens absolute infinitum hoc est substantiam constantem
+infinitis attributis quorum unumquodque aeternam et infinitam essentiam exprimit.
+"""
+
+[pars.1.def.6.expl]
+txt = """
+Dico absolute infinitum, non autem in suo genere; quicquid enim in suo genere
+tantum infinitum est, infinita de eo attributa negare possumus; quod autem
+absolute infinitum est, ad ejus essentiam pertinet quicquid essentiam exprimit
+et negationem nullam involvit.
+"""
+
+[pars.1.def.7]
+txt = """
+Ea res libera dicitur quae ex sola suae naturae necessitate existit et a se
+sola ad agendum determinatur. Necessaria autem vel potius coacta quae ab
+alio determinatur ad existendum et operandum certa ac determinata ratione.
+"""
+
+[pars.1.def.8]
+txt = """
+Per aeternitatem intelligo ipsam existentiam quatenus ex sola rei aeternae
+definitione necessario sequi concipitur.
+"""
+
+[pars.1.def.8.expl]
+txt = """
+Talis enim existentia ut aeterna veritas sicut rei essentia concipitur
+proptereaque per durationem aut tempus explicari non potest tametsi
+duratio principio et fine carere concipiatur.
+"""
+
+[pars.1.ax.1]
+txt = """
+Omnia quae sunt vel in se vel in alio sunt.
+"""
+
+[pars.1.ax.2]
+txt = """
+Id quod per aliud non potest concipi, per se concipi debet.
+"""
+
+[pars.1.ax.3]
+txt = """
+Ex data causa determinata necessario sequitur effectus et contra si nulla detur
+determinata causa, impossibile est ut effectus sequatur.
+"""
+
+[pars.1.ax.4]
+txt = """
+Effectus cognitio a cognitione causae dependet et eandem involvit.
+"""
+
+[pars.1.ax.5]
+txt = """
+Quae nihil commune cum se invicem habent, etiam per se invicem intelligi non
+possunt sive conceptus unius alterius conceptum non involvit.
+"""
+
+[pars.1.ax.6]
+txt = """
+Idea vera debet cum suo ideato convenire.
+"""
+
+[pars.1.ax.7]
+txt = """
+Quicquid ut non existens potest concipi, ejus essentia non involvit
+existentiam.
+"""
+
+[pars.1.prop.1]
+txt = """
+Substantia prior est natura suis affectionibus.
+"""
+
+[pars.1.prop.1.demo]
+txt = """
+Patet ex [definitione 3][def3] et [5][def5].
+"""
+
+refs = {
+    def3 = "pars.1.def.3",
+    def5 = "pars.1.def.5",
+}
+
+[pars.1.prop.2]
+txt= """
+Duae substantiae diversa attributa habentes nihil inter se commune habent.
+"""
+
+[pars.1.prop.2.demo]
+txt = """
+Patet etiam ex [definitione 3][def3]. Unaquaeque enim in se debet esse et per se debet
+concipi sive conceptus unius conceptum alterius non involvit.
+"""
+
+refs = {
+    "def3" = "pars.1.def.3",
+}
+
+[pars.1.prop.3]
+txt = """
+Quae res nihil commune inter se habent, earum una alterius causa esse non potest. 
+"""
+
+[pars.1.prop.3.demo]
+txt = """
+Si nihil commune cum se invicem habent, ergo (per [axioma 5][ax5]) nec
+per se invicem possunt intelligi adeoque (per [axioma 4][ax4]) una alterius causa esse
+non potest. Q.E.D.
+"""
+
+refs = {
+    ax5 = "pars.1.ax.5",
+    ax4 = "pars.1.ax.4",
+}
+
+[pars.1.prop.4]
+txt = """
+Duae aut plures res distinctae vel inter se distinguuntur ex diversitate
+attributorum substantiarum vel ex diversitate earundem affectionum.
+"""
+
+[pars.1.prop.4.demo]
+txt = """
+Omnia quae sunt vel in se vel in alio sunt (per [axioma 1][ax1]) hoc est (per
+[definitiones 3][def3] et [5][def5]) extra intellectum nihil datur praeter
+substantias earumque affectiones. Nihil ergo extra intellectum datur per quod
+plures res distingui inter se possunt praeter substantias sive quod idem est
+(per [definitionem 4][def4]) earum attributa earumque affectiones. Q.E.D.
+"""
+
+refs = {
+    ax1 = "pars.1.ax.1",
+    def3 = "pars.1.def.3",
+    def4 = "pars.1.def.4",
+    def5 = "pars.1.def.5",
+}
+
+[pars.1.prop.5]
+txt = """
+In rerum natura non possunt dari duae aut plures substantiae ejusdem naturae
+sive attributi.
+"""
+
+[pars.1.prop.5.demo]
+txt = """
+Si darentur plures distinctae, deberent inter se distingui vel ex diversitate
+attributorum vel ex diversitate affectionum (per [propositionem
+praecedentem][prop4]). Si tantum ex diversitate attributorum, concedetur ergo
+non dari nisi unam ejusdem attributi. At si ex diversitate affectionum, cum
+substantia sit prior natura suis affectionibus (per [propositionem 1][prop1])
+depositis ergo affectionibus et in se considerata hoc est (per [definitionem
+3][def3] et [axioma 6][ax6]) vere considerata, non poterit concipi ab alia
+distingui hoc est (per propositionem praecedentem) non poterunt dari plures sed
+tantum una. Q.E.D.
+"""
+
+refs = {
+    prop4 = "pars.1.prop.4",
+    prop1 = "pars.1.prop.1",
+    def3 = "pars.1.def.3",
+    ax6 = "pars.1.ax.6",
+}
+
+[pars.1.prop.6]
+txt = """
+Una substantia non potest produci ab alia substantia.
+"""
+
+[pars.1.prop.6.demo]
+txt = """
+In rerum natura non possunt dari duae substantiae ejusdem attributi (per
+[propositionem praecedentem][prop5]) hoc est (per [propositionem 2][prop2]) quae
+aliquid inter se commune habent. Adeoque (per [propositionem 3][prop3]) una
+alterius causa esse nequit sive ab alia non potest produci. Q.E.D.
+"""
+
+refs = {
+    prop5 = "pars.1.prop.5",
+    prop2 = "pars.1.prop.2",
+    prop3 = "pars.1.prop.3",
+}
+
+[pars.1.prop.6.cor]
+txt = """
+Hinc sequitur substantiam ab alio produci non posse. Nam in rerum natura nihil
+datur praeter substantias earumque affectiones ut patet ex [axiomate 1][ax1] et
+[definitionibus 3][def3] et [5][def5]. Atqui a substantia produci non potest
+(per [praecedentem propositionem][prop5]). Ergo substantia absolute ab alio
+produci non potest. Q.E.D.
+"""
+
+refs = {
+    ax1 = "pars.1.ax.1",
+    prop5 = "pars.1.prop.5",
+    def3 = "pars.1.def.3",
+    def5 = "pars.1.def.5",
+}
+
+[pars.1.prop.6.alit]
+txt = """
+Demonstratur hoc etiam facilius ex absurdo contradictorio. Nam si substantia ab
+alio posset produci, ejus cognitio a cognitione suae causae deberet pendere (per
+[axioma 4][ax4]) adeoque (per [definitionem 3][def3]) non esset substantia.
+"""
+
+refs = {
+    ax4 = "pars.1.ax.4",
+    def3 = "pars.1.def.3",
+}
+
+[pars.1.prop.7]
+txt = """
+Ad naturam substantiae pertinet existere.
+"""
+
+[pars.1.prop.7.demo]
+txt = """
+Substantia non potest produci ab alio (per [corollarium propositionis
+praecedentis][prop6cor]); erit itaque causa sui id est (per [definitionem 1][def1]) ipsius
+essentia involvit necessario existentiam sive ad ejus naturam pertinet existere.
+Q.E.D.
+"""
+
+refs = {
+    prop6cor = "pars.1.props.6.cor",
+    def1 = "pars.1.def.1",
+}
+
+[pars.1.prop.8]
+txt = """
+Omnis substantia est necessario infinita.
+"""
+
+[pars.1.prop.8.demo]
+txt = """
+Substantia unius attributi non nisi unica existit (per [propositionem 5][prop5])
+et ad ipsius naturam pertinet existere (per [propositionem 7][prop7]). Erit ergo
+de ipsius natura vel finita vel infinita existere. At non finita. Nam (per
+[definitionem 2][def2]) deberet terminari ab alia ejusdem naturae quae etiam
+necessario deberet existere (per [propositionem 7][prop7]) adeoque darentur duae
+substantiae ejusdem attributi, quod est absurdum (per [propositionem 5][prop5]).
+Existit ergo infinita. Q.E.D.
+"""
+
+refs = {
+    prop5 = "pars.1.prop.5",
+    prop7 = "pars.1.prop.7",
+    def2 = "pars.1.def.2"
+}
+
+[pars.1.prop.8.sc.1]
+txt = """
+Cum finitum esse revera sit ex parte negatio et infinitum absoluta affirmatio
+existentiae alicujus naturae, sequitur ergo ex sola [7 propositione][prop7]
+omnem substantiam debere esse infinitam.
+"""
+
+refs = {
+    prop7 = "pars.1.prop.7",
+}
+
+[pars.1.prop.8.sc.2]
+txt = """
+Non dubito quin omnibus qui de rebus confuse judicant nec res per primas suas
+causas noscere consueverunt, difficile sit [demonstrationem 7
+propositionis][prop7demo] concipere; nimirum quia non distinguunt inter
+modificationes substantiarum et ipsas substantias neque sciunt quomodo res
+producuntur. Unde fit ut principium quod res naturales habere vident,
+substantiis affingant; qui enim veras rerum causas ignorant, omnia confundunt et
+sine ulla mentis repugnantia tam arbores quam homines loquentes fingunt et
+homines tam ex lapidibus quam ex semine formari et quascunque formas in alias
+quascunque mutari imaginantur. Sic etiam qui naturam divinam cum humana
+confundunt, facile Deo affectus humanos tribuunt praesertim quamdiu etiam
+ignorant quomodo affectus in mente producuntur. Si autem homines ad naturam
+substantiae attenderent, minime de veritate 7 propositionis dubitarent; imo haec
+propositio omnibus axioma esset et inter notiones communes numeraretur. Nam per
+substantiam intelligerent id quod in se est et per se concipitur hoc est id
+cujus cognitio non indiget cognitione alterius rei. Per modificationes autem id
+quod in alio est et quarum conceptus a conceptu rei in qua sunt, formatur :
+quocirca modificationum non existentium veras ideas possumus habere quandoquidem
+quamvis non existant actu extra intellectum, earum tamen essentia ita in alio
+comprehenditur ut per idem concipi possint. Verum substantiarum veritas extra
+intellectum non est nisi in se ipsis quia per se concipiuntur. Si quis ergo
+diceret se claram et distinctam hoc est veram ideam substantiae habere et
+nihilominus dubitare num talis substantia existat, idem hercle esset ac si
+diceret se veram habere ideam et nihilominus dubitare num falsa sit (ut satis
+attendenti sit manifestum); vel si quis statuat substantiam creari, simul
+statuit ideam falsam factam esse veram, quo sane nihil absurdius concipi potest
+adeoque fatendum necessario est substantiae existentiam sicut ejus essentiam
+aeternam esse veritatem. Atque hinc alio modo concludere possumus non dari nisi
+unicam ejusdem naturae, quod hic ostendere operae pretium esse duxi. Ut autem
+hoc ordine faciam notandum est I° veram uniuscujusque rei definitionem nihil
+involvere neque exprimere praeter rei definitae naturam. Ex quo sequitur hoc II°
+nempe nullam definitionem certum aliquem numerum individuorum involvere neque
+exprimere quandoquidem nihil aliud exprimit quam naturam rei definitae. Exempli
+gratia definitio trianguli nihil aliud exprimit quam simplicem naturam
+trianguli; at non certum aliquem triangulorum numerum. III° notandum dari
+necessario uniuscujusque rei existentis certam aliquam causam propter quam
+existit. IV° denique notandum hanc causam propter quam aliqua res existit, vel
+debere contineri in ipsa natura et definitione rei existentis (nimirum quod ad
+ipsius naturam pertinet existere) vel debere extra ipsam dari. His positis
+sequitur quod si in natura certus aliquis numerus individuorum existat, debeat
+necessario dari causa cur illa individua et cur non plura nec pauciora existunt.
+Si exempli gratia in rerum natura 20 homines existant (quos majoris
+perspicuitatis causa suppono simul existere nec alios antea in natura
+exstitisse) non satis erit (ut scilicet rationem reddamus cur 20 homines
+existant) causam naturae humanae in genere ostendere sed insuper necesse erit
+causam ostendere cur non plures nec pauciores quam 20 existant quandoquidem (per
+III notam) uniuscujusque debet necessario dari causa cur existat. At haec causa
+(per notam II et III) non potest in ipsa natura humana contineri quandoquidem
+vera hominis definitio numerum vicenarium non involvit adeoque (per notam IV)
+causa cur hi viginti homines existunt et consequenter cur unusquisque existit,
+debet necessario extra unumquemque dari et propterea absolute concludendum omne
+id cujus naturae plura individua existere possunt, debere necessario ut existant
+causam externam habere. Jam quoniam ad naturam substantiae (per jam ostensa in
+hoc scholio) pertinet existere, debet ejus definitio necessariam existentiam
+involvere et consequenter ex sola ejus definitione debet ipsius existentia
+concludi. At ex ipsius definitione (ut jam ex nota II et III ostendimus) non
+potest sequi plurium substantiarum existentia; sequitur ergo ex ea necessario
+unicam tantum ejusdem naturae existere, ut proponebatur.
+"""
+
+refs = {
+    prop7 = "pars.1.prop.7.demo",
+}
+
+[pars.1.prop.9]
+txt = """
+Quo plus realitatis aut esse unaquaeque res habet eo plura attributa ipsi competunt.
+"""
+
+[pars.1.prop.9.demo]
+txt = """
+Patet ex [definitione 4][def4].
+"""
+
+refs = {
+    def4 = "pars.1.def.4",
+}
+
+[pars.1.prop.10]
+txt = """
+Unumquodque unius substantiae attributum per se concipi debet.
+"""
+
+[pars.1.prop.10.demo]
+txt = """
+Attributum enim est id quod intellectus de substantia percipit tanquam ejus
+essentiam constituens (per [definitionem 4][def4]) adeoque (per [definitionem
+3][def3]) per se concipi debet. Q.E.D.
+"""
+
+refs = {
+    def4 = "pars.1.def.4",
+    def3 = "pars.1.def.3",
+}
+
+[pars.1.prop.10.sc]
+txt = """
+Ex his apparet quod quamvis duo attributa realiter distincta concipiantur hoc
+est unum sine ope alterius, non possumus tamen inde concludere ipsa dua entia
+sive duas diversas substantias constituere; id enim est de natura substantiae ut
+unumquodque ejus attributorum per se concipiatur quandoquidem omnia quae habet
+attributa, simul in ipsa semper fuerunt nec unum ab alio produci potuit sed
+unumquodque realitatem sive esse substantiae exprimit. Longe ergo abest ut
+absurdum sit uni substantiae plura attributa tribuere; quin nihil in natura
+clarius quam quod unumquodque ens sub aliquo attributo debeat concipi et quo
+plus realitatis aut esse habeat eo plura attributa quae et necessitatem sive
+aeternitatem et infinitatem exprimunt, habeat et consequenter nihil etiam
+clarius quam quod ens absolute infinitum necessario sit definiendum (ut
+[definitione 6][def6] tradidimus) ens quod constat infinitis attributis quorum
+unumquodque aeternam et infinitam certam essentiam exprimit. Si quis autem jam
+quaerit ex quo ergo signo diversitatem substantiarum poterimus dignoscere, legat
+sequentes propositiones, quae ostendunt in rerum natura non nisi unicam
+substantiam existere eamque absolute infinitam esse, quapropter id signum
+frustra quaereretur.
+"""
+
+refs = {
+    def6 = "pars.1.def.6",
+}
+
+[pars.2]
+[pars.3]
+[pars.4]
+[pars.5]
