@@ -179,7 +179,7 @@ refs = {
 
 [pars.1.prop.3]
 txt = """
-Quae res nihil commune inter se habent, earum una alterius causa esse non potest. 
+Quae res nihil commune inter se habent, earum una alterius causa esse non potest.
 """
 
 [pars.1.prop.3.demo]
@@ -231,8 +231,8 @@ non dari nisi unam ejusdem attributi. At si ex diversitate affectionum, cum
 substantia sit prior natura suis affectionibus (per [propositionem 1][prop1])
 depositis ergo affectionibus et in se considerata hoc est (per [definitionem
 3][def3] et [axioma 6][ax6]) vere considerata, non poterit concipi ab alia
-distingui hoc est (per propositionem praecedentem) non poterunt dari plures sed
-tantum una. Q.E.D.
+distingui hoc est (per [propositionem praecedentem][prop4]) non poterunt dari
+plures sed tantum una. Q.E.D.
 """
 
 refs = {
@@ -303,7 +303,7 @@ Q.E.D.
 """
 
 refs = {
-    prop6cor = "pars.1.props.6.cor",
+    prop6cor = "pars.1.prop.6.cor",
     def1 = "pars.1.def.1",
 }
 
@@ -459,6 +459,498 @@ frustra quaereretur.
 
 refs = {
     def6 = "pars.1.def.6",
+}
+
+ [pars.1.prop.11]
+ txt = """
+ Deus sive substantia constans infinitis attributis quorum unumquodque aeternam
+ et infinitam essentiam exprimit, necessario existit.
+ """
+
+ [pars.1.prop.11.demo]
+ txt = """
+ Si negas, concipe si fieri potest, Deum non existere. Ergo (per [axioma
+ 7][ax7]) ejus essentia non involvit existentiam. Atqui hoc (per [propositionem
+ 7][prop7]) est absurdum : ergo Deus necessario existit. Q.E.D.
+"""
+
+refs = {
+    ax7 = "pars.1.ax.7",
+    prop7 = "pars.1.prop.7",
+}
+
+[pars.1.prop.11.alit.1]
+txt = """
+Cujuscunque rei assignari debet causa seu ratio tam cur existit quam cur non
+existit. Exempli gratia si triangulus existit, ratio seu causa dari debet cur
+existit; si autem non existit, ratio etiam seu causa dari debet quae impedit
+quominus existat sive quae ejus existentiam tollat. Haec vero ratio seu causa
+vel in natura rei contineri debet vel extra ipsam. Exempli gratia rationem cur
+circulus quadratus non existat, ipsa ejus natura indicat; nimirum quia
+contradictionem involvit. Cur autem contra substantia existat, ex sola etiam
+ejus natura sequitur quia scilicet existentiam involvit (vide [propositionem
+7][prop7]). At ratio cur circulus vel triangulus existit vel cur non existit, ex
+eorum natura non sequitur sed ex ordine universae naturae corporeae; ex eo enim
+sequi debet vel jam triangulum necessario existere vel impossibile esse ut jam
+existat. Atque haec per se manifesta sunt. Ex quibus sequitur id necessario
+existere cujus nulla ratio nec causa datur quae impedit quominus existat. Si
+itaque nulla ratio nec causa dari possit quae impedit quominus Deus existat vel
+quae ejus existentiam tollat, omnino concludendum est eundem necessario
+existere. At si talis ratio seu causa daretur, ea vel in ipsa Dei natura vel
+extra ipsam dari deberet hoc est in alia substantia alterius naturae. Nam si
+ejusdem naturae esset, eo ipso concederetur dari Deum. At substantia quae
+alterius esset naturae, nihil cum Deo commune habere (per [2
+propositionem][prop2]) adeoque neque ejus existentiam ponere neque tollere
+posset. Cum igitur ratio seu causa quae divinam existentiam tollat, extra
+divinam naturam dari non possit, debebit necessario dari, siquidem non existit,
+in ipsa ejus natura, quae propterea contradictionem involveret. Atqui hoc de
+Ente absolute infinito et summe perfecto affirmare absurdum est; ergo nec in Deo
+nec extra Deum ulla causa seu ratio datur quae ejus existentiam tollat ac
+proinde Deus necessario existit. Q.E.D.
+"""
+
+refs = {
+    prop7 = "pars.1.prop.7",
+    prop2 = "pars.1.prop.2",
+}
+
+[pars.1.prop.11.alit.2]
+txt = """
+Posse non existere impotentia est et contra posse existere potentia est (ut per se notum). Si itaque id quod jam necessario existit, non nisi entia finita sunt, sunt ergo entia finita potentiora Ente absolute infinito atque hoc (ut per se notum) absurdum est; ergo vel nihil existit vel Ens absolute infinitum necessario etiam existit. Atqui nos vel in nobis vel in alio quod necessario existit, existimus (vide [axioma 1][ax1] et [propositionem 7][prop7]). Ergo Ens absolute infinitum hoc est (per [definitionem 6][def6]) Deus necessario existit. Q.E.D.
+"""
+
+refs = {
+    ax1 = "pars.1.ax.1",
+    prop7 = "pars.1.prop.7",
+    def6 = "pars.1.def.6",
+}
+
+[pars.1.prop.11.sc]
+txt = """
+In hac ultima demonstratione Dei existentiam a posteriori ostendere volui ut
+demonstratio facilius perciperetur; non autem propterea quod ex hoc eodem
+fundamento Dei existentia a priori non sequatur. Nam cum posse existere potentia
+sit, sequitur quo plus realitatis alicujus rei naturae competit eo plus virium a
+se habere ut existat adeoque Ens absolute infinitum sive Deum infinitam absolute
+potentiam existendi a se habere, qui propterea absolute existit. Multi tamen
+forsan non facile hujus demonstrationis evidentiam videre poterunt quia assueti
+sunt eas solummodo res contemplari quae a causis externis fiunt et ex his quae
+cito fiunt hoc est quae facile existunt, eas etiam facile perire vident et
+contra eas res factu difficiliores judicant hoc est ad existendum non adeo
+faciles ad quas plura pertinere concipiunt. Verum ut ab his praejudiciis
+liberentur, non opus habeo hic ostendere qua ratione hoc enunciatum “quod cito
+fit cito perit” verum sit nec etiam an respectu totius naturae omnia aeque
+facilia sint an secus. Sed hoc tantum notare sufficit me hic non loqui de rebus
+quae a causis externis fiunt sed de solis substantiis, quae (per [propositionem
+6][prop6]) a nulla causa externa produci possunt. Res enim quae a causis
+externis fiunt, sive eae multis partibus constent sive paucis, quicquid
+perfectionis sive realitatis habent, id omne virtuti causae externae debetur
+adeoque earum existentia ex sola perfectione causae externae, non autem suae
+oritur. Contra quicquid substantia perfectionis habet, nulli causae externae
+debetur; quare ejus etiam existentia ex sola ejus natura sequi debet, quae
+proinde nihil aliud est quam ejus essentia. Perfectio igitur rei existentiam non
+tollit sed contra ponit; imperfectio autem contra eandem tollit adeoque de
+nullius rei existentia certiores esse possumus quam de existentia Entis absolute
+infiniti seu perfecti hoc est Dei. Nam quandoquidem ejus essentia omnem
+imperfectionem secludit absolutamque perfectionem involvit, eo ipso omnem causam
+dubitandi de ipsius existentia tollit summamque de eadem certitudinem dat, quod
+mediocriter attendenti perspicuum fore credo.
+"""
+
+refs = {
+    prop6: "pars.1.prop.6",
+}
+
+[pars.1.prop.12]
+txt = """
+Nullum substantiae attributum potest vere concipi ex quo sequatur substantiam
+posse dividi.
+"""
+
+[pars.1.prop.12.demo]
+txt = """
+Partes enim in quas substantia sic concepta divideretur, vel naturam substantiae
+retinebunt vel non. Si primum, tum (per [8 propositionem][prop8]) unaquaeque
+pars debebit esse infinita et (per [propositionem 6][prop6]) causa sui et (per
+[propositionem 5][prop5]) constare debebit ex diverso attributo adeoque ex una
+substantia plures constitui poterunt, quod (per [propositionem 6][prop6]) est
+absurdum. Adde quod partes (per [propositionem 2][prop2]) nihil commune cum suo
+toto haberent et totum (per [definitionem 4][def4] et [propositionem
+10][prop10]) absque suis partibus et esse et concipi posset, quod absurdum esse
+nemo dubitare poterit. Si autem secundum ponatur quod scilicet partes naturam
+substantiae non retinebunt, ergo cum tota substantia in aequales partes esset
+divisa, naturam substantiae amitteret et esse desineret, quod (per
+[propositionem 7][prop7]) est absurdum.
+"""
+
+refs = {
+    prop8 = "pars.1.prop.8",
+    prop6 = "pars.1.prop.6",
+    prop5 = "pars.1.prop.5",
+    prop2 = "pars.1.prop.2",
+    def4 = "pars.1.def.4",
+    prop10 = "pars.1.prop.10",
+    prop7 = "pars.1.prop.7",
+}
+
+[pars.1.prop.13]
+txt = """
+Substantia absolute infinita est indivisibilis.
+"""
+
+[pars.1.prop.13.demo]
+txt = """
+Si enim divisibilis esset, partes in quas divideretur vel naturam substantiae
+absolute infinitae retinebunt vel non. Si primum, dabuntur ergo plures
+substantiae ejusdem naturae, quod (per [propositionem 5][prop5]) est absurdum.
+Si secundum ponatur, ergo (ut supra) poterit substantia absolute infinita
+desinere esse, quod (per [propositionem 11][prop11]) est etiam absurdum.
+"""
+
+refs = {
+    prop5 = "pars.1.prop.5",
+    prop11 = "pars.1.prop.11",
+}
+
+[pars.1.prop.13.cor]
+txt = """
+Ex his sequitur nullam substantiam et consequenter nullam substantiam corpoream,
+quatenus substantia est, esse divisibilem.
+"""
+
+[pars.1.prop.13.sc]
+txt = """
+Quod substantia sit indivisibilis, simplicius ex hoc solo intelligitur quod natura substantiae non potest concipi nisi infinita et quod per partem substantiae nihil aliud intelligi potest quam substantia finita, quod (per [propositionem 8][prop8]) manifestam contradictionem implicat.
+"""
+
+refs = {
+    prop8 = "pars.1.prop.8",
+}
+
+[pars.1.prop.14]
+txt = """
+Praeter Deum nulla dari neque concipi potest substantia.
+"""
+
+[pars.1.prop.14.demo]
+txt = """
+Cum Deus sit ens absolute infinitum de quo nullum attributum quod essentiam
+substantiae exprimit, negari potest (per [definitionem 6][def6]) isque
+necessario existat (per [propositionem 11][prop11]) si aliqua substantia praeter
+Deum daretur, ea explicari deberet per aliquod attributum Dei sicque duae
+substantiae ejusdem attributi existerent, quod (per [propositionem 5][prop5])
+est absurdum adeoque nulla substantia extra Deum dari potest et consequenter non
+etiam concipi. Nam si posset concipi, deberet necessario concipi ut existens;
+atqui hoc (per primam partem hujus demonstrationis) est absurdum. Ergo extra
+Deum nulla dari neque concipi potest substantia. Q.E.D.
+"""
+
+refs = {
+    def6 = "pars.1.def.6",
+    prop11 = "pars.1.prop.11",
+    prop5 = "pars.1.prop.5",
+}
+
+[pars.1.prop.14.cor.1]
+txt = """
+Hinc clarissime sequitur Iº Deum esse unicum hoc est (per [definitionem
+6][def6]) in rerum natura non nisi unam substantiam dari eamque absolute
+infinitam esse, ut in [scholio propositionis 10][props10sc] jam innuimus.
+"""
+
+refs = {
+    def6 = "pars.1.def.6",
+    prop10sc = "pars.1.prop.10sc",
+}
+
+[pars.1.prop.14.cor.2]
+txt = """
+Sequitur IIº rem extensam et rem cogitantem vel Dei attributa esse vel (per
+[axioma 1][ax1]) affectiones attributorum Dei.
+"""
+
+refs = {
+    ax1 = "pars.1.ax.1"
+}
+
+[pars.1.prop.15]
+txt = """
+Quicquid est, in Deo est et nihil sine Deo esse neque concipi potest.
+"""
+
+[pars.1.prop.15.demo]
+txt = """
+Praeter Deum nulla datur neque concipi potest substantia (per [14
+propositionem][prop14]) hoc est (per [definitionem 3][def3]) res quae in se est
+et per se concipitur. Modi autem (per [definitionem 5][def5]) sine substantia
+nec esse nec concipi possunt; quare hi in sola divina natura esse et per ipsam
+solam concipi possunt. Atqui praeter substantias et modos nil datur (per [axioma
+1][ax1]). Ergo nihil sine Deo esse neque concipi potest. Q.E.D.
+"""
+
+refs = {
+    prop14 = "pars.1.prop.14",
+    def3 = "pars.1.def.3",
+    def5 = "pars.1.def.5",
+    ax1 = "pars.1.ax.1",
+}
+
+[pars.1.prop.15.sc]
+txt = """
+Sunt qui Deum instar hominis corpore et mente constantem atque passionibus
+obnoxium fingunt sed quam longe hi a vera Dei cognitione aberrent, satis ex jam
+demonstratis constat. Sed hos mitto : nam omnes qui naturam divinam aliquo modo
+contemplati sunt, Deum esse corporeum negant. Quod etiam optime probant ex eo
+quod per corpus intelligimus quamcunque quantitatem longam, latam et profundam,
+certa aliqua figura terminatam, quo nihil absurdius de Deo, ente scilicet
+absolute infinito, dici potest. Attamen interim aliis rationibus quibus hoc idem
+demonstrare conantur, clare ostendunt se substantiam ipsam corpoream sive
+extensam a natura divina omnino removere atque ipsam a Deo creatam statuunt. Ex
+qua autem divina potentia creari potuerit, prorsus ignorant; quod clare ostendit
+illos id quod ipsimet dicunt, non intelligere. Ego saltem satis clare meo quidem
+judicio demonstravi (vide [corollarium propositionis 6][prop6cor] et [scholium
+II propositionis 8][prop8sc2]) nullam substantiam ab alio produci vel creari.
+Porro [propositione 14][prop14] ostendimus praeter Deum nullam dari neque
+concipi posse substantiam atque hinc conclusimus substantiam extensam unum ex
+infinitis Dei attributis esse. Verum ad pleniorem explicationem adversariorum
+argumenta refutabo quae omnia huc redeunt primo quod substantia corporea
+quatenus substantia constat ut putant partibus et ideo eandem infinitam posse
+esse et consequenter ad Deum pertinere posse negant. Atque hoc multis exemplis
+explicant ex quibus unum aut alterum afferam. Si substantia corporea aiunt est
+infinita, concipiatur in duas partes dividi; erit unaquaeque pars vel finita vel
+infinita. Si illud, componitur ergo infinitum ex duabus partibus finitis, quod
+est absurdum. Si hoc, datur ergo infinitum duplo majus alio infinito, quod etiam
+est absurdum. Porro si quantitas infinita mensuratur partibus pedes aequantibus,
+infinitis talibus partibus constare debebit ut et si partibus mensuretur digitos
+aequantibus ac propterea unus numerus infinitus erit duodecies major alio
+infinito. Denique si ex uno puncto infinitae cujusdam quantitatis concipiatur
+duas lineas ut AB, AC, certa ac determinata in initio distantia in infinitum
+protendi, certum est distantiam inter B et C continuo augeri et tandem ex
+determinata indeterminabilem fore. Cum igitur haec absurda sequantur ut putant
+ex eo quod quantitas infinita supponitur, inde concludunt substantiam corpoream
+debere esse finitam et consequenter ad Dei essentiam non pertinere. Secundum
+argumentum petitur etiam a summa Dei perfectione. Deus enim inquiunt cum sit ens
+summe perfectum, pati non potest : atqui substantia corporea quandoquidem
+divisibilis est, pati potest; sequitur ergo ipsam ad Dei essentiam non
+pertinere. Haec sunt quae apud scriptores invenio argumenta quibus ostendere
+conantur substantiam corpoream divina natura indignam esse nec ad eandem posse
+pertinere. Verumenimvero si quis recte attendat, me ad haec jam respondisse
+comperiet quandoquidem haec argumenta in eo tantum fundantur quod substantiam
+corpoream ex partibus componi supponunt, quod jam (per [propositionem
+12][prop12] cum [corollario propositionis 13][prop13cor]) absurdum esse ostendi.
+Deinde si quis rem recte perpendere velit, videbit omnia illa absurda (siquidem
+omnia absurda sunt, de quo non jam disputo) ex quibus concludere volunt
+substantiam extensam finitam esse, minime ex eo sequi quod quantitas infinita
+supponatur sed quod quantitatem infinitam mensurabilem et ex partibus finitis
+conflari supponunt; quare ex absurdis quae inde sequuntur, nihil aliud
+concludere possunt quam quod quantitas infinita non sit mensurabilis et quod ex
+partibus finitis conflari non possit. Atque hoc idem est quod nos supra
+([propositione 12][prop12] etc.) jam demonstravimus. Quare telum quod in nos
+intendunt, in se ipsos revera conjiciunt. Si igitur ipsi ex suo hoc absurdo
+concludere tamen volunt substantiam extensam debere esse finitam, nihil aliud
+hercle faciunt quam si quis ex eo quod finxit circulum quadrati proprietates
+habere, concludit circulum non habere centrum ex quo omnes ad circumferentiam
+ductae lineae sunt aequales. Nam substantiam corpoream quae non nisi infinita,
+non nisi unica et non nisi indivisibilis potest concipi (vide [propositiones
+8][prop8], [5][prop5] et [12][prop12]) eam ipsi ad concludendum eandem esse
+finitam, ex partibus finitis conflari et multiplicem esse et divisibilem
+concipiunt. Sic etiam alii postquam fingunt lineam ex punctis componi, multa
+sciunt invenire argumenta quibus ostendant lineam non posse in infinitum dividi.
+Et profecto non minus absurdum est ponere quod substantia corporea ex corporibus
+sive partibus componatur quam quod corpus ex superficiebus, superficies ex
+lineis, lineae denique ex punctis componantur. Atque hoc omnes qui claram
+rationem infallibilem esse sciunt, fateri debent et imprimis ii qui negant dari
+vacuum. Nam si substantia corporea ita posset dividi ut ejus partes realiter
+distinctae essent, cur ergo una pars non posset annihilari manentibus reliquis
+ut ante inter se connexis? et cur omnes ita aptari debent ne detur vacuum? Sane
+rerum quae realiter ab invicem distinctae sunt, una sine alia esse et in suo
+statu manere potest. Cum igitur vacuum in natura non detur (de quo alias) sed
+omnes partes ita concurrere debent ne detur vacuum, sequitur hinc etiam easdem
+non posse realiter distingui hoc est substantiam corpoream quatenus substantia
+est, non posse dividi. Si quis tamen jam quaerat cur nos ex natura ita propensi
+simus ad dividendam quantitatem? ei respondeo quod quantitas duobus modis a
+nobis concipitur, abstracte scilicet sive superficialiter prout nempe ipsam
+imaginamur vel ut substantia, quod a solo intellectu fit. Si itaque ad
+quantitatem attendimus prout in imaginatione est, quod saepe et facilius a nobis
+fit, reperietur finita, divisibilis et partibus conflata; si autem ad ipsam
+prout in intellectu est, attendimus et eam quatenus substantia est, concipimus,
+quod difficillime fit, tum ut jam satis demonstravimus, infinita, unica et
+indivisibilis reperietur. Quod omnibus qui inter imaginationem et intellectum
+distinguere sciverint, satis manifestum erit, praecipue si ad hoc etiam
+attendatur quod materia ubique eadem est nec partes in eadem distinguuntur nisi
+quatenus materiam diversimode affectam esse concipimus, unde ejus partes
+modaliter tantum distinguuntur, non autem realiter. Exempli gratia aquam
+quatenus aqua est, dividi concipimus ejusque partes ab invicem separari; at non
+quatenus substantia est corporea; eatenus enim neque separatur neque dividitur.
+Porro aqua quatenus aqua generatur et corrumpitur; at quatenus substantia nec
+generatur nec corrumpitur. Atque his me ad secundum argumentum etiam respondisse
+puto quandoquidem id in eo etiam fundatur quod materia quatenus substantia
+divisibilis sit et partibus confletur. Et quamvis hoc non esset, nescio cur
+divina natura indigna esset quandoquidem (per [propositionem 14][prop14]) extra
+Deum nulla substantia dari potest a qua ipsa pateretur. Omnia inquam in Deo sunt
+et omnia quae fiunt per solas leges infinitae Dei naturae fiunt et ex
+necessitate ejus essentiae (ut mox ostendam) sequuntur; quare nulla ratione dici
+potest Deum ab alio pati aut substantiam extensam divina natura indignam esse
+tametsi divisibilis supponatur dummodo aeterna et infinita concedatur. Sed de
+his impraesentiarum satis.
+"""
+
+refs = {
+    props6cor = "pars.1.prop.6.cor.2",
+    prop8sc2 = "pars.1.prop.8.sc.2",
+    prop14 = "pars.1.prop.14",
+    prop12 = "pars.1.prop.12",
+    prop13cor = "pars.1.prop.13.cor",
+    prop5 = "pars.1.prop.5",
+    prop8 = "pars.1.prop.8",
+}
+
+[pars.1.prop.16]
+txt = """
+Ex necessitate divinae naturae infinita infinitis modis (hoc est omnia quae sub
+intellectum infinitum cadere possunt) sequi debent.
+"""
+
+[pars.1.prop.16.demo]
+txt = """
+Haec propositio unicuique manifesta esse debet si modo ad hoc attendat quod ex
+data cujuscunque rei definitione plures proprietates intellectus concludit, quae
+revera ex eadem (hoc est ipsa rei essentia) necessario sequuntur et eo plures
+quo plus realitatis rei definitio exprimit hoc est quo plus realitatis rei
+definitae essentia involvit. Cum autem natura divina infinita absolute attributa
+habeat (per [definitionem 6][def6]) quorum etiam unumquodque infinitam essentiam
+in suo genere exprimit, ex ejusdem ergo necessitate infinita infinitis modis
+(hoc est omnia quae sub intellectum infinitum cadere possunt) necessario sequi
+debent. Q.E.D.
+"""
+
+refs = {
+    def6 = "pars.1.def.6",
+}
+
+[pars.1.prop.16.cor.1]
+txt = """
+Hinc sequitur Deum omnium rerum quae sub intellectum infinitum cadere possunt,
+esse causam efficientem.
+"""
+
+[pars.1.prop.16.cor.2]
+txt = """
+ Sequitur IIº Deum causam esse per se, non vero per accidens.
+ """
+
+[pars.1.prop.16.cor.3]
+txt = """
+Sequitur IIIº Deum esse absolute causam primam.
+"""
+
+[pars.1.prop.17]
+txt = """
+Deus ex solis suae naturae legibus et a nemine coactus agit.
+"""
+
+[pars.1.prop.17.demo]
+txt = """
+Ex sola divinae naturae necessitate vel (quod idem est) ex solis ejusdem naturae
+legibus infinita absolute sequi modo [propositione 16][prop16] ostendimus et [propositione
+15][prop15] demonstravimus nihil sine Deo esse nec concipi posse sed omnia in Deo esse;
+quare nihil extra ipsum esse potest a quo ad agendum determinetur vel cogatur
+atque adeo Deus ex solis suae naturae legibus et a nemine coactus agit. Q.E.D.
+"""
+
+refs = {
+    prop16 = "pars.1.prop.16",
+    prop15 = "pars.1.prop.15",
+}
+
+[pars.1.prop.17.cor1]
+txt = """
+Hinc sequitur Iº nullam dari causam quae Deum extrinsece vel intrinsece praeter
+ipsius naturae perfectionem incitet ad agendum.
+"""
+
+[pars.1.prop.17.cor2]
+txt = """
+Sequitur II° solum Deum esse causam liberam. Deus enim solus ex sola suae
+naturae necessitate existit (per [propositionem 11][prop11] et [corollarium I
+propositionis 14][prop14cor1]) et ex sola suae naturae necessitate agit (per
+[propositionem praecedentem][prop16]). Adeoque (per [definitionem 7][def7])
+solus est causa libera. Q.E.D.
+"""
+
+refs = {
+    prop11 = "pars.1.prop.11",
+    prop14cor1 = "pars.1.prop.14.cor.1",
+    prop16 = "pars.1.prop.16",
+    def7 = "pars.1.def.7",
+}
+
+[pars.1.prop.17.sc]
+txt = """
+Alii putant Deum esse causam liberam propterea quod potest ut putant efficere ut
+ea quae ex ejus natura sequi diximus hoc est quae in ejus potestate sunt, non
+fiant sive ut ab ipso non producantur. Sed hoc idem est ac si dicerent quod Deus
+potest efficere ut ex natura trianguli non sequatur ejus tres angulos aequales
+esse duobus rectis sive ut ex data causa non sequatur effectus, quod est
+absurdum. Porro infra absque ope hujus propositionis ostendam ad Dei naturam
+neque intellectum neque voluntatem pertinere. Scio equidem plures esse qui
+putant se posse demonstrare ad Dei naturam summum intellectum et liberam
+voluntatem pertinere; nihil enim perfectius cognoscere sese aiunt quod Deo
+tribuere possunt quam id quod in nobis summa est perfectio. Porro tametsi Deum
+actu summe intelligentem concipiant, non tamen credunt eum posse omnia quae actu
+intelligit, efficere ut existant nam se eo modo Dei potentiam destruere putant.
+Si omnia inquiunt quae in ejus intellectu sunt, creavisset, nihil tum amplius
+creare potuisset, quod credunt Dei omnipotentiae repugnare ideoque maluerunt
+Deum ad omnia indifferentem statuere nec aliud creantem praeter id quod absoluta
+quadam voluntate decrevit creare. Verum ego me satis clare ostendisse puto (vide
+[propositionem 16][prop16]) a summa Dei potentia sive infinita natura infinita
+infinitis modis hoc est omnia necessario effluxisse vel semper eadem necessitate
+sequi eodem modo ac ex natura trianguli ab aeterno et in aeternum sequitur ejus
+tres angulos aequari duobus rectis. Quare Dei omnipotentia actu ab aeterno fuit
+et in aeternum in eadem actualitate manebit. Et hoc modo Dei omnipotentia longe
+meo quidem judicio perfectior statuitur. Imo adversarii Dei omnipotentiam
+(liceat aperte loqui) negare videntur. Coguntur enim fateri Deum infinita
+creabilia intelligere quae tamen nunquam creare poterit. Nam alias si scilicet
+omnia quae intelligit crearet, suam juxta ipsos exhauriret omnipotentiam et se
+imperfectum redderet. Ut igitur Deum perfectum statuant, eo rediguntur ut simul
+statuere debeant ipsum non posse omnia efficere ad quae ejus potentia se
+extendit, quo absurdius aut Dei omnipotentiae magis repugnans non video quid
+fingi possit. Porro ut de intellectu et voluntate quos Deo communiter tribuimus,
+hic etiam aliquid dicam, si ad aeternam Dei essentiam intellectus scilicet et
+voluntas pertinent, aliud sane per utrumque hoc attributum intelligendum est
+quam quod vulgo solent homines. Nam intellectus et voluntas qui Dei essentiam
+constituerent, a nostro intellectu et voluntate toto caelo differre deberent nec
+in ulla re praeterquam in nomine convenire possent; non aliter scilicet quam
+inter se conveniunt canis, signum caeleste et canis, animal latrans. Quod sic
+demonstrabo. Si intellectus ad divinam naturam pertinet, non poterit uti noster
+intellectus posterior (ut plerisque placet) vel simul natura esse cum rebus
+intellectis quandoquidem Deus omnibus rebus prior est causalitate (per
+[corollarium I propositionis 16][prop16cor1]) sed contra veritas et formalis
+rerum essentia ideo talis est quia talis in Dei intellectu existit objective.
+Quare Dei intellectus quatenus Dei essentiam constituere concipitur, est revera
+causa rerum tam earum essentiae quam earum existentiae, quod ab iis videtur
+etiam fuisse animadversum qui Dei intellectum, voluntatem et potentiam unum et
+idem esse asseruerunt. Cum itaque Dei intellectus sit unica rerum causa
+videlicet (ut ostendimus) tam earum essentiae quam earum existentiae, debet ipse
+necessario ab iisdem differre tam ratione essentiae quam ratione existentiae.
+Nam causatum differt a sua causa praecise in eo quod a causa habet. Exempli
+gratia homo est causa existentiae, non vero essentiae alterius hominis; est enim
+haec aeterna veritas et ideo secundum essentiam prorsus convenire possunt; in
+existendo autem differre debent et propterea si unius existentia pereat, non
+ideo alterius peribit sed si unius essentia destrui posset et fieri falsa,
+destrueretur etiam alterius essentia. Quapropter res quae et essentiae et
+existentiae alicujus effectus est causa, a tali effectu differre debet tam
+ratione essentiae quam ratione existentiae. Atqui Dei intellectus est et
+essentiae et existentiae nostri intellectus causa; ergo Dei intellectus quatenus
+divinam essentiam constituere concipitur, a nostro intellectu tam ratione
+essentiae quam ratione existentiae differt nec in ulla re praeterquam in nomine
+cum eo convenire potest, ut volebamus. Circa voluntatem eodem modo proceditur,
+ut facile unusquisque videre potest.
+"""
+
+refs = {
+    prop16 = "pars.1.prop.16",
+    prop16cor1 = "pars.1.prop.16.cor.1",
 }
 
 [pars.2]
