@@ -2492,6 +2492,117 @@ explicare et demonstrare, ad quod necesse est pauca de natura corporum
 praemittere.
 """
 
+[pars.2.axx.1]
+txt = """
+Omnia corpora vel moventur vel quiscunt.
+"""
+
+[pars.2.axx.2]
+txt = """
+Unumquodque corpus jam tardius jam celerius movetur.
+"""
+
+[pars.2.lemma.1]
+txt = """
+Corpora ratione motus et quietis, celeritatis et tarditatis et non
+ratione substantiae ab invicem distinguuntur.
+"""
+
+[pars.2.lemma.1.demo]
+txt = """
+Primam partem hujus per se notam suppono. At quod ratione substantiae
+non distinguantur corpora, patet tam ex [propositione 5][prop5p1] quam
+[8 partis I][prop8p1] sed clarius ex iis quae in [scholio
+propositionis 15 partis I][prop15scp1] dicta sunt.
+"""
+
+refs = {
+    prop5p1 = "pars.1.prop.5",
+    prop8p1 = "pars.1.prop.8",
+    prop15scp1 = "pars.1.prop.15.sc",
+}
+
+[pars.2.lemma.2]
+txt = """
+Omnia corpora in quibusdam conveniunt.
+"""
+
+[pars.2.lemma.2.demo]
+txt = """
+Per corpus intelligo modum qui Dei essentiam quatenus ut res extensa
+consideratur, certo et determinato modo exprimit; vide [corollarium
+propositionis 25 partis I][prop25corp1].
+"""
+
+refs = {
+    prop25corp1 = "pars.1.prop.25.cor",
+}
+
+[pars.2.lemma.3]
+txt = """
+Corpus motum vel quiescens ad motum vel quietem determinari debuit ab
+alio corpore quod etiam ad motum vel quietem determinatum fuit ab alio
+et illud iterum ab alio et sic in infinitum.
+"""
+
+[pars.2.lemma.3.demo]
+txt = """
+Corpora (per [definitionem 1 hujus][def1]) res singulares sunt quae
+(per [lemma 1][lemma1]) ratione motus et quietis ab invicem
+distinguuntur adeoque (per [propositionem 28 partis I][prop28p1])
+unumquodque ad motum vel quietem necessario determinari debuit ab alia
+re singulari nempe (per [propositionem 6 hujus][prop6]) ab alio
+corpore quod (per [axioma 1][ax1]) etiam vel movetur vel quiescit. At
+hoc etiam (per eandem rationem) moveri vel quiescere non potuit nisi
+ab alio ad motum vel quietem determinatum fuisset et hoc iterum (per
+eandem rationem) ab alio et sic in infinitum. Q.E.D.
+"""
+
+def = {
+    def1 = "pars.2.def.1",
+    lemma1 = "pars.2.lemma.1",
+    prop28p1 = "pars.1.prop.28",
+    prop6 = "pars.2.prop.6",
+    ax1 = "pars.2.axx.1",
+}
+
+[pars.2.lemma.3.cor]
+txt = """
+Hinc sequitur corpus motum tamdiu moveri donec ab alio corpore ad
+quiescendum determinetur et corpus quiescens tamdiu etiam quiescere
+donec ab alio ad motum determinetur. Quod etiam per se notum est. Nam
+cum suppono corpus exempli gratia A quiescere nec ad alia corpora mota
+attendo, nihil de corpore A dicere potero nisi quod quiescat. Quod si
+postea contingat ut corpus A moveatur, id sane evenire non potuit ex
+eo quod quiescebat; ex eo enim nil aliud sequi poterat quam ut corpus
+A quiesceret. Si contra supponatur A moveri, quotiescunque ad A tantum
+attendimus, nihil de eodem affirmare poterimus nisi quod
+moveatur. Quod si postea contingat ut A quiescat, id sane evenire
+etiam non potuit ex motu quem habebat; ex motu enim nihil aliud sequi
+poterat quam ut A moveretur : contingit itaque a re quae non erat in A
+nempe a causa externa a qua ad quiescendum determinatum fuit.
+"""
+
+[pars.2.axxx.1]
+txt = """
+Omnes modi quibus corpus aliquod ab alio afficitur corpore, ex natura
+corporis affecti et simul ex natura corporis afficientis sequuntur ita
+ut unum idemque corpus diversimode moveatur pro diversitate naturae
+corporum moventium et contra ut diversa corpora ab uno eodemque
+corpore diversimode moveantur.
+"""
+
+[pars.2.axxx.2]
+txt = """
+Cum corpus motum alteri quiescenti quod dimovere nequit, impingit,
+reflectitur ut moveri pergat et angulus lineae motus reflectionis cum
+plano corporis quiescentis cui impegit, aequalis erit angulo quem
+linea motus incidentiae cum eodem plano efficit. Atque haec de
+corporibus simplicissimis quae scilicet solo motu et quiete,
+celeritate et tarditate ab invicem distinguuntur : jam ad composita
+ascendamus.
+"""
+
 [pars.3]
 [pars.4]
 [pars.5]
