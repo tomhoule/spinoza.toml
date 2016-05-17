@@ -2492,12 +2492,15 @@ explicare et demonstrare, ad quod necesse est pauca de natura corporum
 praemittere.
 """
 
-[pars.2.axx.1]
+[pars.2.ax.8]
+title = "Axioma 1"
 txt = """
 Omnia corpora vel moventur vel quiscunt.
 """
 
-[pars.2.axx.2]
+
+[pars.2.ax.9]
+title = "Axioma 2"
 txt = """
 Unumquodque corpus jam tardius jam celerius movetur.
 """
@@ -2583,7 +2586,8 @@ poterat quam ut A moveretur : contingit itaque a re quae non erat in A
 nempe a causa externa a qua ad quiescendum determinatum fuit.
 """
 
-[pars.2.axxx.1]
+[pars.2.ax.10]
+title = "Axioma 1a"
 txt = """
 Omnes modi quibus corpus aliquod ab alio afficitur corpore, ex natura
 corporis affecti et simul ex natura corporis afficientis sequuntur ita
@@ -2592,7 +2596,8 @@ corporum moventium et contra ut diversa corpora ab uno eodemque
 corpore diversimode moveantur.
 """
 
-[pars.2.axxx.2]
+[pars.2.ax.11]
+title = "Axioma 2a"
 txt = """
 Cum corpus motum alteri quiescenti quod dimovere nequit, impingit,
 reflectitur ut moveri pergat et angulus lineae motus reflectionis cum
@@ -2601,6 +2606,137 @@ linea motus incidentiae cum eodem plano efficit. Atque haec de
 corporibus simplicissimis quae scilicet solo motu et quiete,
 celeritate et tarditate ab invicem distinguuntur : jam ad composita
 ascendamus.
+"""
+
+[pars.2.def.8]
+title = "Definitio"
+txt = """
+Cum corpora aliquot ejusdem aut diversae magnitudinis a reliquis ita coercentur
+ut invicem incumbant vel si eodem aut diversis celeritatis gradibus moventur ut
+motus suos invicem certa quadam ratione communicent, illa corpora invicem unita
+dicemus et omnia simul unum corpus sive individuum componere quod a reliquis per
+hanc corporum unionem distinguitur.
+"""
+
+[pars.2.ax.12]
+title = "Axioma 3"
+txt = """
+Quo partes individui vel corporis compositi secundum majores vel minores
+superficies sibi invicem incumbunt, eo difficilius vel facilius cogi possunt ut
+situm suum mutent et consequenter eo difficilius vel facilius effici potest ut
+ipsum individuum aliam figuram induat. Atque hinc corpora quorum partes secundum
+magnas superficies invicem incumbunt, dura, quorum autem partes secundum parvas,
+mollia et quorum denique partes inter se moventur, fluida vocabo.
+"""
+
+[pars.2.lemma.4]
+txt = """
+Si corporis sive individui quod ex pluribus corporibus componitur, quaedam
+corpora segregentur et simul totidem alia ejusdem naturae eorum loco succedant,
+retinebit individuum suam naturam uti antea absque ulla ejus formae mutatione.
+"""
+
+[pars.2.lemma.4.demo]
+txt = """
+Corpora enim (per [lemma 1][lemma1]) ratione substantiae non distinguuntur; id autem quod
+formam individui constituit, in corporum unione (per [definitionem praecedentem][def8])
+consistit; atqui haec (per hypothesin) tametsi corporum continua fiat mutatio,
+retinetur : retinebit ergo individuum tam ratione substantiae quam modi suam
+naturam uti ante. Q.E.D.
+"""
+
+refs = {
+    lemma1 = "pars.2.lemma.1",
+    def8 = "pars.2.def.8",
+}
+
+[pars.2.lemma.5]
+txt = """
+Si partes individuum componentes majores minoresve evadant, ea tamen proportione
+ut omnes eandem ut antea ad invicem motus et quietis rationem servent, retinebit
+itidem individuum suam naturam ut antea absque ulla formae mutatione.
+"""
+
+[pars.2.lemma.5.demo]
+txt = """
+Hujus eadem est ac praecedentis lemmatis.
+"""
+
+[pars.2.lemma.6]
+txt = """
+Si corpora quaedam individuum componentia motum quem versus unam partem habent,
+aliam versus flectere cogantur at ita ut motus suos continuare possint atque
+invicem eadem qua antea ratione communicare, retinebit itidem individuum suam
+naturam absque ulla formae mutatione.
+"""
+
+[pars.2.lemma.6.demo]
+txt = """
+Per se patet. Id enim omne retinere supponitur quod in ejusdem definitione
+formam ipsius constituere diximus.
+"""
+
+[pars.2.lemma.7]
+txt = """
+Retinet praeterea individuum sic compositum suam naturam sive id secundum totum
+moveatur sive quiescat sive versus hanc sive versus illam partem moveatur
+dummodo unaquaeque pars motum suum retineat eumque uti antea reliquis
+communicet.
+"""
+
+[pars.2.lemma.7.demo]
+txt = """
+Patet ex ipsius definitione, quam vide [ante lemma 4][def8].
+"""
+
+ref = {
+    def8 = "pars.2.def.8",
+}
+
+[pars.2.lemma.7.sc]
+txt = """
+His itaque videmus qua ratione individuum compositum possit multis modis affici, ejus nihilominus natura servata. Atque hucusque individuum concepimus quod non nisi ex corporibus quae solo motu et quiete, celeritate et tarditate inter se distinguuntur hoc est quod ex corporibus simplicissimis componitur. Quod si jam aliud concipiamus ex pluribus diversae naturae individuis compositum, idem pluribus aliis modis posse affici reperiemus, ipsius nihilominus natura servata. Nam quandoquidem ejus unaquaeque pars ex pluribus corporibus est composita, poterit ergo (per [lemma praecedens][lemma7]) unaquaeque pars absque ulla ipsius naturae mutatione jam tardius jam celerius moveri et consequenter motus suos citius vel tardius reliquis communicare. Quod si praeterea tertium individuorum genus ex his secundis compositum concipiamus, idem multis aliis modis affici posse reperiemus absque ulla ejus formae mutatione. Et si sic porro in infinitum pergamus, facile concipiemus totam naturam unum esse Individuum cujus partes hoc est omnia corpora infinitis modis variant absque ulla totius Individui mutatione. Atque haec, si animus fuisset de corpore ex professo agere, prolixius explicare et demonstrare debuissem. Sed jam dixi me aliud velle nec alia de causa haec adferre quam quia ex ipsis ea quae demonstrare constitui, facile possum deducere.
+"""
+
+defs = {
+    lemma7 = "pars.2.lemma.7",
+}
+
+[pars.2.post.1]
+txt = """
+Corpus humanum componitur ex plurimis (diversae naturae) individuis quorum
+unumquodque valde compositum est.
+"""
+
+[pars.2.post.2]
+txt = """
+Individuorum ex quibus corpus humanum componitur quaedam fluida, quaedam mollia
+et quaedam denique dura sunt.
+"""
+
+[pars.2.post.3]
+txt = """
+Individua corpus humanum componentia et consequenter ipsum humanum corpus a
+corporibus externis plurimis modis afficitur.
+"""
+
+[pars.2.post.4]
+txt = """
+Corpus humanum indiget ut conservetur plurimis aliis corporibus a quibus
+continuo quasi regeneratur.
+"""
+
+[pars.2.post.5]
+txt = """
+Cum corporis humani pars fluida a corpore externo determinatur ut in aliam
+mollem saepe impingat, ejus planum mutat et veluti quaedam corporis externi
+impellentis vestigia eidem imprimit.
+"""
+
+[pars.2.post.6]
+txt = """
+Corpus humanum potest corpora externa plurimis modis movere plurimisque modis
+disponere.
 """
 
 [pars.3]
