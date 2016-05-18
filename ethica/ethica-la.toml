@@ -519,7 +519,14 @@ refs = {
 
 [pars.1.prop.11.alit.2]
 txt = """
-Posse non existere impotentia est et contra posse existere potentia est (ut per se notum). Si itaque id quod jam necessario existit, non nisi entia finita sunt, sunt ergo entia finita potentiora Ente absolute infinito atque hoc (ut per se notum) absurdum est; ergo vel nihil existit vel Ens absolute infinitum necessario etiam existit. Atqui nos vel in nobis vel in alio quod necessario existit, existimus (vide [axioma 1][ax1] et [propositionem 7][prop7]). Ergo Ens absolute infinitum hoc est (per [definitionem 6][def6]) Deus necessario existit. Q.E.D.
+Posse non existere impotentia est et contra posse existere potentia est (ut per
+se notum). Si itaque id quod jam necessario existit, non nisi entia finita sunt,
+sunt ergo entia finita potentiora Ente absolute infinito atque hoc (ut per se
+notum) absurdum est; ergo vel nihil existit vel Ens absolute infinitum
+necessario etiam existit. Atqui nos vel in nobis vel in alio quod necessario
+existit, existimus (vide [axioma 1][ax1] et [propositionem 7][prop7]). Ergo Ens
+absolute infinitum hoc est (per [definitionem 6][def6]) Deus necessario existit.
+Q.E.D.
 """
 
 refs = {
@@ -623,7 +630,10 @@ quatenus substantia est, esse divisibilem.
 
 [pars.1.prop.13.sc]
 txt = """
-Quod substantia sit indivisibilis, simplicius ex hoc solo intelligitur quod natura substantiae non potest concipi nisi infinita et quod per partem substantiae nihil aliud intelligi potest quam substantia finita, quod (per [propositionem 8][prop8]) manifestam contradictionem implicat.
+Quod substantia sit indivisibilis, simplicius ex hoc solo intelligitur quod
+natura substantiae non potest concipi nisi infinita et quod per partem
+substantiae nihil aliud intelligi potest quam substantia finita, quod (per
+[propositionem 8][prop8]) manifestam contradictionem implicat.
 """
 
 refs = {
@@ -855,10 +865,11 @@ Deus ex solis suae naturae legibus et a nemine coactus agit.
 [pars.1.prop.17.demo]
 txt = """
 Ex sola divinae naturae necessitate vel (quod idem est) ex solis ejusdem naturae
-legibus infinita absolute sequi modo [propositione 16][prop16] ostendimus et [propositione
-15][prop15] demonstravimus nihil sine Deo esse nec concipi posse sed omnia in Deo esse;
-quare nihil extra ipsum esse potest a quo ad agendum determinetur vel cogatur
-atque adeo Deus ex solis suae naturae legibus et a nemine coactus agit. Q.E.D.
+legibus infinita absolute sequi modo [propositione 16][prop16] ostendimus et
+[propositione 15][prop15] demonstravimus nihil sine Deo esse nec concipi posse
+sed omnia in Deo esse; quare nihil extra ipsum esse potest a quo ad agendum
+determinetur vel cogatur atque adeo Deus ex solis suae naturae legibus et a
+nemine coactus agit. Q.E.D.
 """
 
 refs = {
@@ -1089,7 +1100,9 @@ refs = {
 
 [pars.1.prop.22]
 txt = """
-Quicquid ex aliquo Dei attributo quatenus modificatum est tali modificatione quae et necessario et infinita per idem existit, sequitur, debet quoque et necessario et infinitum existere.
+Quicquid ex aliquo Dei attributo quatenus modificatum est tali modificatione
+quae et necessario et infinita per idem existit, sequitur, debet quoque et
+necessario et infinitum existere.
 """
 
 [pars.1.prop.22.demo]
@@ -1383,7 +1396,8 @@ refs = {
 
 [pars.1.prop.31]
 txt = """
-Intellectus actu sive is finitus sit sive infinitus, ut et voluntas, cupiditas, amor etc. ad Naturam naturatam, non vero ad naturantem referri debent.
+Intellectus actu sive is finitus sit sive infinitus, ut et voluntas, cupiditas,
+amor etc. ad Naturam naturatam, non vero ad naturantem referri debent.
 """
 
 [pars.1.prop.31.demo]
@@ -2067,17 +2081,17 @@ causa efficiente agnoscunt sed ipsum Deum quatenus est res cogitans.
 
 [pars.2.prop.5.demo]
 txt = """
-Patet quidem ex [propositione 3 hujus][prop3]. Ibi enim concludebamus Deum ideam suae
-essentiae et omnium quae ex ea necessario sequuntur, formare posse ex hoc solo
-nempe quod Deus est res cogitans et non ex eo quod sit suae ideae objectum.
+Patet quidem ex [propositione 3 hujus][prop3]. Ibi enim concludebamus Deum ideam
+suae essentiae et omnium quae ex ea necessario sequuntur, formare posse ex hoc
+solo nempe quod Deus est res cogitans et non ex eo quod sit suae ideae objectum.
 Quare esse formale idearum Deum quatenus est res cogitans, pro causa agnoscit.
 Sed aliter hoc modo demonstratur. Esse formale idearum modus est cogitandi (ut
-per se notum) hoc est (per [corollarium propositionis 25 partis I][prop25corp1]) modus qui Dei
-naturam quatenus est res cogitans, certo modo exprimit adeoque (per
-[propositionem 10 partis I][prop10p1]) nullius alterius attributi Dei conceptum involvit et
-consequenter (per [axioma 4 partis I][ax4p1]) nullius alterius attributi nisi
-cogitationis est effectus adeoque esse formale idearum Deum quatenus tantum ut
-res cogitans consideratur etc. Q.E.D.
+per se notum) hoc est (per [corollarium propositionis 25 partis I][prop25corp1])
+modus qui Dei naturam quatenus est res cogitans, certo modo exprimit adeoque
+(per [propositionem 10 partis I][prop10p1]) nullius alterius attributi Dei
+conceptum involvit et consequenter (per [axioma 4 partis I][ax4p1]) nullius
+alterius attributi nisi cogitationis est effectus adeoque esse formale idearum
+Deum quatenus tantum ut res cogitans consideratur etc. Q.E.D.
 """
 
 refs = {
@@ -2695,7 +2709,24 @@ ref = {
 
 [pars.2.lemma.7.sc]
 txt = """
-His itaque videmus qua ratione individuum compositum possit multis modis affici, ejus nihilominus natura servata. Atque hucusque individuum concepimus quod non nisi ex corporibus quae solo motu et quiete, celeritate et tarditate inter se distinguuntur hoc est quod ex corporibus simplicissimis componitur. Quod si jam aliud concipiamus ex pluribus diversae naturae individuis compositum, idem pluribus aliis modis posse affici reperiemus, ipsius nihilominus natura servata. Nam quandoquidem ejus unaquaeque pars ex pluribus corporibus est composita, poterit ergo (per [lemma praecedens][lemma7]) unaquaeque pars absque ulla ipsius naturae mutatione jam tardius jam celerius moveri et consequenter motus suos citius vel tardius reliquis communicare. Quod si praeterea tertium individuorum genus ex his secundis compositum concipiamus, idem multis aliis modis affici posse reperiemus absque ulla ejus formae mutatione. Et si sic porro in infinitum pergamus, facile concipiemus totam naturam unum esse Individuum cujus partes hoc est omnia corpora infinitis modis variant absque ulla totius Individui mutatione. Atque haec, si animus fuisset de corpore ex professo agere, prolixius explicare et demonstrare debuissem. Sed jam dixi me aliud velle nec alia de causa haec adferre quam quia ex ipsis ea quae demonstrare constitui, facile possum deducere.
+His itaque videmus qua ratione individuum compositum possit multis modis affici,
+ejus nihilominus natura servata. Atque hucusque individuum concepimus quod non
+nisi ex corporibus quae solo motu et quiete, celeritate et tarditate inter se
+distinguuntur hoc est quod ex corporibus simplicissimis componitur. Quod si jam
+aliud concipiamus ex pluribus diversae naturae individuis compositum, idem
+pluribus aliis modis posse affici reperiemus, ipsius nihilominus natura servata.
+Nam quandoquidem ejus unaquaeque pars ex pluribus corporibus est composita,
+poterit ergo (per [lemma praecedens][lemma7]) unaquaeque pars absque ulla ipsius
+naturae mutatione jam tardius jam celerius moveri et consequenter motus suos
+citius vel tardius reliquis communicare. Quod si praeterea tertium individuorum
+genus ex his secundis compositum concipiamus, idem multis aliis modis affici
+posse reperiemus absque ulla ejus formae mutatione. Et si sic porro in infinitum
+pergamus, facile concipiemus totam naturam unum esse Individuum cujus partes hoc
+est omnia corpora infinitis modis variant absque ulla totius Individui
+mutatione. Atque haec, si animus fuisset de corpore ex professo agere, prolixius
+explicare et demonstrare debuissem. Sed jam dixi me aliud velle nec alia de
+causa haec adferre quam quia ex ipsis ea quae demonstrare constitui, facile
+possum deducere.
 """
 
 defs = {
