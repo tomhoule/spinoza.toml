@@ -2770,6 +2770,229 @@ Corpus humanum potest corpora externa plurimis modis movere plurimisque modis
 disponere.
 """
 
+[pars.2.prop.14]
+txt = """
+Mens humana apta est ad plurima percipiendum et eo aptior quo ejus corpus
+pluribus modis disponi potest.
+"""
+
+[pars.2.prop.14.demo]
+txt = """
+Corpus enim humanum (per [postulata 3][post3] [et 6][post6]) plurimis modis a
+corporibus externis afficitur disponiturque ad corpora externa plurimis modis
+afficiendum. At omnia quae in corpore humano contingunt (per [propositionem 12
+hujus][prop12]) mens humana percipere debet; est ergo mens humana apta ad
+plurima percipiendum et eo aptior etc. Q.E.D.
+"""
+
+defs = {
+    post3 = "pars.2.prop.3",
+    post6 = "pars.2.prop.6",
+    prop12 = "pars.2.prop.12",
+}
+
+[pars.2.prop.15]
+txt = """
+Idea quae esse formale humanae mentis constituit non est simplex sed ex plurimis
+ideis composita.
+"""
+
+[pars.2.prop.15.demo]
+txt = """
+Idea quae esse formale humanae mentis constituit, est idea corporis (per
+[propositionem 13 hujus][prop13]) quod (per [postulatum 1][post1]) ex plurimis
+valde compositis individuis componitur. At cujuscunque individui corpus
+componentis datur necessario (per [corollarium propositionis 8 hujus][prop8cor])
+in Deo idea; ergo (per [propositionem 7 hujus][prop7]) idea corporis humani ex
+plurimis hisce partium componentium ideis est composita. Q.E.D.
+"""
+
+defs = {
+    prop13 = "pars.2.prop.13",
+    post1 = "pars.2.post.1",
+    prop8cor = "pars.2.prop.8.cor",
+    prop7 = "pars.2.prop.7",
+}
+
+[pars.2.prop.16]
+txt = """
+Idea cujuscunque modi quo corpus humanum a corporibus externis afficitur,
+involvere debet naturam corporis humani et simul naturam corporis externi.
+"""
+
+[pars.2.prop.16.demo]
+txt = """
+Omnes enim modi quibus corpus aliquod afficitur ex natura corporis affecti et
+simul ex natura corporis afficientis sequuntur (per [axioma 1 post corollarium
+lemmatis 3][ax10]) : quare eorum idea (per [axioma 4 partis I][ax4p1]) utriusque
+corporis naturam necessario involvet adeoque idea cujuscunque modi quo corpus
+humanum a corpore externo afficitur, corporis humani et corporis externi naturam
+involvit. Q.E.D.
+"""
+
+refs = {
+    ax10 = "pars.2.ax.10",
+    ax4p1 = "pars.1.ax.4",
+}
+
+[pars.2.prop.16.cor.1]
+txt = """
+Hinc sequitur primo mentem humanam plurimorum corporum naturam una cum sui
+corporis natura percipere.
+"""
+
+[pars.2.prop.16.cor.2]
+txt = """
+Sequitur secundo quod ideae quas corporum externorum habemus, magis nostri
+corporis constitutionem quam corporum externorum naturam indicant; quod in
+appendice partis primae multis exemplis explicui.
+"""
+
+[pars.2.prop.17]
+txt = """
+Si humanum corpus affectum est modo qui naturam corporis alicujus externi
+involvit, mens humana idem corpus externum ut actu existens vel ut sibi praesens
+contemplabitur donec corpus afficiatur affectu qui ejusdem corporis existentiam
+vel praesentiam secludat.
+"""
+
+[pars.2.prop.17.demo]
+txt = """
+Patet. Nam quamdiu corpus humanum sic affectum est tamdiu mens humana (per
+[propositionem 12][prop12] hujus) hanc corporis affectionem contemplabitur hoc
+est (per [propositionem praecedentem][prop16]) ideam habebit modi actu
+existentis quae naturam corporis externi involvit hoc est ideam quae existentiam
+vel praesentiam naturae corporis externi non secludit sed ponit adeoque mens
+(per [corollarium I praecedentis][prop16cor1]) corpus externum ut actu existens
+vel ut praesens contemplabitur donec afficiatur etc. Q.E.D.
+"""
+
+refs = {
+    prop12 = "pars.2.prop.12",
+    prop16 = "pars.2.prop.16",
+    prop16cor1 = "pars.2.prop.16.cor.1",
+}
+
+[pars.2.prop.17.cor]
+txt = """
+Mens corpora externa a quibus corpus humanum semel affectum fuit, quamvis non
+existant nec praesentia sint, contemplari tamen poterit velut praesentia essent.
+"""
+
+[pars.2.prop.17.cor.demo]
+txt = """
+Dum corpora externa corporis humani partes fluidas ita determinant ut in
+molliores saepe impingant, earum plana (per [postulatum 5][post5]) mutant, unde
+fit (vide [axioma 2 post corollarium lemmatis 3][ax11]) ut inde alio modo
+reflectantur quam antea solebant et ut etiam postea iisdem novis planis
+spontaneo suo motu occurrendo eodem modo reflectantur ac cum a corporibus
+externis versus illa plana impulsae sunt et consequenter ut corpus humanum dum
+sic reflexae moveri pergunt, eodem modo afficiant, de quo mens (per
+[propositionem 12 hujus][prop12]) iterum cogitabit hoc est (per [propositionem
+17 hujus][prop17]) mens iterum corpus externum ut praesens contemplabitur et hoc
+toties quoties corporis humani partes fluidae spontaneo suo motu iisdem planis
+occurrent. Quare quamvis corpora externa a quibus corpus humanum affectum semel
+fuit, non existant, mens tamen eadem toties ut praesentia contemplabitur quoties
+haec corporis actio repetetur. Q.E.D.
+"""
+
+refs = {
+    ax11 = "pars.2.ax.11",
+    post5 = "pars.2.post.5",
+    prop12 = "pars.2.prop.12",
+    prop17 = "pars.2.prop.17",
+}
+
+[pars.17.prop.sc]
+txt = """
+Videmus itaque qui fieri potest ut ea quae non sunt veluti praesentia
+contemplemur, ut saepe fit. Et fieri potest ut hoc aliis de causis contingat sed
+mihi hic sufficit ostendisse unam per quam rem sic possim explicare ac si ipsam
+per veram causam ostendissem nec tamen credo me a vera longe aberrare
+quandoquidem omnia illa quae sumpsi postulata, vix quicquam continent quod non
+constet experientia de qua nobis non licet dubitare postquam ostendimus corpus
+humanum prout ipsum sentimus, existere (vide [corollarium post propositionem 13
+hujus][prop13cor]). Praeterea (ex [corollario praecedentis][prop17cor] et
+[corollario II propositionis 16 hujus][prop16cor.2]) clare intelligimus quaenam
+sit differentia inter ideam exempli gratia Petri quae essentiam mentis ipsius
+Petri constituit et inter ideam ipsius Petri quae in alio homine, puta in Paulo,
+est. Illa enim essentiam corporis ipsius Petri directe explicat nec existentiam
+involvit nisi quamdiu Petrus existit; haec autem magis constitutionem corporis
+Pauli quam Petri naturam indicat et ideo durante illa corporis Pauli
+constitutione mens Pauli quamvis Petrus non existat, ipsum tamen ut sibi
+praesentem contemplabitur. Porro ut verba usitata retineamus, corporis humani
+affectiones quarum ideae corpora externa velut nobis praesentia repraesentant,
+rerum imagines vocabimus tametsi rerum figuras non referunt. Et cum mens hac
+ratione contemplatur corpora, eandem imaginari dicemus. Atque hic ut quid sit
+error indicare incipiam, notetis velim mentis imaginationes in se spectatas
+nihil erroris continere sive mentem ex eo quod imaginatur, non errare sed tantum
+quatenus consideratur carere idea quae existentiam illarum rerum quas sibi
+praesentes imaginatur, secludat. Nam si mens dum res non existentes ut sibi
+praesentes imaginatur, simul sciret res illas revera non existere, hanc sane
+imaginandi potentiam virtuti suae naturae, non vitio tribueret praesertim si
+haec imaginandi facultas a sola sua natura penderet hoc est (per [definitionem 7
+partis I][def7p1]) si haec mentis imaginandi facultas libera esset.
+"""
+
+refs = {
+    prop13cor = "pars.2.prop.13.cor",
+    prop17cor = "pars.2.prop.17.cor",
+    prop16cor2 = "pars.2.prop.16.cor.2",
+    def7p1 = "pars.1.def.7",
+}
+
+[pars.2.prop.18]
+txt = """
+Si corpus humanum a duobus vel pluribus corporibus simul affectum fuerit semel,
+ubi mens postea eorum aliquod imaginabitur, statim et aliorum recordabitur.
+"""
+
+[pars.2.prop.18.demo]
+txt = """
+Mens (per [corollarium praecedentis][prop17cor]) corpus aliquod ea de causa
+imaginatur quia scilicet humanum corpus a corporis externi vestigiis eodem modo
+afficitur disponiturque ac affectum est cum quaedam ejus partes ab ipso corpore
+externo fuerunt impulsae sed (per hypothesin) corpus tum ita fuit dispositum ut
+mens duo simul corpora imaginaretur; ergo jam etiam duo simul imaginabitur atque
+mens ubi alterutrum imaginabitur, statim et alterius recordabitur. Q.E.D.
+"""
+
+refs = {
+    prop17cor = "pars.2.prop.17.cor",
+}
+
+[pars.2.prop.18.sc]
+txt = """
+Hinc clare intelligimus quid sit memoria. Est enim nihil aliud quam quaedam
+concatenatio idearum naturam rerum quae extra corpus humanum sunt involventium
+quae in mente fit secundum ordinem et concatenationem affectionum corporis
+humani. Dico primo concatenationem esse illarum tantum idearum quae naturam
+rerum quae extra corpus humanum sunt, involvunt, non autem idearum quae earundem
+rerum naturam explicant. Sunt enim revera (per [propositionem 16 hujus][prop16])
+ideae affectionum corporis humani quae tam hujus quam corporum externorum
+naturam involvunt. Dico secundo hanc concatenationem fieri secundum ordinem et
+concatenationem affectionum corporis humani ut ipsam distinguerem a
+concatenatione idearum quae fit secundum ordinem intellectus quo res per primas
+suas causas mens percipit et qui in omnibus hominibus idem est. Atque hinc porro
+clare intelligimus cur mens ex cogitatione unius rei statim in alterius rei
+cogitationem incidat quae nullam cum priore habet similitudinem; ut exempli
+gratia ex cogitatione vocis pomi homo romanus statim in cogitationem fructus
+incidet qui nullam cum articulato illo sono habet similitudinem nec aliquid
+commune nisi quod ejusdem hominis corpus ab his duobus affectum saepe fuit hoc
+est quod ipse homo saepe vocem pomum audivit dum ipsum fructum videret et sic
+unusquisque ex una in aliam cogitationem incidet prout rerum imagines
+uniuscujusque consuetudo in corpore ordinavit. Nam miles exempli gratia visis in
+arena equi vestigiis statim ex cogitatione equi in cogitationem equitis et inde
+in cogitationem belli etc. incidet. At rusticus ex cogitatione equi in
+cogitationem aratri, agri etc. incidet et sic unusquisque prout rerum imagines
+consuevit hoc vel alio modo jungere et concatenare, ex una in hanc vel aliam
+incidet cogitationem.
+"""
+
+refs = {
+    prop16 = "pars.2.prop.16",
+}
+
 [pars.3]
 [pars.4]
 [pars.5]
