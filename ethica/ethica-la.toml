@@ -2993,6 +2993,70 @@ refs = {
     prop16 = "pars.2.prop.16",
 }
 
+[pars.2.prop.19]
+txt = """
+Mens humana ipsum humanum corpus non cognoscit nec ipsum existere scit nisi per
+ideas affectionum quibus corpus afficitur.
+"""
+
+[pars.2.prop.19.demo]
+txt = """
+Mens enim humana est ipsa idea sive cognitio corporis humani (per [propositionem
+13 hujus][prop13]) quae (per [propositionem 9 hujus][prop9]) in Deo quidem est
+quatenus alia rei singularis idea affectus consideratur vel quia (per
+[postulatum 4][post4]) corpus humanum plurimis corporibus indiget a quibus
+continuo quasi regeneratur et ordo et connexio idearum idem est (per
+[propositionem 7 hujus][prop7]) ac ordo et connexio causarum, erit haec idea in
+Deo quatenus plurimarum rerum singularium ideis affectus consideratur. Deus
+itaque ideam corporis humani habet sive corpus humanum cognoscit quatenus
+plurimis aliis ideis affectus est et non quatenus naturam humanae mentis
+constituit hoc est (per [corollarium propositionis 11 hujus][prop11cor]) mens
+humana corpus humanum non cognoscit. At ideae affectionum corporis in Deo sunt
+quatenus humanae mentis naturam constituit sive mens humana easdem affectiones
+percipit (per [propositionem 12 hujus][prop12]) et consequenter (per
+[propositionem 16 hujus][prop16]) ipsum corpus humanum idque (per [propositionem
+17 hujus][prop17]) ut actu existens; percipit ergo eatenus tantum mens humana
+ipsum humanum corpus. Q.E.D.
+"""
+
+refs = {
+    prop13 = "pars.2.prop.13",
+    prop9 = "pars.2.prop.9",
+    post4 = "pars.2.post.4",
+    prop7 = "pars.2.prop.7",
+    prop11cor = "pars.2.prop.11.cor",
+    2prop12 = "pars.2.prop.12",
+    prop16 = "pars.2.prop.16",
+    prop17 = "pars.2.prop.17",
+}
+
+[pars.2.prop.20]
+txt = """
+Mentis humanae datur etiam in Deo idea sive cognitio quae in Deo eodem modo
+sequitur et ad Deum eodem modo refertur ac idea sive cognitio corporis humani.
+"""
+
+[pars.2.prop.20.demo]
+txt = """
+Cogitatio attributum Dei est (per [propositionem 1 hujus][prop1]) adeoque (per
+[propositionem 3 hujus][prop3]) tam ejus quam omnium ejus affectionum et
+consequenter (per [propositionem 11 hujus][prop11]) mentis etiam humanae debet
+necessario in Deo dari idea. Deinde haec mentis idea sive cognitio non sequitur
+in Deo dari quatenus infinitus sed quatenus alia rei singularis idea affectus
+est (per [propositionem 9 hujus][prop9]). Sed ordo et connexio idearum idem est
+ac ordo et connexio causarum (per [propositionem 7 hujus][prop7]); sequitur ergo
+haec mentis idea sive cognitio in Deo et ad Deum eodem modo refertur ac idea
+sive cognitio corporis. Q.E.D.
+"""
+
+refs = {
+    prop1 = "pars.2.prop.1",
+    prop7 = "pars.2.prop.7",
+    prop3 = "pars.2.prop.3",
+    prop9 = "pars.2.prop.9",
+    prop11 = "pars.2.prop.11",
+}
+
 [pars.3]
 [pars.4]
 [pars.5]
