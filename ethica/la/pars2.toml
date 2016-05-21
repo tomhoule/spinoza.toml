@@ -1320,3 +1320,232 @@ refs = {
     prop16 = "pars.2.prop.16.",
     prop13 = "pars.2.prop.13",
 }
+
+[pars.2.prop.24]
+txt = """
+Mens humana partium corpus humanum componentium adaequatam cognitionem non
+involvit.
+"""
+
+[pars.2.prop.24.demo]
+txt = """
+Partes corpus humanum componentes ad essentiam ipsius corporis non pertinent
+nisi quatenus motus suos certa quadam ratione invicem communicant (vide
+[definitionem post corollarium lemmatis 3][def8]) et non quatenus ut individua
+absque relatione ad humanum corpus considerari possunt. Sunt enim partes humani
+corporis (per [postulatum 1][post1]) valde composita individua quorum partes
+(per [lemma 4][lemma4]) a corpore humano, servata omnino ejusdem natura et
+forma, segregari possunt motusque suos (vide [axioma 1 post lemma 3][ax10])
+aliis corporibus alia ratione communicare adeoque (per [propositionem 3
+hujus][prop3]) cujuscunque partis idea sive cognitio in Deo erit et quidem (per
+[propositionem 9 hujus][prop9]) quatenus affectus consideratur alia idea rei
+singularis, quae res singularis ipsa parte ordine naturae prior est (per
+[propositionem 7 hujus][prop7]). Quod idem praeterea etiam de quacunque parte
+ipsius individui corpus humanum componentis est dicendum adeoque cujuscunque
+partis corpus humanum componentis cognitio in Deo est quatenus plurimis rerum
+ideis affectus est et non quatenus corporis humani tantum habet ideam hoc est
+(per [propositionem 13 hujus][prop13]) ideam quae humanae mentis naturam
+constituit atque adeo (per [corollarium propositionis 11 hujus][prop11cor])
+humana mens partium corpus humanum componentium adaequatam cognitionem non
+involvit. Q.E.D.
+"""
+
+refs = {
+    def8 = "pars.2.def.8",
+    post1 = "pars.2.post.1",
+    ax10 = "pars.2.ax.10",
+    prop3 = "pars.2.prop.3",
+    prop7 = "pars.2.prop.7",
+    prop9 = "pars.2.prop.9",
+    prop13 = "pars.2.prop.13",
+    prop11 = "pars.2.prop.11",
+    prop11cor = "pars.2.prop.11.cor",
+    prop13 = "pars.2.prop.13",
+    lemma4 = "pars.1.lemma.4",   
+}
+
+[pars.2.prop.25]
+txt = """
+Idea cujuscunque affectionis corporis humani adaequatam corporis externi
+cognitionem non involvit.
+"""
+
+[pars.2.prop.25.demo]
+txt = """
+Ideam affectionis corporis humani eatenus corporis externi naturam involvere
+ostendimus (vide [propositionem 16 hujus][prop16]) quatenus externum ipsum
+humanum corpus certo quodam modo determinat. At quatenus externum corpus
+individuum est quod ad corpus humanum non refertur, ejus idea sive cognitio in
+Deo est (per [propositionem 9 hujus][prop9]) quatenus Deus affectus consideratur
+alterius rei idea quae (per [propositionem 7 hujus][prop7]) ipso corpore externo
+prior est natura. Quare corporis externi adaequata cognitio in Deo non est
+quatenus ideam affectionis humani corporis habet sive idea affectionis corporis
+humani adaequatam corporis externi cognitionem non involvit. Q.E.D.
+"""
+
+refs = {
+    prop9 = "pars.2.prop.9",
+    prop16 = "pars.2.prop.16",
+    prop7 = "pars.2.prop.7",
+}
+
+[pars.2.prop.26]
+txt = """
+Mens humana nullum corpus externum ut actu existens percipit nisi per ideas
+affectionum sui corporis.
+"""
+
+[pars.2.prop.26.demo]
+txt = """
+Si a corpore aliquo externo corpus humanum nullo modo affectum est, ergo (per
+[propositionem 7 hujus][prop7]) nec idea corporis humani hoc est (per
+[propositionem 13 hujus][prop13]) nec mens humana idea existentiae illius
+corporis ullo etiam modo affecta est sive existentiam illius corporis externi
+ullo modo percipit. At quatenus corpus humanum a corpore aliquo externo aliquo
+modo afficitur eatenus (per [propositionem 16 hujus][prop16] [cum corollario I
+ejusdem][prop16cor1]) corpus externum percipit. Q.E.D.
+"""
+
+refs = {
+    prop7 = "pars.2.prop.7",
+    prop13 = "pars.2.prop.13",
+    prop16 = "pars.2.prop.16",
+    prop16cor1 = "pars.2.prop.16.cor.1",
+}
+
+[pars.2.prop.26.cor]
+txt = """
+Quatenus mens humana corpus externum imaginatur eatenus adaequatam ejus
+cognitionem non habet.
+"""
+
+[pars.2.prop.26.cor.demo]
+txt = """
+Cum mens humana per ideas affectionum sui corporis corpora externa contemplatur,
+eandem tum imaginari dicimus (vide [scholium propositionis 17 hujus][prop17sc])
+nec mens alia ratione (per [propositionem praecedentem][prop26]) corpora externa
+ut actu existentia imaginari potest. Atque adeo (per [propositionem 25
+hujus][prop25]) quatenus mens corpora externa imaginatur, eorum adaequatam
+cognitionem non habet. Q.E.D.
+"""
+
+refs = {
+    prop17sc = "pars.2.prop.17.sc",
+    prop26 = "pars.2.prop.26",
+    prop25 = "pars.2.prop.25",
+}
+
+[pars.2.prop.27]
+txt = """
+Idea cujuscunque affectionis corporis humani adaequatam ipsius humani corporis
+cognitionem non involvit.
+"""
+
+[pars.2.prop.27.demo]
+txt = """
+Quaelibet idea cujuscunque affectionis humani corporis eatenus naturam corporis
+humani involvit quatenus ipsum humanum corpus certo quodam modo affici
+consideratur (vide [propositionem 16 hujus][prop16]). At quatenus corpus humanum
+individuum est quod multis aliis modis affici potest, ejus idea etc. Vide
+[demonstrationem propositionis 25 hujus][prop25demo].
+"""
+
+refs = {
+    prop16 = "pars.2.prop.16",
+    prop25demo = "pars.2.prop.25.demo",
+}
+
+[pars.2.prop.28]
+txt = """
+Ideae affectionum corporis humani quatenus ad humanam mentem tantum referuntur,
+non sunt clarae et distinctae sed confusae.
+"""
+
+[pars.2.prop.28.demo]
+txt = """
+Ideae enim affectionum corporis humani tam corporum externorum quam ipsius
+humani corporis naturam involvunt (per [propositionem 16 hujus][prop16]) nec
+tantum corporis humani sed ejus etiam partium naturam involvere debent;
+affectiones namque modi sunt (per [postulatum 3][post3]) quibus partes corporis
+humani et consequenter totum corpus afficitur. At (per [propositiones
+24][prop24] [et 25 hujus][prop25]) corporum externorum adaequata cognitio ut et
+partium corpus humanum componentium in Deo non est quatenus humana mente sed
+quatenus aliis ideis affectus consideratur. Sunt ergo hae affectionum ideae
+quatenus ad solam humanam mentem referuntur, veluti consequentiae absque
+praemissis hoc est (ut per se notum) ideae confusae. Q.E.D.
+"""
+
+refs = {
+    prop16 = "pars.2.prop.16",
+    post3 = "pars.2.post.3",
+    prop24 = "pars.2.prop.24",
+    prop25 = "pars.2.prop.25",
+}
+
+[pars.2.prop.28.sc]
+txt = """
+Idea quae naturam mentis humanae constituit, demonstratur eodem modo non esse,
+in se sola considerata, clara et distincta, ut etiam idea mentis humanae et
+ideae idearum affectionum corporis humani quatenus ad solam mentem referuntur,
+quod unusquisque facile videre potest.
+"""
+
+[pars.2.prop.29]
+txt = """
+Idea ideae cujuscunque affectionis corporis humani adaequatam humanae mentis
+cognitionem non involvit.
+"""
+
+[pars.2.prop.29.demo]
+txt = """
+Idea enim affectionis corporis humani (per [propositionem 27 hujus][prop27])
+adaequatam ipsius corporis cognitionem non involvit sive ejus naturam adaequate
+non exprimit hoc est (per [propositionem 13 hujus][prop13]) cum natura mentis
+non convenit adaequate adeoque (per axioma 6 partis I) hujus ideae idea
+adaequate humanae mentis naturam non exprimit sive adaequatam ejus cognitionem
+non involvit. Q.E.D.
+"""
+
+defs = {
+    prop27 = "pars.2.prop.27",
+    prop13 = "pars.2.prop.13",
+    ax6p1 = "pars.1.ax.6",
+}
+
+[pars.2.prop.29.cor]
+txt = """
+Hinc sequitur mentem humanam quoties ex communi naturae ordine res percipit, nec
+sui ipsius nec sui corporis nec corporum externorum adaequatam sed confusam
+tantum et mutilatam habere cognitionem. Nam mens se ipsam non cognoscit nisi
+quatenus ideas affectionum corporis percipit (per [propositionem 23
+hujus][prop23]). Corpus autem suum (per [propositionem 19 hujus][prop19]) non
+percipit nisi per ipsas affectionum ideas per quas etiam tantum (per
+[propositionem 26 hujus][prop26]) corpora externa percipit atque adeo quatenus
+eas habet, nec sui ipsius (per [propositionem 29 hujus][prop29]) nec sui
+corporis (per [propositionem 27 hujus][prop27]) nec corporum externorum (per
+[propositionem 25 hujus][prop25]) habet adaequatam cognitionem sed tantum (per
+[propositionem 28 hujus][prop28] cum [ejus scholio][prop28sc]) mutilatam et
+confusam. Q.E.D.
+"""
+
+refs = {
+    prop23 = "pars.2.prop.23",
+    prop19 = "pars.2.prop.19",
+    prop26 = "pars.2.prop.26",
+    prop29 = "pars.2.prop.29",
+    prop27 = "pars.2.prop.27",
+    prop25 = "pars.2.prop.25",
+    prop28 = "pars.2.prop.28",
+}
+
+[pars.2.prop.29.sc]
+txt = """
+Dico expresse quod mens nec sui ipsius nec sui corporis nec corporum externorum
+adaequatam sed confusam tantum et mutilatam cognitionem habeat quoties ex
+communi naturae ordine res percipit hoc est quoties externe, ex rerum nempe
+fortuito occursu, determinatur ad hoc vel illud contemplandum et non quoties
+interne, ex eo scilicet quod res plures simul contemplatur, determinatur ad
+earundem convenientias, differentias et oppugnantias intelligendum; quoties enim
+hoc vel alio modo interne disponitur, tum res clare et distincte contemplatur,
+ut infra ostendam.
+"""
