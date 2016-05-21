@@ -1549,3 +1549,613 @@ earundem convenientias, differentias et oppugnantias intelligendum; quoties enim
 hoc vel alio modo interne disponitur, tum res clare et distincte contemplatur,
 ut infra ostendam.
 """
+
+[pars.2.prop.30]
+txt = """
+Nos de duratione nostri corporis nullam nisi admodum inadaequatam cognitionem
+habere possumus.
+"""
+
+[pars.2.prop.30.demo]
+txt = """
+Nostri corporis duratio ab ejus essentia non dependet (per [axioma 1
+hujus][ax1]) nec etiam ab absoluta Dei natura (per [propositionem 21 partis
+I][prop21p1]). Sed (per [propositionem 28 partis I][prop28p1]) ad existendum et
+operandum determinatur a talibus causis quae etiam ab aliis determinatae sunt ad
+existendum et operandum certa ac determinata ratione et hae iterum ab aliis et
+sic in infinitum. Nostri igitur corporis duratio a communi naturae ordine et
+rerum constitutione pendet. Qua autem ratione constitutae sint, ejus rei
+adaequata cognitio datur in Deo quatenus earum omnium ideas et non quatenus
+tantum humani corporis ideam habet (per [corollarium propositionis 9
+hujus][prop9cor]); quare cognitio durationis nostri corporis est in Deo admodum
+inadaequata quatenus tantum naturam mentis humanae constituere consideratur hoc
+est (per [corollarium propositionis 11 hujus][prop11cor]) haec cognitio est in
+nostra mente admodum inadaequata. Q.E.D.
+"""
+
+refs = {
+    ax1 = "pars.2.ax.1",
+    prop21p1 = "pars.2.prop.21",
+    prop28p1 = "pars.1.prop.28",
+    prop9cor = "pars.2.prop.9.cor",
+    prop11cor = "pars.2.prop.11.cor",
+}
+
+[pars.2.prop.31]
+txt = """
+Nos de duratione rerum singularium quae extra nos sunt, nullam nisi admodum
+inadaequatam cognitionem habere possumus.
+"""
+
+[pars.2.prop.31.demo]
+txt = """
+Unaquaeque enim res singularis sicuti humanum corpus ab alia re singulari
+determinari debet ad existendum et operandum certa ac determinata ratione et
+haec iterum ab alia et sic in infinitum (per [propositionem 28 partis
+I][prop28p1]). Cum autem ex hac communi rerum singularium proprietate in
+praecedenti propositione demonstraverimus nos de duratione nostri corporis non
+nisi admodum inadaequatam cognitionem habere, ergo hoc idem de rerum singularium
+duratione erit concludendum quod scilicet ejus non nisi admodum inadaequatam
+cognitionem habere possumus. Q.E.D.
+"""
+
+refs = {
+    prop28p1 = "pars.1.prop.28",
+}
+
+[pars.2.prop.31.cor]
+txt = """
+Hinc sequitur omnes res particulares contingentes et corruptibiles esse. Nam de
+earum duratione nullam adaequatam cognitionem habere possumus (per
+[propositionem praecedentem][prop31]) et hoc est id quod per rerum contingentiam
+et corruptionis possibilitatem nobis est intelligendum (vide [scholium I
+propositionis 33 partis I][prop33sc1p1]). Nam (per [propositionem 29 partis
+I][prop29p1]) praeter hoc nullum datur contingens.
+"""
+
+refs = {
+    prop31 = "pars.2.prop.31",
+    prop33sc1p1 = "pars.1.prop.33.sc.1",
+    prop29p1 = "pars.1.prop.29",
+}
+
+[pars.2.prop.32]
+txt = """
+Omnes ideae quatenus ad Deum referuntur, verae sunt.
+"""
+
+[pars.2.prop.32.demo]
+txt = """
+Omnes enim ideae quae in Deo sunt, cum suis ideatis omnino conveniunt (per
+[corollarium propositionis 7 hujus][prop7cor]) adeoque (per [axioma 6 partis
+I][ax6p1]) omnes verae sunt. Q.E.D.
+ """
+
+refs = {
+    prop7cor = "pars.2.prop.7.cor",
+    ax6p1 = "pars.1.ax.6",
+}
+
+[pars.2.prop.33]
+txt = """
+Nihil in ideis positivum est propter quod falsae dicuntur.
+"""
+
+[pars.2.prop.33.demo]
+txt = """
+Si negas, concipe si fieri potest, modum positivum cogitandi qui formam erroris
+sive falsitatis constituat. Hic cogitandi modus non potest esse in Deo (per
+[propositionem praecedentem][prop32]); extra Deum autem etiam nec esse nec
+concipi potest (per [propositionem 15 partis I][prop15p1]). Atque adeo nihil
+potest dari positivum in ideis propter quod falsae dicuntur. Q.E.D.
+"""
+
+refs = {
+    prop32 = "pars.2.prop.32",
+    prop15p1 = "pars.1.prop.15",
+}
+
+[pars.2.prop.34]
+txt = """
+Omnis idea quae in nobis est absoluta sive adaequata et perfecta, vera est.
+"""
+
+[pars.2.prop.34.demo]
+txt = """
+Cum dicimus dari in nobis ideam adaequatam et perfectam, nihil aliud dicimus
+(per [corollarium propositionis 11 hujus][prop11cor]) quam quod in Deo quatenus
+nostrae mentis essentiam constituit, detur idea adaequata et perfecta et
+consequenter (per [propositionem 32 hujus][prop32]) nihil aliud dicimus quam
+quod talis idea sit vera. Q.E.D.
+"""
+
+refs = {
+    prop11cor = "pars.2.prop.11.cor",
+    prop32 = "pars.2.prop.32",
+}
+
+[pars.2.prop.35]
+txt = """
+Falsitas consistit in cognitionis privatione quam ideae inadaequatae sive
+mutilatae et confusae involvunt.
+"""
+
+[pars.2.prop.35.demo]
+txt = """
+Nihil in ideis positivum datur quod falsitatis formam constituat (per
+[propositionem 33 hujus][prop33]); at falsitas in absoluta privatione consistere
+nequit (mentes enim, non corpora errare nec falli dicuntur) neque etiam in
+absoluta ignorantia; diversa enim sunt ignorare et errare; quare in cognitionis
+privatione quam rerum inadaequata cognitio sive ideae inadaequatae et confusae
+involvunt, consistit. Q.E.D.
+"""
+
+refs = {
+    prop33 = "pars.2.prop.33",
+}
+
+[pars.2.prop.35.cor]
+txt = """
+In [scholio propositionis 17][prop17sc] hujus partis explicui qua ratione error
+in cognitionis privatione consistit sed ad uberiorem hujus rei explicationem
+exemplum dabo nempe falluntur homines quod se liberos esse putant, quae opinio
+in hoc solo consistit quod suarum actionum sint conscii et ignari causarum a
+quibus determinantur. Haec ergo est eorum libertatis idea quod suarum actionum
+nullam cognoscant causam. Nam quod aiunt humanas actiones a voluntate pendere,
+verba sunt quorum nullam habent ideam. Quid enim voluntas sit et quomodo moveat
+corpus, ignorant omnes; qui aliud jactant et animae sedes et habitacula fingunt,
+vel risum vel nauseam movere solent. Sic cum solem intuemur, eum ducentos
+circiter pedes a nobis distare imaginamur, qui error in hac sola imaginatione
+non consistit sed in eo quod dum ipsum sic imaginamur, veram ejus distantiam et
+hujus imaginationis causam ignoramus. Nam tametsi postea cognoscamus eundem
+ultra 600 terrae diametros a nobis distare, ipsum nihilominus prope adesse
+imaginabimur; non enim solem adeo propinquum imaginamur propterea quod veram
+ejus distantiam ignoramus sed propterea quod affectio nostri corporis essentiam
+solis involvit quatenus ipsum corpus ab eodem afficitur.
+"""
+
+refs = {
+    prop17sc = "pars.2.prop.17.sc",
+}
+
+[pars.2.prop.36]
+txt = """
+Ideae inadaequatae et confusae eadem necessitate consequuntur ac adaequatae sive
+clarae ac distinctae ideae.
+"""
+
+[pars.2.prop.36.demo]
+txt = """
+Ideae omnes in Deo sunt (per [propositionem 15 partis I][prop15p1]) et quatenus
+ad Deum referuntur, sunt verae (per [propositionem 32 hujus][prop32]) et (per
+[corollarium propositionis 7 hujus][prop7cor]) adaequatae adeoque nullae
+inadaequatae nec confusae sunt nisi quatenus ad singularem alicujus mentem
+referuntur (qua de re vide [propositiones 24][prop24] [et 28 hujus][prop28])
+adeoque omnes tam adaequatae quam inadaequatae eadem necessitate (per
+[corollarium propositionis 6 hujus][prop6cor]) consequuntur. Q.E.D.
+"""
+
+refs = {
+    prop15p1 = "pars.1.prop.15",
+    prop32 = "pars.2.prop.32",
+    prop7cor = "pars.2.prop.7.cor",
+    prop24 = "pars.2.prop.24",
+    prop28 = "pars.2.prop.28",
+    prop6 = "pars.2.prop.6",
+}
+
+[pars.2.prop.37]
+txt = """
+Id quod omnibus commune (de his vide supra [lemma 2][lemma2]) quodque aeque in
+parte ac in toto est, nullius rei singularis essentiam constituit.
+"""
+
+refs = {
+    lemma2 = "pars.2.lemma.2",
+}
+
+[pars.2.prop.37.demo]
+txt = """
+Si negas, concipe si fieri potest, id essentiam alicujus rei singularis
+constituere nempe essentiam B. Ergo (per [definitionem 2 hujus][def2]) id sine B
+non poterit esse neque concipi; atqui hoc est contra hypothesin : ergo id ad
+essentiam B non pertinet nec alterius rei singularis essentiam constituit.
+Q.E.D.
+"""
+
+[pars.2.prop.38]
+txt = """
+Illa quae omnibus communia quaeque aeque in parte ac in toto sunt, non possunt
+concipi nisi adaequate.
+"""
+
+[pars.2.prop.38.demo]
+txt = """
+Sit A aliquid quod omnibus corporibus commune quodque aeque in parte cujuscunque
+corporis ac in toto est. Dico A non posse concipi nisi adaequate. Nam ejus idea
+(per [corollarium propositionis 7 hujus][prop7cor]) erit necessario in Deo
+adaequata tam quatenus ideam corporis humani quam quatenus ideas habet ejusdem
+affectionum quae (per [propositiones 16][prop16], [25][prop25] et [27
+hujus][prop27]) tam corporis humani quam corporum externorum naturam ex parte
+involvunt hoc est (per [propositiones 12][prop12] et [13 hujus][prop13]) haec
+idea erit necessario in Deo adaequata quatenus mentem humanam constituit sive
+quatenus ideas habet quae in mente humana sunt; mens igitur (per [corollarium
+propositionis 11 hujus][prop11cor]) A necessario adaequate percipit idque tam
+quatenus se quam quatenus suum vel quodcunque externum corpus percipit nec A
+alio modo potest concipi. Q.E.D.
+"""
+
+refs = {
+    prop7cor = "pars.2.prop.7.cor",
+    prop16 = "pars.2.cor.16",
+    prop25 = "pars.2.prop.25",
+    prop27 = "pars.2.prop.27",
+    prop12 = "pars.2.prop.12",
+    prop13= "pars.2.prop.13",
+    prop11cor = "pars.2.prop.11.cor",
+}
+
+[pars.2.prop.38.cor]
+txt = """
+Hinc sequitur dari quasdam ideas sive notiones omnibus hominibus communes. Nam
+(per [lemma 2][lemma2]) omnia corpora in quibusdam conveniunt, quae (per
+[propositionem praecedentem][prop38]) ab omnibus debent adaequate sive clare et
+distincte percipi.
+"""
+
+refs = {
+    lemma2 = "pars.2.lemma.2",
+    prop38 = "pars.2.prop.38",
+}
+
+[pars.2.prop.39]
+txt = """
+Id quod corpori humano et quibusdam corporibus externis a quibus corpus humanum
+affici solet, commune est et proprium quodque in cujuscunque horum parte aeque
+ac in toto est, ejus etiam idea erit in mente adaequata.
+"""
+
+[pars.2.prop.39.demo]
+txt = """
+Sit A id quod corpori humano et quibusdam corporibus externis commune est et
+proprium quodque aeque in humano corpore ac in iisdem corporibus externis et
+quod denique aeque in cujuscunque corporis externi parte ac in toto est. Ipsius
+A dabitur in Deo idea adaequata (per [corollarium propositionis 7
+hujus][prop7cor]) tam quatenus ideam corporis humani quam quatenus positorum
+corporum externorum ideas habet. Ponatur jam humanum corpus a corpore externo
+affici per id quod cum eo habet commune hoc est ab A; hujus affectionis idea
+proprietatem A involvet (per [propositionem 16 hujus][prop16]) atque adeo (per
+idem [corollarium propositionis 7 hujus][prop7cor]) idea hujus affectionis
+quatenus proprietatem A involvit, erit in Deo adaequata quatenus idea corporis
+humani affectus est hoc est (per [propositionem 13 hujus][prop13]) quatenus
+mentis humanae naturam constituit adeoque (per [corollarium propositionis 11
+hujus][prop11cor]) haec idea est etiam in mente humana adaequata. Q.E.D.
+"""
+
+refs = {
+    prop7cor = "pars.2.prop.7.cor",
+    prop16 = "pars.2.prop.16",
+    prop13 = "pars.2.prop.13",
+    prop11cor = "pars.2.prop.11.cor",
+}
+
+[pars.2.prop.39.cor]
+txt = """
+Hinc sequitur quod mens eo aptior est ad plura adaequate percipiendum quo ejus
+corpus plura habet cum aliis corporibus communia.
+"""
+
+[pars.2.prop.40]
+txt = """
+Quaecunque ideae in mente sequuntur ex ideis quae in ipsa sunt adaequatae, sunt
+etiam adaequatae.
+"""
+
+[pars.2.prop.40.demo]
+txt = """
+Patet. Nam cum dicimus in mente humana ideam sequi ex ideis quae in ipsa sunt
+adaequatae, nihil aliud dicimus (per [corollarium propositionis 11
+hujus][prop11cor]) quam quod in ipso divino intellectu detur idea cujus Deus est
+causa, non quatenus infinitus est nec quatenus plurimarum rerum singularium
+ideis affectus est sed quatenus tantum humanae mentis essentiam constituit.
+"""
+
+refs = {
+    prop11cor = "pars.2.prop.11.cor",
+}
+
+[pars.2.prop.40.sc.1]
+txt = """
+His causam notionum quae communes vocantur quaeque ratiocinii nostri fundamenta
+sunt, explicui. Sed aliae quorundam axiomatum sive notionum causae dantur quas
+hac nostra methodo explicare e re foret; ex iis namque constaret quaenam
+notiones prae reliquis utiliores, quaenam vero vix ullius usus essent. Deinde
+quaenam communes et quaenam iis tantum qui praejudiciis non laborant, clarae et
+distinctae et quaenam denique male fundatae sint. Praeterea constaret unde
+notiones illae quas secundas vocant et consequenter axiomata quae in iisdem
+fundantur suam duxerunt originem et alia quae circa haec aliquando meditatus
+sum. Sed quoniam haec alii dicavi tractatui et etiam ne propter nimiam hujus rei
+prolixitatem fastidium crearem, hac re hic supersedere decrevi. Attamen ne quid
+horum omittam quod scitu necessarium sit, causas breviter addam ex quibus
+termini transcendentales dicti suam duxerunt originem ut Ens, Res, Aliquid. Hi
+termini ex hoc oriuntur quod scilicet humanum corpus quandoquidem limitatum est,
+tantum est capax certi imaginum numeri (quid imago sit explicui in [scholio
+propositionis 17 hujus][prop17sc]) in se distincte simul formandi, qui si
+excedatur, hae imagines confundi incipient et si hic imaginum numerus quarum
+corpus est capax ut eas in se simul distincte formet, longe excedatur, omnes
+inter se plane confundentur. Cum hoc ita se habeat, patet ex [corollario
+propositionis 17][prop17cor] et [propositione 18 hujus][prop18] quod mens humana
+tot corpora distincte simul imaginari poterit quot in ipsius corpore imagines
+possunt simul formari. At ubi imagines in corpore plane confunduntur, mens etiam
+omnia corpora confuse sine ulla distinctione imaginabitur et quasi sub uno
+attributo comprehendet nempe sub attributo entis, rei etc. Potest hoc etiam ex
+eo deduci quod imagines non semper aeque vigeant et ex aliis causis his analogis
+quas hic explicare non est opus nam ad nostrum ad quem collimamus scopum, unam
+tantum sufficit considerare. Nam omnes huc redeunt quod hi termini ideas
+significent summo gradu confusas. Ex similibus deinde causis ortae sunt notiones
+illae quas universales vocant ut Homo, Equus, Canis etc. videlicet quia in
+corpore humano tot imagines exempli gratia hominum formantur simul ut vim
+imaginandi, non quidem penitus sed eo usque tamen superent ut singulorum parvas
+differentias (videlicet uniuscujusque colorem, magnitudinem etc.) eorumque
+determinatum numerum mens imaginari nequeat et id tantum in quo omnes quatenus
+corpus ab iisdem afficitur, conveniunt, distincte imaginetur nam ab eo corpus
+maxime scilicet ab unoquoque singulari affectum fuit atque hoc nomine hominis
+exprimit hocque de infinitis singularibus praedicat. Nam singularium
+determinatum numerum ut diximus imaginari nequit. Sed notandum has notiones non
+ab omnibus eodem modo formari sed apud unumquemque variare pro ratione rei a qua
+corpus affectum saepius fuit quamque facilius mens imaginatur vel recordatur.
+Exempli gratia qui saepius cum admiratione hominum staturam contemplati sunt,
+sub nomine hominis intelligent animal erectae staturae; qui vero aliud assueti
+sunt contemplari, aliam hominum communem imaginem formabunt nempe hominem esse
+animal risibile, animal bipes sine plumis, animal rationale et sic de reliquis
+unusquisque pro dispositione sui corporis rerum universales imagines formabit.
+Quare non mirum est quod inter philosophos qui res naturales per solas rerum
+imagines explicare voluerunt, tot sint ortae controversiae.
+"""
+
+refs = {
+    prop17sc = "pars.2.prop.17.sc",
+    prop17cor = "pars.2.prop.17.cor",
+    prop18 = "pars.2.prop.18",
+}
+
+[pars.2.prop.40.sc.2]
+txt = """
+Ex omnibus supra dictis clare apparet nos multa percipere et notiones
+universales formare I° ex singularibus nobis per sensus mutilate, confuse et
+sine ordine ad intellectum repraesentatis (vide [corollarium propositionis 29
+hujus][prop29cor]) et ideo tales perceptiones cognitionem ab experientia vaga
+vocare consuevi. II° ex signis exempli gratia ex eo quod auditis aut lectis
+quibusdam verbis rerum recordemur et earum quasdam ideas formemus similes iis
+per quas res imaginamur (vide [scholium propositionis 18 hujus][prop18sc]).
+Utrumque hunc res contemplandi modum cognitionem primi generis, opinionem vel
+imaginationem in posterum vocabo. III° denique ex eo quod notiones communes
+rerumque proprietatum ideas adaequatas habemus (vide [corollarium propositionis
+38][prop38cor] et [propositionem 39 cum ejus corollario][prop39] et
+[propositionem 40 hujus][prop40]) atque hunc rationem et secundi generis
+cognitionem vocabo. Praeter haec duo cognitionis genera datur, ut in sequentibus
+ostendam, aliud tertium quod scientiam intuitivam vocabimus. Atque hoc
+cognoscendi genus procedit ab adaequata idea essentiae formalis quorundam Dei
+attributorum ad adaequatam cognitionem essentiae rerum. Haec omnia unius rei
+exemplo explicabo. Dantur exempli gratia tres numeri ad quartum obtinendum qui
+sit ad tertium ut secundus ad primum. Non dubitant mercatores secundum in
+tertium ducere et productum per primum dividere quia scilicet ea quae a magistro
+absque ulla demonstratione audiverunt, nondum tradiderunt oblivioni vel quia id
+saepe in numeris simplicissimis experti sunt vel ex vi demonstrationis
+[propositionis 19 libri 7 Euclidis][prop19lib7euclides] nempe ex communi
+proprietate proportionalium. At in numeris simplicissimis nihil horum opus est.
+Exempli gratia datis numeris 1, 2, 3, nemo non videt quartum numerum
+proportionalem esse 6 atque hoc multo clarius quia ex ipsa ratione quam primum
+ad secundum habere uno intuitu videmus, ipsum quartum concludimus.
+"""
+
+refs = {
+    prop29cor = "pars.2.prop.29.cor",
+    prop18sc = "pars.2.prop.18.sc",
+    prop38cor = "pars.2.prop.38.cor",
+    prop39 = "pars.2.prop.39",
+    prop40 = "pars.2.prop.40",
+    prop19lib7euclides = "???",
+}
+
+[pars.2.prop.41]
+txt = """
+Cognitio primi generis unica est falsitatis causa, secundi autem et tertii est
+necessario vera.
+"""
+
+[pars.2.prop.41.demo]
+txt = """
+Ad primi generis cognitionem illas omnes ideas diximus in [praecedenti
+scholio][prop40sc2] pertinere quae sunt inadaequatae et confusae atque adeo (per
+[propositionem 35][prop35] hujus) haec cognitio unica est falsitatis causa.
+Deinde ad cognitionem secundi et tertii illas pertinere diximus quae sunt
+adaequatae adeoque (per [propositionem 34 hujus][prop34]) est necessario vera.
+Q.E.D.
+"""
+
+refs = {
+    prop40sc2 = "pars.2.prop.40.sc.2",
+    prop35 = "pars.2.prop.35",
+    prop34 = "pars.2.prop.34",
+}
+
+[pars.2.prop.42]
+txt = """
+Secundi et tertii et non primi generis cognitio docet nos verum a falso
+distinguere.
+"""
+
+[pars.2.prop.42.demo]
+txt = """
+Haec propositio per se patet. Qui enim inter verum et falsum scit distinguere,
+debet adaequatam veri et falsi habere ideam hoc est (per [II scholium
+propositionis 40 hujus][prop40sc2]) verum et falsum secundo aut tertio
+cognitionis genere cognoscere.
+"""
+
+refs = {
+    prop40sc2 = "pars.2.prop.40.sc.2",
+}
+
+[pars.2.prop.43]
+txt = """
+Qui veram habet ideam, simul scit se veram habere ideam nec de rei veritate
+potest dubitare.
+"""
+
+[pars.2.prop.43.demo]
+txt = """
+Idea vera in nobis est illa quae in Deo quatenus per naturam mentis humanae
+explicatur, est adaequata (per [corollarium propositionis 11 hujus][prop11cor]).
+Ponamus itaque dari in Deo quatenus per naturam mentis humanae explicatur, ideam
+adaequatam A. Hujus ideae debet necessario dari etiam in Deo idea quae ad Deum
+eodem modo refertur ac idea A (per [propositionem 20 hujus][prop20] cujus
+demonstratio universalis est). At idea A ad Deum referri supponitur quatenus per
+naturam mentis humanae explicatur; ergo etiam idea ideae A ad Deum eodem modo
+debet referri hoc est (per idem [corollarium propositionis 11 hujus][prop11cor])
+haec adaequata idea ideae A erit in ipsa mente quae ideam adaequatam A habet
+adeoque qui adaequatam habet ideam sive (per [propositionem 34 hujus][prop34])
+qui vere rem cognoscit, debet simul suae cognitionis adaequatam habere ideam
+sive veram cognitionem hoc est (ut per se manifestum) debet simul esse certus.
+Q.E.D.
+"""
+
+refs = {
+    prop11cor = "pars.2.prop.11.cor",
+    prop20 = "pars.2.prop.20",
+    prop34 = "pars.2.prop.34",
+}
+
+[pars.2.prop.43.sc]
+txt = """
+In [scholio propositionis 21 hujus partis][prop21sc] explicui quid sit idea
+ideae sed notandum praecedentem propositionem per se satis esse manifestam. Nam
+nemo qui veram habet ideam, ignorat veram ideam summam certitudinem involvere;
+veram namque habere ideam nihil aliud significat quam perfecte sive optime rem
+cognoscere nec sane aliquis de hac re dubitare potest nisi putet ideam quid
+mutum instar picturae in tabula et non modum cogitandi esse nempe ipsum
+intelligere et quaeso quis scire potest se rem aliquam intelligere nisi prius
+rem intelligat? hoc est quis potest scire se de aliqua re certum esse nisi prius
+de ea re certus sit? Deinde quid idea vera clarius et certius dari potest quod
+norma sit veritatis? Sane sicut lux seipsam et tenebras manifestat, sic veritas
+norma sui et falsi est. Atque his me ad has quaestiones respondisse puto nempe
+si idea vera quatenus tantum dicitur cum suo ideato convenire, a falsa
+distinguitur, nihil ergo realitatis aut perfectionis idea vera habet prae falsa
+(quandoquidem per solam denominationem extrinsecam distinguuntur) et
+consequenter neque etiam homo qui veras prae illo qui falsas tantum ideas habet?
+Deinde unde fit ut homines falsas habeant ideas? Et denique unde aliquis certo
+scire potest se ideas habere quae cum suis ideatis conveniant? Ad has inquam
+quaestiones me jam respondisse puto. Nam quod ad differentiam inter ideam veram
+et falsam attinet, constat ex [propositione 35][prop35] hujus illam ad hanc sese
+habere ut ens ad non-ens. Falsitatis autem causas a [propositione 19][prop19]
+usque ad [35][prop35] cum [ejus scholio][prop35sc] clarissime ostendi. Ex quibus
+etiam apparet quid homo qui veras habet ideas, homini qui non nisi falsas habet,
+intersit. Quod denique ultimum attinet nempe undenam homo scire potest se habere
+ideam quae cum suo ideato conveniat, id modo satis superque ostendi ex hoc solo
+oriri quod ideam habet quae cum suo ideato convenit sive quod veritas sui sit
+norma. His adde quod mens nostra quatenus res vere percipit, pars est infiniti
+Dei intellectus (per [corollarium propositionis 11 hujus][prop11cor]) adeoque
+tam necesse est ut mentis clarae et distinctae ideae verae sint ac Dei ideae.
+"""
+
+refs = {
+    prop21sc = "pars.2.prop.21.sc",
+    prop35 = "pars.2.prop.35",
+    prop19 = "pars.2.prop.19",
+    prop35 = "pars.2.prop.35",
+    prop35sc = "pars.2.prop.35.sc",
+    prop11cor = "pars.2.prop.11.cor",
+}
+
+[pars.2.prop.44]
+txt = """
+De natura rationis non est res ut contingentes sed ut necessarias contemplari.
+"""
+
+[pars.2.prop.44.demo]
+txt = """
+De natura rationis est res vere percipere (per [propositionem 41 hujus][prop41])
+nempe (per [axioma 6 partis I][ax6p1]) ut in se sunt hoc est (per [propositionem
+29 partis I][prop29p1]) non ut contingentes sed ut necessarias. Q.E.D.
+"""
+
+refs = {
+    prop41 = "pars.2.prop.41",
+    ax6p1 = "pars.1.ax.6",
+    prop29p1 = "pars.1.prop.29",
+}
+
+[pars.2.prop.44.cor.1]
+txt = """
+Hinc sequitur a sola imaginatione pendere quod res tam respectu praeteriti quam
+futuri ut contingentes contemplemur.
+"""
+
+[pars.2.prop.44.cor.1.sc]
+txt = """
+Qua autem ratione hoc fiat paucis explicabo. Ostendimus supra ([propositione
+17][prop17] hujus cum [ejus corollario][prop17cor]) mentem, quamvis res non
+existant, eas tamen semper ut sibi praesentes imaginari nisi causae occurrant
+quae earum praesentem existentiam secludant. Deinde ([propositione 18][prop18]
+hujus) ostendimus quod si corpus humanum semel a duobus corporibus externis
+simul affectum fuit, ubi mens postea eorum alterutrum imaginabitur, statim et
+alterius recordabitur hoc est ambo ut sibi praesentia contemplabitur nisi causae
+occurrant quae eorum praesentem existentiam secludant. Praeterea nemo dubitat
+quin etiam tempus imaginemur nempe ex eo quod corpora alia aliis tardius vel
+celerius vel aeque celeriter moveri imaginemur. Ponamus itaque puerum qui heri
+prima vice hora matutina viderit Petrum, meridiana autem Paulum et vespertina
+Simeonem atque hodie iterum matutina hora Petrum. Ex [propositione 18
+hujus][prop18] patet quod simulac matutinam lucem videt, illico solem eandem
+caeli quam die praecedenti viderit partem percurrentem sive diem integrum et
+simul cum tempore matutino Petrum, cum meridiano autem Paulum et cum vespertino
+Simeonem imaginabitur hoc est Pauli et Simeonis existentiam cum relatione ad
+futurum tempus imaginabitur et contra si hora vespertina Simeonem videat, Paulum
+et Petrum ad tempus praeteritum referet, eosdem scilicet simul cum tempore
+praeterito imaginando atque haec eo constantius quo saepius eos eodem hoc ordine
+viderit. Quod si aliquando contingat ut alia quadam vespera loco Simeonis
+Jacobum videat, tum sequenti mane cum tempore vespertino jam Simeonem jam
+Jacobum, non vero ambos simul imaginabitur. Nam alterutrum tantum, non autem
+ambos simul tempore vespertino vidisse supponitur. Fluctuabitur itaque ejus
+imaginatio et cum futuro tempore vespertino jam hunc jam illum imaginabitur hoc
+est neutrum certo sed utrumque contingenter futurum contemplabitur. Atque haec
+imaginationis fluctuatio eadem erit si imaginatio rerum sit quas eodem modo cum
+relatione ad tempus praeteritum vel praesens contemplamur et consequenter res
+tam ad tempus praesens quam ad praeteritum vel futurum relatas ut contingentes
+imaginabimur.
+"""
+
+refs = {
+    prop17 = "pars.2.prop.17",
+    prop17cor = "pars.2.prop.17.cor",
+    prop18 = "pars.2.prop.18",
+}
+
+[pars.2.prop.44.cor.2]
+txt = """
+De natura rationis est res sub quadam aeternitatis specie percipere.
+"""
+
+[pars.2.prop.44.cor.2.demo]
+txt = """
+De natura enim rationis est res ut necessarias et non ut contingentes
+contemplari (per [propositionem praecedentem][prop44]). Hanc autem rerum
+necessitatem (per [propositionem 41 hujus][prop41]) vere hoc est (per [axioma 6
+partis I][ax6p1]) ut in se est, percipit. Sed (per [propositionem 16 partis
+I][prop16p1]) haec rerum necessitas est ipsa Dei aeternae naturae necessitas;
+ergo de natura rationis est res sub hac aeternitatis specie contemplari. Adde
+quod fundamenta rationis notiones sint (per [propositionem 38 hujus][prop38])
+quae illa explicant quae omnibus communia sunt quaeque (per [propositionem 37
+hujus][prop37]) nullius rei singularis essentiam explicant quaeque propterea
+absque ulla temporis relatione sed sub quadam aeternitatis specie debent
+concipi. Q.E.D.
+"""
+
+refs = {
+    ax6p1 = "pars.1.ax.6",
+    prop41 = "pars.2.prop.41",
+    prop38 = "pars.2.prop.38",
+    prop37 = "pars.2.prop.37",
+    prop44 = "pars.2.prop.44",
+    prop16p1 = "pars.1.prop.16",
+}
