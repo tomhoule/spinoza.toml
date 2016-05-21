@@ -3057,6 +3057,102 @@ refs = {
     prop11 = "pars.2.prop.11",
 }
 
+[pars.2.prop.21]
+txt = """
+Haec mentis idea eodem modo unita est menti ac ipsa mens unita est corpori.
+"""
+
+[pars.2.prop.21.demo]
+txt = """
+Mentem unitam esse corpori ex eo ostendimus quod scilicet corpus mentis sit
+objectum (vide [propositiones 12][prop12] [et 13 hujus][prop13]) adeoque per
+eandem illam rationem idea mentis cum suo objecto hoc est cum ipsa mente eodem
+modo unita esse debet ac ipsa mens unita est corpori. Q.E.D.
+"""
+
+refs = {
+    prop12 = "pars.2.prop.12",
+    prop13 = "pars.2.prop.13",
+}
+
+[pars.2.prop.21.sc]
+txt = """
+Haec propositio longe clarius intelligitur ex dictis in [scholio propositionis 7
+hujus][prop7sc]; ibi enim ostendimus corporis ideam et corpus hoc est (per
+[propositionem 13 hujus][prop13]) mentem et corpus unum et idem esse individuum
+quod jam sub cogitationis jam sub extensionis attributo concipitur; quare mentis
+idea et ipsa mens una eademque est res quae sub uno eodemque attributo nempe
+cogitationis concipitur. Mentis inquam idea et ipsa mens in Deo eadem
+necessitate ex eadem cogitandi potentia sequuntur dari. Nam revera idea mentis
+hoc est idea ideae nihil aliud est quam forma ideae quatenus haec ut modus
+cogitandi absque relatione ad objectum consideratur; simulac enim quis aliquid
+scit, eo ipso scit se id scire et simul scit se scire quod scit et sic in
+infinitum. Sed de his postea.
+"""
+
+refs = {
+    prop7sc = "pars.2.prop.7.sc",
+    prop13 = "pars.2.prop.13",
+}
+
+[pars.2.prop.22]
+txt = """
+Mens humana non tantum corporis affectiones sed etiam harum affectionum ideas
+percipit.
+"""
+
+[pars.2.prop.22.demo]
+txt = """
+Affectionum idearum ideae in Deo eodem modo sequuntur et ad Deum eodem modo
+referuntur ac ipsae affectionum ideae; quod eodem modo demonstratur ac
+[propositio 20 hujus][prop20]. At ideae affectionum corporis in mente humana
+sunt (per [propositionem 12 hujus][prop12]) hoc est (per [corollarium
+propositionis 11 hujus][prop11cor]) in Deo quatenus humanae mentis essentiam
+constituit; ergo harum idearum ideae in Deo erunt quatenus humanae mentis
+cognitionem sive ideam habet hoc est (per [propositionem 21 hujus][prop21]) in
+ipsa mente humana quae propterea non tantum corporis affectiones sed earum etiam
+ideas percipit. Q.E.D.
+"""
+
+refs = {
+    prop12 = "pars.2.prop.12",
+    prop21 = "pars.2.prop.21",
+    prop11cor = "pars.2.prop.11.cor",
+    prop20 = "pars.2.prop.20",
+}
+
+[pars.2.prop.23]
+txt = """
+Mens se ipsam non cognoscit nisi quatenus corporis affectionum ideas percipit.
+"""
+
+[pars.2.prop.23.demo]
+txt = """
+Mentis idea sive cognitio (per [propositionem 20 hujus][prop20]) in Deo eodem
+modo sequitur et ad Deum eodem modo refertur ac corporis idea sive cognitio. At
+quoniam (per [propositionem 19 hujus][prop19]) mens humana ipsum humanum corpus
+non cognoscit hoc est (per [corollarium propositionis 11 hujus][prop11cor])
+quoniam cognitio corporis humani ad Deum non refertur quatenus humanae mentis
+naturam constituit; ergo nec cognitio mentis ad Deum refertur quatenus essentiam
+mentis humanae constituit atque adeo (per idem [corollarium propositionis 11
+hujus][prop11cor]) mens humana eatenus se ipsam non cognoscit. Deinde
+affectionum quibus corpus afficitur ideae naturam ipsius corporis humani
+involvunt (per propositionem 16 hujus) hoc est (per [propositionem 13
+hujus][prop13]) cum natura mentis conveniunt; quare harum idearum cognitio
+cognitionem mentis necessario involvet; at (per [propositionem
+praecedentem][prop22]) harum idearum cognitio in ipsa humana mente est; ergo
+mens humana eatenus tantum se ipsam novit. Q.E.D.
+"""
+
+refs = {
+    prop20 = "pars.2.prop.20",
+    prop19 = "pars.2.prop.19",
+    prop22 = "pars.2.prop.22",
+    prop11cor = "pars.2.prop.11.cor",
+    prop16 = "pars.2.prop.16.",
+    prop13 = "pars.2.prop.13",
+}
+
 [pars.3]
 [pars.4]
 [pars.5]
