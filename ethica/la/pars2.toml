@@ -1,0 +1,1323 @@
+
+[pars.2]
+
+title = "De Natura et Origine Mentis"
+
+[pars.2.prae]
+txt = """
+Transeo jam ad ea explicanda quae ex Dei sive Entis aeterni et infiniti essentia
+necessario debuerunt sequi. Non quidem omnia; infinita enim infinitis modis ex
+ipsa debere sequi [propositione 16 partis I][prop16] demonstravimus sed ea
+solummodo quae nos ad mentis humanae ejusque summae beatitudinis cognitionem
+quasi manu ducere possunt.
+"""
+
+refs = {
+    prop16 = "pars.1.prop.16",
+}
+
+[pars.2.def.1]
+txt = """
+Per corpus intelligo modum qui Dei essentiam quatenus ut res extensa
+consideratur, certo et determinato modo exprimit; vide [corollarium
+propositionis 25 partis I][prop25cor].
+"""
+
+refs = {
+    prop25cor = "pars.1.prop.25.cor",
+}
+
+[pars.2.def.2]
+txt = """
+Ad essentiam alicujus rei id pertinere dico quo dato res necessario ponitur et
+quo sublato res necessario tollitur; vel id sine quo res et vice versa id quod
+sine re nec esse nec concipi potest.
+"""
+
+[pars.2.def.3]
+txt = """
+Per ideam intelligo mentis conceptum quem mens format propterea quod res est
+cogitans.
+"""
+
+[pars.2.def.3.expl]
+txt = """
+Dico potius conceptum quam perceptionem quia perceptionis nomen indicare videtur
+mentem ab objecto pati. At conceptus actionem mentis exprimere videtur.
+"""
+
+[pars.2.def.4]
+txt = """
+Per ideam adaequatam intelligo ideam quae quatenus in se sine relatione ad
+objectum consideratur, omnes verae ideae proprietates sive denominationes
+intrinsecas habet.
+"""
+
+[pars.2.def.4.expl]
+txt = """
+Dico intrinsecas ut illam secludam quae extrinseca est nempe convenientiam ideae
+cum suo ideato.
+"""
+
+[pars.2.def.5]
+txt = """
+Duratio est indefinita existendi continuatio.
+"""
+
+[pars.2.def.5.expl]
+txt = """
+Dico indefinitam quia per ipsam rei existentis naturam determinari nequaquam
+potest neque etiam a causa efficiente quae scilicet rei existentiam necessario
+ponit, non autem tollit.
+"""
+
+[pars.2.def.6]
+txt = """
+Per realitatem et perfectionem idem intelligo.
+"""
+
+[pars.2.def.7]
+txt = """
+Per res singulares intelligo res quae finitae sunt et determinatam habent
+existentiam. Quod si plura individua in una actione ita concurrant ut omnia
+simul unius effectus sint causa, eadem omnia eatenus ut unam rem singularem
+considero.
+"""
+
+[pars.2.ax.1]
+txt = """
+Hominis essentia non involvit necessariam existentiam hoc est ex naturae ordine
+tam fieri potest ut hic et ille homo existat quam ut non existat.
+"""
+
+[pars.2.ax.2]
+txt = """
+Homo cogitat.
+"""
+
+[pars.2.ax.3]
+txt = """
+Modi cogitandi ut amor, cupiditas vel quicunque nomine affectus animi
+insigniuntur, non dantur nisi in eodem individuo detur idea rei amatae,
+desideratae etc. At idea dari potest quamvis nullus alius detur cogitandi modus.
+"""
+
+[pars.2.ax.4]
+txt = """
+Nos corpus quoddam multis modis affici sentimus.
+"""
+
+[pars.2.ax.5]
+txt = """
+Nullas res singulares praeter corpora et cogitandi modos sentimus nec
+percipimus. Postulata vide post [13 propositionem][prop13].
+"""
+
+refs = {
+    prop13 = "pars.2.prop.13",
+}
+
+[pars.2.prop.1]
+txt = """
+Cogitatio attributum Dei est sive Deus est res cogitans.
+"""
+
+[pars.2.prop.1.demo]
+txt = """
+Singulares cogitationes sive haec et illa cogitatio modi sunt qui Dei naturam
+certo et determinato modo exprimunt (per [corollarium propositionis 25 partis
+I][prop25cor]). Competit ergo Deo (per [definitionem 5 partis I][def5])
+attributum cujus conceptum singulares omnes cogitationes involvunt, per quod
+etiam concipiuntur. Est igitur cogitatio unum ex infinitis Dei attributis quod
+Dei aeternam et infinitam essentiam exprimit (vide [definitionem 6 partis
+I][def6]) sive Deus est res cogitans. Q.E.D.
+"""
+
+refs = {
+    prop25cor = "pars.1.prop.25.cor",
+    def5 = "pars.1.def.5",
+    def6 = "pars.1.def.6",
+}
+
+[pars.2.prop.1.sc]
+txt = """
+Patet etiam haec propositio ex hoc quod nos possumus ens cogitans infinitum
+concipere. Nam quo plura ens cogitans potest cogitare, eo plus realitatis sive
+perfectionis idem continere concipimus; ergo ens quod infinita infinitis modis
+cogitare potest, est necessario virtute cogitandi infinitum. Cum itaque ad solam
+cogitationem attendendo Ens infinitum concipiamus, est necessario (per
+[definitiones 4][def4] [et 6 partis I][def6]) cogitatio unum ex infinitis Dei
+attributis, ut volebamus.
+"""
+
+refs = {
+    def4 = "pars.1.def.4",
+    def6 = "pars.1.def.6",
+}
+
+[pars.2.prop.2]
+txt = """
+Extensio attributum Dei est sive Deus est res extensa.
+"""
+
+[pars.2.prop.2.demo]
+txt = """
+Hujus eodem modo procedit ac [demonstratio praecedentis propositionis][prop1demo].
+"""
+
+refs = {
+    prop1demo = "pars.2.prop.1.demo",
+}
+
+[pars.2.prop.3]
+txt = """
+In Deo datur necessario idea tam ejus essentiae quam omnium quae ex ipsius
+essentia necessario sequuntur.
+"""
+
+[pars.2.prop.3.demo]
+txt = """
+Deus enim (per [propositionem 1 hujus][prop1]) infinita infinitis modis cogitare
+sive (quod idem est per [propositionem 16 partis I][prop16]) ideam suae
+essentiae et omnium quae necessario ex ea sequuntur, formare potest. Atqui omne
+id quod in Dei potestate est, necessario est (per [propositionem 35 partis
+I][prop35]); ergo datur necessario talis idea et (per [propositionem 15 partis
+I][prop15]) non nisi in Deo. Q.E.D.
+"""
+
+refs = {
+    prop1 = "pars.2.prop.1",
+    prop16 = "pars.1.prop.16",
+    prop35 = "pars.1.prop.35",
+    prop15 = "pars.1.prop.15",
+}
+
+[pars.2.prop.3.sc]
+txt = """
+Vulgus per Dei potentiam intelligit Dei liberam voluntatem et jus in omnia quae
+sunt quaeque propterea communiter ut contingentia considerantur. Deum enim
+potestatem omnia destruendi habere dicunt et in nihilum redigendi. Dei porro
+potentiam cum potentia regum saepissime comparant. Sed hoc in [corollario
+I][prop32cor1] et [II propositionis 32 partis I][prop32cor2] refutavimus et
+[propositione 16 partis I][prop16p1] ostendimus Deum eadem necessitate agere qua
+seipsum intelligit hoc est sicuti ex necessitate divinae naturae sequitur (sicut
+omnes uno ore statuunt) ut Deus seipsum intelligat, eadem etiam necessitate
+sequitur ut Deus infinita infinitis modis agat. Deinde [propositione 34 partis
+I][prop34p1] ostendimus Dei potentiam nihil esse praeterquam Dei actuosam
+essentiam adeoque tam nobis impossibile est concipere Deum non agere quam Deum
+non esse. Porro si haec ulterius persequi liberet, possem hic etiam ostendere
+potentiam illam quam vulgus Deo affingit, non tantum humanam esse (quod ostendit
+Deum hominem vel instar hominis a vulgo concipi) sed etiam impotentiam
+involvere. Sed nolo de eadem re toties sermonem instituere. Lectorem solummodo
+iterum atque iterum rogo ut quae in prima parte ex [propositione 16][prop16p1]
+usque ad finem de hac re dicta sunt, semel atque iterum perpendat. Nam nemo ea
+quae volo percipere recte poterit nisi magnopere caveat ne Dei potentiam cum
+humana regum potentia vel jure confundat.
+"""
+
+refs = {
+    prop32cor1 = "pars.1.prop.32.cor.1",
+    prop32cor2 = "pars.1.prop.32.cor.2",
+    prop16p1 = "pars.1.prop.16",
+    prop34p1 = "pars.1.prop.34",
+}
+
+[pars.2.prop.4]
+txt = """
+Idea Dei ex qua infinita infinitis modis sequuntur, unica tantum esse potest.
+"""
+
+[pars.2.prop.4.demo]
+txt = """
+Intellectus infinitus nihil praeter Dei attributa ejusque affectiones
+comprehendit (per [propositionem 30 partis I][prop30p1]). Atqui Deus est unicus
+(per [corollarium I propositionis 14 partis I][prop14cor1p1]). Ergo idea Dei ex
+qua infinita infinitis modis sequuntur, unica tantum esse potest. Q.E.D.
+"""
+
+refs = {
+    prop30p1 = "pars.1.prop.30",
+    prop14cor1p1 = "pars.1.prop.14.cor.1",
+}
+
+[pars.2.prop.5]
+txt = """
+Esse formale idearum Deum quatenus tantum ut res cogitans consideratur, pro
+causa agnoscit et non quatenus alio attributo explicatur. Hoc est tam Dei
+attributorum quam rerum singularium ideae non ipsa ideata sive res perceptas pro
+causa efficiente agnoscunt sed ipsum Deum quatenus est res cogitans.
+"""
+
+[pars.2.prop.5.demo]
+txt = """
+Patet quidem ex [propositione 3 hujus][prop3]. Ibi enim concludebamus Deum ideam
+suae essentiae et omnium quae ex ea necessario sequuntur, formare posse ex hoc
+solo nempe quod Deus est res cogitans et non ex eo quod sit suae ideae objectum.
+Quare esse formale idearum Deum quatenus est res cogitans, pro causa agnoscit.
+Sed aliter hoc modo demonstratur. Esse formale idearum modus est cogitandi (ut
+per se notum) hoc est (per [corollarium propositionis 25 partis I][prop25corp1])
+modus qui Dei naturam quatenus est res cogitans, certo modo exprimit adeoque
+(per [propositionem 10 partis I][prop10p1]) nullius alterius attributi Dei
+conceptum involvit et consequenter (per [axioma 4 partis I][ax4p1]) nullius
+alterius attributi nisi cogitationis est effectus adeoque esse formale idearum
+Deum quatenus tantum ut res cogitans consideratur etc. Q.E.D.
+"""
+
+refs = {
+    prop3 = "pars.2.prop.3",
+    prop25corp1 = "pars.1.prop.25.cor",
+    prop10p1 = "pars.1.prop.10",
+    ax4p1 = "pars.1.ax.4",
+}
+
+[pars.2.prop.6]
+txt = """
+Cujuscunque attributi modi Deum quatenus tantum sub illo attributo cujus modi
+sunt et non quatenus sub ullo alio consideratur, pro causa habent.
+"""
+
+[pars.2.prop.6.demo]
+txt = """
+Unumquodque enim attributum per se absque alio concipitur (per [propositionem 10
+partis I][prop10p1]). Quare uniuscujusque attributi modi conceptum sui
+attributi, non autem alterius involvunt adeoque (per [axioma 4 partis I][ax4p1])
+Deum quatenus tantum sub illo attributo cujus modi sunt et non quatenus sub ullo
+alio consideratur, pro causa habent. Q.E.D.
+"""
+
+refs = {
+    prop10p1 = "pars.1.prop.10",
+    ax4p1 = "pars.1.ax.4",
+}
+
+[pars.2.prop.6.cor]
+txt = """
+Hinc sequitur quod esse formale rerum quae modi non sunt cogitandi, non sequitur
+ideo ex divina natura quia res prius cognovit sed eodem modo eademque
+necessitate res ideatae ex suis attributis consequuntur et concluduntur ac ideas
+ex attributo cogitationis consequi ostendimus.
+"""
+
+[pars.2.prop.7]
+txt = """
+Ordo et connexio idearum idem est ac ordo et connexio rerum.
+"""
+
+[pars.2.prop.7.demo]
+txt = """
+Patet ex [axiomate 4 partis I][ax4p1]. Nam cujuscunque causati idea a cognitione causae
+cujus est effectus, dependet.
+"""
+
+refs = {
+    ax4p1 = "pars.1.ax.4",
+}
+
+[pars.2.prop.7.cor]
+txt = """
+Hinc sequitur quod Dei cogitandi potentia aequalis est ipsius actuali agendi
+potentiae. Hoc est quicquid ex infinita Dei natura sequitur formaliter, id omne
+ex Dei idea eodem ordine eademque connexione sequitur in Deo objective.
+"""
+
+[pars.2.prop.7.sc]
+txt = """
+Hic antequam ulterius pergamus, revocandum nobis in memoriam est id quod supra
+ostendimus nempe quod quicquid ab infinito intellectu percipi potest tanquam
+substantiae essentiam constituens, id omne ad unicam tantum substantiam pertinet
+et consequenter quod substantia cogitans et substantia extensa una eademque est
+substantia quae jam sub hoc jam sub illo attributo comprehenditur. Sic etiam
+modus extensionis et idea illius modi una eademque est res sed duobus modis
+expressa, quod quidam Hebraeorum quasi per nebulam vidisse videntur, qui
+scilicet statuunt Deum, Dei intellectum resque ab ipso intellectas unum et idem
+esse. Exempli gratia circulus in natura existens et idea circuli existentis quae
+etiam in Deo est, una eademque est res quae per diversa attributa explicatur et
+ideo sive naturam sub attributo extensionis sive sub attributo cogitationis sive
+sub alio quocunque concipiamus, unum eundemque ordinem sive unam eandemque
+causarum connexionem hoc est easdem res invicem sequi reperiemus. Nec ulla alia
+de causa dixi quod Deus sit causa ideae exempli gratia circuli quatenus tantum
+est res cogitans et circuli quatenus tantum est res extensa nisi quia esse
+formale ideae circuli non nisi per alium cogitandi modum tanquam causam proximam
+et ille iterum per alium et sic in infinitum, potest percipi ita ut quamdiu res
+ut cogitandi modi considerantur, ordinem totius naturae sive causarum
+connexionem per solum cogitationis attributum explicare debemus et quatenus ut
+modi extensionis considerantur, ordo etiam totius naturae per solum extensionis
+attributum explicari debet et idem de aliis attributis intelligo. Quare rerum ut
+in se sunt, Deus revera est causa quatenus infinitis constat attributis nec
+impraesentiarum haec clarius possum explicare.
+"""
+
+[pars.2.prop.8]
+txt = """
+Ideae rerum singularium sive modorum non existentium ita debent comprehendi in
+Dei infinita idea ac rerum singularium sive modorum essentiae formales in Dei
+attributis continentur.
+"""
+
+[pars.2.prop.8.demo]
+txt = """
+Haec propositio patet ex praecedenti sed intelligitur clarius ex [praecedenti
+scholio][pars2prop8sc].
+"""
+
+refs = {
+    pars2prop8sc = "pars.2.prop.8.sc",
+}
+
+[pars.2.prop.8.cor]
+txt = """
+Hinc sequitur quod quamdiu res singulares non existunt nisi quatenus in Dei
+attributis comprehenduntur, earum esse objectivum sive ideae non existunt nisi
+quatenus infinita Dei idea existit et ubi res singulares dicuntur existere non
+tantum quatenus in Dei attributis comprehenduntur sed quatenus etiam durare
+dicuntur, earum ideae etiam existentiam per quam durare dicuntur, involvent.
+"""
+
+[pars.2.prop.8.sc]
+txt = """
+Si quis ad uberiorem hujus rei explicationem exemplum desideret, nullum sane
+dare potero quod rem de qua hic loquor, utpote unicam adaequate explicet;
+conabor tamen rem ut fieri potest, illustrare. Nempe circulus talis est naturae
+ut omnium linearum rectarum in eodem sese invicem secantium rectangula sub
+segmentis sint inter se aequalia; quare in circulo infinita inter se aequalia
+rectangula continentur : attamen nullum eorum potest dici existere nisi quatenus
+circulus existit nec etiam alicujus horum rectangulorum idea potest dici
+existere nisi quatenus in circuli idea comprehenditur. Concipiantur jam ex
+infinitis illis duo tantum nempe E et D existere. Sane eorum etiam ideae jam non
+tantum existunt quatenus solummodo in circuli idea comprehenduntur sed etiam
+quatenus illorum rectangulorum existentiam involvunt, quo fit ut a reliquis
+reliquorum rectangulorum ideis distinguantur.
+"""
+
+[pars.2.prop.9]
+txt = """
+Idea rei singularis actu existentis Deum pro causa habet non quatenus infinitus
+est sed quatenus alia rei singularis actu existentis idea affectus consideratur
+cujus etiam Deus est causa quatenus alia tertia affectus est et sic in
+infinitum.
+"""
+
+[pars.2.prop.9.demo]
+txt = """
+Idea rei singularis actu existentis modus singularis cogitandi est et a reliquis
+distinctus (per [corollarium][prop8cor] et [scholium propositionis 8][prop8sc]
+hujus) adeoque (per [propositionem 6][prop6] hujus) Deum quatenus est tantum res
+cogitans, pro causa habet. At non (per [propositionem 28 partis I][prop28p1])
+quatenus est res absolute cogitans sed quatenus alio cogitandi modo affectus
+consideratur et hujus etiam Deus est causa quatenus alio cogitandi modo affectus
+est et sic in infinitum. Atqui ordo et connexio idearum (per [propositionem
+7][prop7] hujus) idem est ac ordo et connexio causarum; ergo unius singularis
+ideae alia idea sive Deus quatenus alia idea affectus consideratur, est causa et
+hujus etiam quatenus alia affectus est et sic in infinitum. Q.E.D.
+"""
+
+refs = {
+    prop6 = "pars.2.prop.6",
+    prop7 = "pars.2.prop.7",
+    prop8cor = "pars.2.prop.8.cor",
+    prop8sc = "pars.2.prop.8.sc",
+    prop28p1 = "pars.1.prop.28",
+}
+
+[pars.2.prop.9.cor]
+txt = """
+Quicquid in singulari cujuscunque ideae objecto contingit, ejus datur in Deo
+cognitio quatenus tantum ejusdem objecti ideam habet.
+"""
+
+[pars.2.prop.9.cor.demo]
+txt = """
+Quicquid in objecto cujuscunque ideae contingit, ejus datur in Deo idea (per
+[propositionem 3 hujus][prop3]) non quatenus infinitus est sed quatenus alia rei
+singularis idea affectus consideratur (per [praecedentem propositionem][prop8])
+sed (per [propositionem 7 hujus][prop7]) ordo et connexio idearum idem est ac
+ordo et connexio rerum; erit ergo cognitio ejus quod in singulari aliquo objecto
+contingit, in Deo quatenus tantum ejusdem objecti habet ideam. Q.E.D.
+"""
+
+refs = {
+    prop3 = "pars.2.prop.3",
+    prop7 = "pars.2.prop.7"
+    prop8 = "pars.2.prop.8",
+}
+
+[pars.2.prop.10]
+txt = """
+Ad essentiam hominis non pertinet esse substantiae sive substantia formam
+hominis non constituit.
+"""
+
+[pars.2.prop.10.demo]
+txt = """
+Esse enim substantiae involvit necessariam existentiam (per [propositionem 7
+partis I][prop7p1]). Si igitur ad hominis essentiam pertineret esse substantiae,
+data ergo substantia, daretur necessario homo (per [definitionem 2 hujus][def2])
+et consequenter homo necessario existeret, quod (per [axioma 1 hujus][ax1]) est
+absurdum. Ergo etc. Q.E.D.
+"""
+
+refs = {
+    prop7p1 = "pars.1.prop.7",
+    def2 = "pars.2.def.2",
+    ax1 = "pars.2.ax.1",
+}
+
+[pars.2.prop.10.sc]
+txt = """
+Demonstratur etiam haec propositio ex [propositione 5 partis I][prop5p1] nempe
+quod duae ejusdem naturae substantiae non dentur. Cum autem plures homines
+existere possint, ergo id quod hominis formam constituit, non est esse
+substantiae. Patet praeterea haec propositio ex reliquis substantiae
+proprietatibus videlicet quod substantia sit sua natura infinita, immutabilis,
+indivisibilis etc. ut facile unusquisque videre potest.
+"""
+
+refs = {
+    prop5p1 = "pars.1.prop.5",
+}
+
+[pars.2.prop.10.cor]
+txt = """
+Hinc sequitur essentiam hominis constitui a certis Dei attributorum
+modificationibus.
+"""
+
+[pars.2.prop.10.cor.demo]
+txt = """
+Nam esse substantiae (per [propositionem praecedentem][prop10]) ad essentiam
+hominis non pertinet. Est ergo (per [propositionem 15 partis I][prop15p1])
+aliquid quod in Deo est et quod sine Deo nec esse nec concipi potest sive (per
+[corollarium propositionis 25 partis I][prop25corp1]) affectio sive modus qui
+Dei naturam certo et determinato modo exprimit.
+"""
+
+refs = {
+    prop15p1 = "pars.1.prop.15",
+    prop25corp1 = "pars.1.prop.25.cor",
+    prop10 = "pars.2.prop.10",
+}
+
+[pars.2.prop.10.cor.sc]
+txt = """
+Omnes sane concedere debent nihil sine Deo esse neque concipi posse. Nam apud
+omnes in confesso est quod Deus omnium rerum tam earum essentiae quam earum
+existentiae unica est causa hoc est Deus non tantum est causa rerum secundum
+fieri ut aiunt sed etiam secundum esse. At interim plerique id ad essentiam
+alicujus rei pertinere dicunt sine quo res nec esse nec concipi potest adeoque
+vel naturam Dei ad essentiam rerum creatarum pertinere vel res creatas sine Deo
+vel esse vel concipi posse credunt vel quod certius est, sibi non satis
+constant. Cujus rei causam fuisse credo quod ordinem philosophandi non
+tenuerint. Nam naturam divinam quam ante omnia contemplari debebant quia tam
+cognitione quam natura prior est, ordine cognitionis ultimam et res quae sensuum
+objecta vocantur, omnibus priores esse crediderunt; unde factum est ut dum res
+naturales contemplati sunt, de nulla re minus cogitaverint quam de divina natura
+et cum postea animum ad divinam naturam contemplandum appulerint, de nulla re
+minus cogitare potuerint quam de primis suis figmentis quibus rerum naturalium
+cognitionem superstruxerant; utpote quae ad cognitionem divinae naturae nihil
+juvare poterant adeoque nihil mirum si sibi passim contradixerint. Sed hoc
+mitto. Nam meum intentum hic tantum fuit causam reddere cur non dixerim id ad
+essentiam alicujus rei pertinere sine quo res nec esse nec concipi potest;
+nimirum quia res singulares non possunt sine Deo esse nec concipi et tamen Deus
+ad earum essentiam non pertinet sed id necessario essentiam alicujus rei
+constituere dixi quo dato, res ponitur et quo sublato, res tollitur vel id sine
+quo res et vice versa id quod sine re nec esse nec concipi potest.
+"""
+
+[pars.2.prop.11]
+txt =  """
+Primum quod actuale mentis humanae esse constituit, nihil aliud est quam idea
+rei alicujus singularis actu existentis.
+"""
+
+[pars.2.prop.11.demo]
+txt = """
+Essentia hominis (per [corollarium praecedentis propositionis][prop10cor]) a
+certis Dei attributorum modis constituitur nempe (per [axioma 2 hujus][ax2]) a
+modis cogitandi quorum omnium (per [axioma 3 hujus][ax3]) idea natura prior est
+et ea data reliqui modi (quibus scilicet idea natura prior est) in eodem debent
+esse individuo (per [axioma 3 hujus][ax3]). Atque adeo idea primum est quod
+humanae mentis esse constituit. At non idea rei non existentis. Nam tum (per
+[corollarium propositionis 8 hujus][prop8cor]) ipsa idea non potest dici
+existere; erit ergo idea rei actu existentis. At non rei infinitae. Res namque
+infinita (per [propositiones 21][prop21p1] et [22 partis I][prop22p1]) debet
+semper necessario existere; atqui hoc (per [axioma 1 hujus][ax1]) est absurdum;
+ergo primum quod esse humanae mentis actuale constituit, est idea rei singularis
+actu existentis. Q.E.D.
+"""
+
+refs = {
+    prop10cor = "pars.2.prop.10.cor",
+    ax2 = "pars.2.ax.2",
+    ax3 = "pars.2.ax.3",
+    prop8cor = "pars.2.prop.8.cor",
+    prop21p1 = "pars.1.prop.21",
+    prop22p1 = "pars.1.prop.22",
+    ax1 = "pars.2.ax.1",
+}
+
+[pars.2.prop.11.cor]
+txt = """
+Hinc sequitur mentem humanam partem esse infiniti intellectus Dei ac proinde cum
+dicimus mentem humanam hoc vel illud percipere, nihil aliud dicimus quam quod
+Deus non quatenus infinitus est sed quatenus per naturam humanae mentis
+explicatur sive quatenus humanae mentis essentiam constituit, hanc vel illam
+habet ideam et cum dicimus Deum hanc vel illam ideam habere non tantum quatenus
+naturam humanae mentis constituit sed quatenus simul cum mente humana alterius
+rei etiam habet ideam, tum dicimus mentem humanam rem ex parte sive inadaequate
+percipere.
+"""
+
+[pars.2.prop.11.sc]
+txt = """
+Hic sine dubio lectores haerebunt multaque comminiscentur quae moram injiciant
+et hac de causa ipsos rogo ut lento gradu mecum pergant nec de his judicium
+ferant donec omnia perlegerint.
+"""
+
+[pars.2.prop.12]
+txt = """
+Quicquid in objecto ideae humanam mentem constituentis contingit, id ab humana
+mente debet percipi sive ejus rei dabitur in mente necessario idea hoc est si
+objectum ideae humanam mentem constituentis sit corpus, nihil in eo corpore
+poterit contingere quod a mente non percipiatur.
+"""
+
+[pars.2.prop.12.demo]
+txt = """
+Quicquid enim in objecto cujuscunque ideae contingit, ejus rei datur necessario
+in Deo cognitio (per [corollarium propositionis 9 hujus][prop9cor]) quatenus
+ejusdem objecti idea affectus consideratur hoc est (per [propositionem 11
+hujus][prop11]) quatenus mentem alicujus rei constituit. Quicquid igitur in
+objecto ideae humanam mentem constituentis contingit, ejus datur necessario in
+Deo cognitio quatenus naturam humanae mentis constituit hoc est (per
+[corollarium propositionis 11 hujus][prop11cor]) ejus rei cognitio erit
+necessario in mente sive mens id percipit. Q.E.D.
+"""
+
+refs = {
+    prop11 = "pars.2.prop.11",
+    prop9cor = "pars.2.prop.9.cor",
+    prop11cor = "pars.2.prop.11.cor",
+}
+
+[pars.2.prop.12.sc]
+txt = """
+Haec propositio patet etiam et clarius intelligitur ex [scholio propositionis 7
+hujus][prop7sc], quod vide.
+"""
+
+refs = {
+    prop7sc = "pars.2.prop.7.sc",
+}
+
+[pars.2.prop.13]
+txt = """
+Objectum ideae humanam mentem constituentis est corpus sive certus extensionis
+modus actu existens et nihil aliud.
+"""
+
+[pars.2.prop.13.demo]
+txt = """
+Si enim corpus non esset humanae mentis objectum, ideae affectionum corporis non
+essent in Deo (per [corollarium propositionis 9 hujus][prop9cor]) quatenus
+mentem nostram sed quatenus alterius rei mentem constitueret hoc est (per
+[corollarium propositionis 11 hujus][prop11cor]) ideae affectionum corporis non
+essent in nostra mente; atqui (per [axioma 4 hujus][ax4]) ideas affectionum
+corporis habemus. Ergo objectum ideae humanam mentem constituentis est corpus
+idque (per [propositionem 11 hujus][prop11]) actu existens. Deinde si praeter
+corpus etiam aliud esset mentis objectum, cum nihil (per [propositionem 36
+partis I][prop36p1]) existat ex quo aliquis effectus non sequatur, deberet (per
+[propositionem 12 hujus][prop12]) necessario alicujus ejus effectus idea in
+mente nostra dari; atqui (per [axioma 5][ax5] hujus) nulla ejus idea datur. Ergo
+objectum nostrae mentis est corpus existens et nihil aliud. Q.E.D.
+"""
+
+refs = {
+    prop9cor = "pars.2.prop.9.cor",
+    prop11cor = "pars.2.prop.11.cor",
+    prop11 = "pars.2.prop.11",
+    ax4 = "pars.2.ax.4",
+    prop36p1 = "pars.1.prop.36",
+    ax5 = "pars.2.ax.5",
+}
+
+[pars.2.prop.13.cor]
+txt = """
+Hinc sequitur hominem mente et corpore constare et corpus humanum prout ipsum
+sentimus existere.
+"""
+
+[pars.2.prop.13.sc]
+txt = """
+Ex his non tantum intelligimus mentem humanam unitam esse corpori sed etiam quid
+per mentis et corporis unionem intelligendum sit. Verum ipsam adaequate sive
+distincte intelligere nemo poterit nisi prius nostri corporis naturam adaequate
+cognoscat. Nam ea quae hucusque ostendimus, admodum communia sunt nec magis ad
+homines quam ad reliqua individua pertinent, quae omnia quamvis diversis
+gradibus animata tamen sunt. Nam cujuscunque rei datur necessario in Deo idea
+cujus Deus est causa eodem modo ac humani corporis ideae atque adeo quicquid de
+idea humani corporis diximus, id de cujuscunque rei idea necessario dicendum
+est. Attamen nec etiam negare possumus ideas inter se ut ipsa objecta differre
+unamque alia praestantiorem esse plusque realitatis continere prout objectum
+unius objecto alterius praestantius est plusque realitatis continet ac propterea
+ad determinandum quid mens humana reliquis intersit quidque reliquis praestet,
+necesse nobis est ejus objecti ut diximus hoc est corporis humani naturam
+cognoscere. Eam autem hic explicare nec possum nec id ad ea quae demonstrare
+volo, necesse est. Hoc tamen in genere dico quo corpus aliquod reliquis aptius
+est ad plura simul agendum vel patiendum, eo ejus mens reliquis aptior est ad
+plura simul percipiendum et quo unius corporis actiones magis ab ipso solo
+pendent et quo minus alia corpora cum eodem in agendo concurrunt, eo ejus mens
+aptior est ad distincte intelligendum. Atque ex his praestantiam unius mentis
+prae aliis cognoscere possumus, deinde causam etiam videre cur nostri corporis
+non nisi admodum confusam habeamus cognitionem et alia plura quae in sequentibus
+ex his deducam. Qua de causa operae pretium esse duxi haec ipsa accuratius
+explicare et demonstrare, ad quod necesse est pauca de natura corporum
+praemittere.
+"""
+
+[pars.2.ax.8]
+title = "Axioma 1"
+txt = """
+Omnia corpora vel moventur vel quiscunt.
+"""
+
+
+[pars.2.ax.9]
+title = "Axioma 2"
+txt = """
+Unumquodque corpus jam tardius jam celerius movetur.
+"""
+
+[pars.2.lemma.1]
+txt = """
+Corpora ratione motus et quietis, celeritatis et tarditatis et non
+ratione substantiae ab invicem distinguuntur.
+"""
+
+[pars.2.lemma.1.demo]
+txt = """
+Primam partem hujus per se notam suppono. At quod ratione substantiae
+non distinguantur corpora, patet tam ex [propositione 5][prop5p1] quam
+[8 partis I][prop8p1] sed clarius ex iis quae in [scholio
+propositionis 15 partis I][prop15scp1] dicta sunt.
+"""
+
+refs = {
+    prop5p1 = "pars.1.prop.5",
+    prop8p1 = "pars.1.prop.8",
+    prop15scp1 = "pars.1.prop.15.sc",
+}
+
+[pars.2.lemma.2]
+txt = """
+Omnia corpora in quibusdam conveniunt.
+"""
+
+[pars.2.lemma.2.demo]
+txt = """
+Per corpus intelligo modum qui Dei essentiam quatenus ut res extensa
+consideratur, certo et determinato modo exprimit; vide [corollarium
+propositionis 25 partis I][prop25corp1].
+"""
+
+refs = {
+    prop25corp1 = "pars.1.prop.25.cor",
+}
+
+[pars.2.lemma.3]
+txt = """
+Corpus motum vel quiescens ad motum vel quietem determinari debuit ab
+alio corpore quod etiam ad motum vel quietem determinatum fuit ab alio
+et illud iterum ab alio et sic in infinitum.
+"""
+
+[pars.2.lemma.3.demo]
+txt = """
+Corpora (per [definitionem 1 hujus][def1]) res singulares sunt quae
+(per [lemma 1][lemma1]) ratione motus et quietis ab invicem
+distinguuntur adeoque (per [propositionem 28 partis I][prop28p1])
+unumquodque ad motum vel quietem necessario determinari debuit ab alia
+re singulari nempe (per [propositionem 6 hujus][prop6]) ab alio
+corpore quod (per [axioma 1][ax1]) etiam vel movetur vel quiescit. At
+hoc etiam (per eandem rationem) moveri vel quiescere non potuit nisi
+ab alio ad motum vel quietem determinatum fuisset et hoc iterum (per
+eandem rationem) ab alio et sic in infinitum. Q.E.D.
+"""
+
+def = {
+    def1 = "pars.2.def.1",
+    lemma1 = "pars.2.lemma.1",
+    prop28p1 = "pars.1.prop.28",
+    prop6 = "pars.2.prop.6",
+    ax1 = "pars.2.axx.1",
+}
+
+[pars.2.lemma.3.cor]
+txt = """
+Hinc sequitur corpus motum tamdiu moveri donec ab alio corpore ad
+quiescendum determinetur et corpus quiescens tamdiu etiam quiescere
+donec ab alio ad motum determinetur. Quod etiam per se notum est. Nam
+cum suppono corpus exempli gratia A quiescere nec ad alia corpora mota
+attendo, nihil de corpore A dicere potero nisi quod quiescat. Quod si
+postea contingat ut corpus A moveatur, id sane evenire non potuit ex
+eo quod quiescebat; ex eo enim nil aliud sequi poterat quam ut corpus
+A quiesceret. Si contra supponatur A moveri, quotiescunque ad A tantum
+attendimus, nihil de eodem affirmare poterimus nisi quod
+moveatur. Quod si postea contingat ut A quiescat, id sane evenire
+etiam non potuit ex motu quem habebat; ex motu enim nihil aliud sequi
+poterat quam ut A moveretur : contingit itaque a re quae non erat in A
+nempe a causa externa a qua ad quiescendum determinatum fuit.
+"""
+
+[pars.2.ax.10]
+title = "Axioma 1a"
+txt = """
+Omnes modi quibus corpus aliquod ab alio afficitur corpore, ex natura
+corporis affecti et simul ex natura corporis afficientis sequuntur ita
+ut unum idemque corpus diversimode moveatur pro diversitate naturae
+corporum moventium et contra ut diversa corpora ab uno eodemque
+corpore diversimode moveantur.
+"""
+
+[pars.2.ax.11]
+title = "Axioma 2a"
+txt = """
+Cum corpus motum alteri quiescenti quod dimovere nequit, impingit,
+reflectitur ut moveri pergat et angulus lineae motus reflectionis cum
+plano corporis quiescentis cui impegit, aequalis erit angulo quem
+linea motus incidentiae cum eodem plano efficit. Atque haec de
+corporibus simplicissimis quae scilicet solo motu et quiete,
+celeritate et tarditate ab invicem distinguuntur : jam ad composita
+ascendamus.
+"""
+
+[pars.2.def.8]
+title = "Definitio"
+txt = """
+Cum corpora aliquot ejusdem aut diversae magnitudinis a reliquis ita coercentur
+ut invicem incumbant vel si eodem aut diversis celeritatis gradibus moventur ut
+motus suos invicem certa quadam ratione communicent, illa corpora invicem unita
+dicemus et omnia simul unum corpus sive individuum componere quod a reliquis per
+hanc corporum unionem distinguitur.
+"""
+
+[pars.2.ax.12]
+title = "Axioma 3"
+txt = """
+Quo partes individui vel corporis compositi secundum majores vel minores
+superficies sibi invicem incumbunt, eo difficilius vel facilius cogi possunt ut
+situm suum mutent et consequenter eo difficilius vel facilius effici potest ut
+ipsum individuum aliam figuram induat. Atque hinc corpora quorum partes secundum
+magnas superficies invicem incumbunt, dura, quorum autem partes secundum parvas,
+mollia et quorum denique partes inter se moventur, fluida vocabo.
+"""
+
+[pars.2.lemma.4]
+txt = """
+Si corporis sive individui quod ex pluribus corporibus componitur, quaedam
+corpora segregentur et simul totidem alia ejusdem naturae eorum loco succedant,
+retinebit individuum suam naturam uti antea absque ulla ejus formae mutatione.
+"""
+
+[pars.2.lemma.4.demo]
+txt = """
+Corpora enim (per [lemma 1][lemma1]) ratione substantiae non distinguuntur; id autem quod
+formam individui constituit, in corporum unione (per [definitionem praecedentem][def8])
+consistit; atqui haec (per hypothesin) tametsi corporum continua fiat mutatio,
+retinetur : retinebit ergo individuum tam ratione substantiae quam modi suam
+naturam uti ante. Q.E.D.
+"""
+
+refs = {
+    lemma1 = "pars.2.lemma.1",
+    def8 = "pars.2.def.8",
+}
+
+[pars.2.lemma.5]
+txt = """
+Si partes individuum componentes majores minoresve evadant, ea tamen proportione
+ut omnes eandem ut antea ad invicem motus et quietis rationem servent, retinebit
+itidem individuum suam naturam ut antea absque ulla formae mutatione.
+"""
+
+[pars.2.lemma.5.demo]
+txt = """
+Hujus eadem est ac praecedentis lemmatis.
+"""
+
+[pars.2.lemma.6]
+txt = """
+Si corpora quaedam individuum componentia motum quem versus unam partem habent,
+aliam versus flectere cogantur at ita ut motus suos continuare possint atque
+invicem eadem qua antea ratione communicare, retinebit itidem individuum suam
+naturam absque ulla formae mutatione.
+"""
+
+[pars.2.lemma.6.demo]
+txt = """
+Per se patet. Id enim omne retinere supponitur quod in ejusdem definitione
+formam ipsius constituere diximus.
+"""
+
+[pars.2.lemma.7]
+txt = """
+Retinet praeterea individuum sic compositum suam naturam sive id secundum totum
+moveatur sive quiescat sive versus hanc sive versus illam partem moveatur
+dummodo unaquaeque pars motum suum retineat eumque uti antea reliquis
+communicet.
+"""
+
+[pars.2.lemma.7.demo]
+txt = """
+Patet ex ipsius definitione, quam vide [ante lemma 4][def8].
+"""
+
+ref = {
+    def8 = "pars.2.def.8",
+}
+
+[pars.2.lemma.7.sc]
+txt = """
+His itaque videmus qua ratione individuum compositum possit multis modis affici,
+ejus nihilominus natura servata. Atque hucusque individuum concepimus quod non
+nisi ex corporibus quae solo motu et quiete, celeritate et tarditate inter se
+distinguuntur hoc est quod ex corporibus simplicissimis componitur. Quod si jam
+aliud concipiamus ex pluribus diversae naturae individuis compositum, idem
+pluribus aliis modis posse affici reperiemus, ipsius nihilominus natura servata.
+Nam quandoquidem ejus unaquaeque pars ex pluribus corporibus est composita,
+poterit ergo (per [lemma praecedens][lemma7]) unaquaeque pars absque ulla ipsius
+naturae mutatione jam tardius jam celerius moveri et consequenter motus suos
+citius vel tardius reliquis communicare. Quod si praeterea tertium individuorum
+genus ex his secundis compositum concipiamus, idem multis aliis modis affici
+posse reperiemus absque ulla ejus formae mutatione. Et si sic porro in infinitum
+pergamus, facile concipiemus totam naturam unum esse Individuum cujus partes hoc
+est omnia corpora infinitis modis variant absque ulla totius Individui
+mutatione. Atque haec, si animus fuisset de corpore ex professo agere, prolixius
+explicare et demonstrare debuissem. Sed jam dixi me aliud velle nec alia de
+causa haec adferre quam quia ex ipsis ea quae demonstrare constitui, facile
+possum deducere.
+"""
+
+defs = {
+    lemma7 = "pars.2.lemma.7",
+}
+
+[pars.2.post.1]
+txt = """
+Corpus humanum componitur ex plurimis (diversae naturae) individuis quorum
+unumquodque valde compositum est.
+"""
+
+[pars.2.post.2]
+txt = """
+Individuorum ex quibus corpus humanum componitur quaedam fluida, quaedam mollia
+et quaedam denique dura sunt.
+"""
+
+[pars.2.post.3]
+txt = """
+Individua corpus humanum componentia et consequenter ipsum humanum corpus a
+corporibus externis plurimis modis afficitur.
+"""
+
+[pars.2.post.4]
+txt = """
+Corpus humanum indiget ut conservetur plurimis aliis corporibus a quibus
+continuo quasi regeneratur.
+"""
+
+[pars.2.post.5]
+txt = """
+Cum corporis humani pars fluida a corpore externo determinatur ut in aliam
+mollem saepe impingat, ejus planum mutat et veluti quaedam corporis externi
+impellentis vestigia eidem imprimit.
+"""
+
+[pars.2.post.6]
+txt = """
+Corpus humanum potest corpora externa plurimis modis movere plurimisque modis
+disponere.
+"""
+
+[pars.2.prop.14]
+txt = """
+Mens humana apta est ad plurima percipiendum et eo aptior quo ejus corpus
+pluribus modis disponi potest.
+"""
+
+[pars.2.prop.14.demo]
+txt = """
+Corpus enim humanum (per [postulata 3][post3] [et 6][post6]) plurimis modis a
+corporibus externis afficitur disponiturque ad corpora externa plurimis modis
+afficiendum. At omnia quae in corpore humano contingunt (per [propositionem 12
+hujus][prop12]) mens humana percipere debet; est ergo mens humana apta ad
+plurima percipiendum et eo aptior etc. Q.E.D.
+"""
+
+defs = {
+    post3 = "pars.2.prop.3",
+    post6 = "pars.2.prop.6",
+    prop12 = "pars.2.prop.12",
+}
+
+[pars.2.prop.15]
+txt = """
+Idea quae esse formale humanae mentis constituit non est simplex sed ex plurimis
+ideis composita.
+"""
+
+[pars.2.prop.15.demo]
+txt = """
+Idea quae esse formale humanae mentis constituit, est idea corporis (per
+[propositionem 13 hujus][prop13]) quod (per [postulatum 1][post1]) ex plurimis
+valde compositis individuis componitur. At cujuscunque individui corpus
+componentis datur necessario (per [corollarium propositionis 8 hujus][prop8cor])
+in Deo idea; ergo (per [propositionem 7 hujus][prop7]) idea corporis humani ex
+plurimis hisce partium componentium ideis est composita. Q.E.D.
+"""
+
+defs = {
+    prop13 = "pars.2.prop.13",
+    post1 = "pars.2.post.1",
+    prop8cor = "pars.2.prop.8.cor",
+    prop7 = "pars.2.prop.7",
+}
+
+[pars.2.prop.16]
+txt = """
+Idea cujuscunque modi quo corpus humanum a corporibus externis afficitur,
+involvere debet naturam corporis humani et simul naturam corporis externi.
+"""
+
+[pars.2.prop.16.demo]
+txt = """
+Omnes enim modi quibus corpus aliquod afficitur ex natura corporis affecti et
+simul ex natura corporis afficientis sequuntur (per [axioma 1 post corollarium
+lemmatis 3][ax10]) : quare eorum idea (per [axioma 4 partis I][ax4p1]) utriusque
+corporis naturam necessario involvet adeoque idea cujuscunque modi quo corpus
+humanum a corpore externo afficitur, corporis humani et corporis externi naturam
+involvit. Q.E.D.
+"""
+
+refs = {
+    ax10 = "pars.2.ax.10",
+    ax4p1 = "pars.1.ax.4",
+}
+
+[pars.2.prop.16.cor.1]
+txt = """
+Hinc sequitur primo mentem humanam plurimorum corporum naturam una cum sui
+corporis natura percipere.
+"""
+
+[pars.2.prop.16.cor.2]
+txt = """
+Sequitur secundo quod ideae quas corporum externorum habemus, magis nostri
+corporis constitutionem quam corporum externorum naturam indicant; quod in
+appendice partis primae multis exemplis explicui.
+"""
+
+[pars.2.prop.17]
+txt = """
+Si humanum corpus affectum est modo qui naturam corporis alicujus externi
+involvit, mens humana idem corpus externum ut actu existens vel ut sibi praesens
+contemplabitur donec corpus afficiatur affectu qui ejusdem corporis existentiam
+vel praesentiam secludat.
+"""
+
+[pars.2.prop.17.demo]
+txt = """
+Patet. Nam quamdiu corpus humanum sic affectum est tamdiu mens humana (per
+[propositionem 12][prop12] hujus) hanc corporis affectionem contemplabitur hoc
+est (per [propositionem praecedentem][prop16]) ideam habebit modi actu
+existentis quae naturam corporis externi involvit hoc est ideam quae existentiam
+vel praesentiam naturae corporis externi non secludit sed ponit adeoque mens
+(per [corollarium I praecedentis][prop16cor1]) corpus externum ut actu existens
+vel ut praesens contemplabitur donec afficiatur etc. Q.E.D.
+"""
+
+refs = {
+    prop12 = "pars.2.prop.12",
+    prop16 = "pars.2.prop.16",
+    prop16cor1 = "pars.2.prop.16.cor.1",
+}
+
+[pars.2.prop.17.cor]
+txt = """
+Mens corpora externa a quibus corpus humanum semel affectum fuit, quamvis non
+existant nec praesentia sint, contemplari tamen poterit velut praesentia essent.
+"""
+
+[pars.2.prop.17.cor.demo]
+txt = """
+Dum corpora externa corporis humani partes fluidas ita determinant ut in
+molliores saepe impingant, earum plana (per [postulatum 5][post5]) mutant, unde
+fit (vide [axioma 2 post corollarium lemmatis 3][ax11]) ut inde alio modo
+reflectantur quam antea solebant et ut etiam postea iisdem novis planis
+spontaneo suo motu occurrendo eodem modo reflectantur ac cum a corporibus
+externis versus illa plana impulsae sunt et consequenter ut corpus humanum dum
+sic reflexae moveri pergunt, eodem modo afficiant, de quo mens (per
+[propositionem 12 hujus][prop12]) iterum cogitabit hoc est (per [propositionem
+17 hujus][prop17]) mens iterum corpus externum ut praesens contemplabitur et hoc
+toties quoties corporis humani partes fluidae spontaneo suo motu iisdem planis
+occurrent. Quare quamvis corpora externa a quibus corpus humanum affectum semel
+fuit, non existant, mens tamen eadem toties ut praesentia contemplabitur quoties
+haec corporis actio repetetur. Q.E.D.
+"""
+
+refs = {
+    ax11 = "pars.2.ax.11",
+    post5 = "pars.2.post.5",
+    prop12 = "pars.2.prop.12",
+    prop17 = "pars.2.prop.17",
+}
+
+[pars.17.prop.sc]
+txt = """
+Videmus itaque qui fieri potest ut ea quae non sunt veluti praesentia
+contemplemur, ut saepe fit. Et fieri potest ut hoc aliis de causis contingat sed
+mihi hic sufficit ostendisse unam per quam rem sic possim explicare ac si ipsam
+per veram causam ostendissem nec tamen credo me a vera longe aberrare
+quandoquidem omnia illa quae sumpsi postulata, vix quicquam continent quod non
+constet experientia de qua nobis non licet dubitare postquam ostendimus corpus
+humanum prout ipsum sentimus, existere (vide [corollarium post propositionem 13
+hujus][prop13cor]). Praeterea (ex [corollario praecedentis][prop17cor] et
+[corollario II propositionis 16 hujus][prop16cor.2]) clare intelligimus quaenam
+sit differentia inter ideam exempli gratia Petri quae essentiam mentis ipsius
+Petri constituit et inter ideam ipsius Petri quae in alio homine, puta in Paulo,
+est. Illa enim essentiam corporis ipsius Petri directe explicat nec existentiam
+involvit nisi quamdiu Petrus existit; haec autem magis constitutionem corporis
+Pauli quam Petri naturam indicat et ideo durante illa corporis Pauli
+constitutione mens Pauli quamvis Petrus non existat, ipsum tamen ut sibi
+praesentem contemplabitur. Porro ut verba usitata retineamus, corporis humani
+affectiones quarum ideae corpora externa velut nobis praesentia repraesentant,
+rerum imagines vocabimus tametsi rerum figuras non referunt. Et cum mens hac
+ratione contemplatur corpora, eandem imaginari dicemus. Atque hic ut quid sit
+error indicare incipiam, notetis velim mentis imaginationes in se spectatas
+nihil erroris continere sive mentem ex eo quod imaginatur, non errare sed tantum
+quatenus consideratur carere idea quae existentiam illarum rerum quas sibi
+praesentes imaginatur, secludat. Nam si mens dum res non existentes ut sibi
+praesentes imaginatur, simul sciret res illas revera non existere, hanc sane
+imaginandi potentiam virtuti suae naturae, non vitio tribueret praesertim si
+haec imaginandi facultas a sola sua natura penderet hoc est (per [definitionem 7
+partis I][def7p1]) si haec mentis imaginandi facultas libera esset.
+"""
+
+refs = {
+    prop13cor = "pars.2.prop.13.cor",
+    prop17cor = "pars.2.prop.17.cor",
+    prop16cor2 = "pars.2.prop.16.cor.2",
+    def7p1 = "pars.1.def.7",
+}
+
+[pars.2.prop.18]
+txt = """
+Si corpus humanum a duobus vel pluribus corporibus simul affectum fuerit semel,
+ubi mens postea eorum aliquod imaginabitur, statim et aliorum recordabitur.
+"""
+
+[pars.2.prop.18.demo]
+txt = """
+Mens (per [corollarium praecedentis][prop17cor]) corpus aliquod ea de causa
+imaginatur quia scilicet humanum corpus a corporis externi vestigiis eodem modo
+afficitur disponiturque ac affectum est cum quaedam ejus partes ab ipso corpore
+externo fuerunt impulsae sed (per hypothesin) corpus tum ita fuit dispositum ut
+mens duo simul corpora imaginaretur; ergo jam etiam duo simul imaginabitur atque
+mens ubi alterutrum imaginabitur, statim et alterius recordabitur. Q.E.D.
+"""
+
+refs = {
+    prop17cor = "pars.2.prop.17.cor",
+}
+
+[pars.2.prop.18.sc]
+txt = """
+Hinc clare intelligimus quid sit memoria. Est enim nihil aliud quam quaedam
+concatenatio idearum naturam rerum quae extra corpus humanum sunt involventium
+quae in mente fit secundum ordinem et concatenationem affectionum corporis
+humani. Dico primo concatenationem esse illarum tantum idearum quae naturam
+rerum quae extra corpus humanum sunt, involvunt, non autem idearum quae earundem
+rerum naturam explicant. Sunt enim revera (per [propositionem 16 hujus][prop16])
+ideae affectionum corporis humani quae tam hujus quam corporum externorum
+naturam involvunt. Dico secundo hanc concatenationem fieri secundum ordinem et
+concatenationem affectionum corporis humani ut ipsam distinguerem a
+concatenatione idearum quae fit secundum ordinem intellectus quo res per primas
+suas causas mens percipit et qui in omnibus hominibus idem est. Atque hinc porro
+clare intelligimus cur mens ex cogitatione unius rei statim in alterius rei
+cogitationem incidat quae nullam cum priore habet similitudinem; ut exempli
+gratia ex cogitatione vocis pomi homo romanus statim in cogitationem fructus
+incidet qui nullam cum articulato illo sono habet similitudinem nec aliquid
+commune nisi quod ejusdem hominis corpus ab his duobus affectum saepe fuit hoc
+est quod ipse homo saepe vocem pomum audivit dum ipsum fructum videret et sic
+unusquisque ex una in aliam cogitationem incidet prout rerum imagines
+uniuscujusque consuetudo in corpore ordinavit. Nam miles exempli gratia visis in
+arena equi vestigiis statim ex cogitatione equi in cogitationem equitis et inde
+in cogitationem belli etc. incidet. At rusticus ex cogitatione equi in
+cogitationem aratri, agri etc. incidet et sic unusquisque prout rerum imagines
+consuevit hoc vel alio modo jungere et concatenare, ex una in hanc vel aliam
+incidet cogitationem.
+"""
+
+refs = {
+    prop16 = "pars.2.prop.16",
+}
+
+[pars.2.prop.19]
+txt = """
+Mens humana ipsum humanum corpus non cognoscit nec ipsum existere scit nisi per
+ideas affectionum quibus corpus afficitur.
+"""
+
+[pars.2.prop.19.demo]
+txt = """
+Mens enim humana est ipsa idea sive cognitio corporis humani (per [propositionem
+13 hujus][prop13]) quae (per [propositionem 9 hujus][prop9]) in Deo quidem est
+quatenus alia rei singularis idea affectus consideratur vel quia (per
+[postulatum 4][post4]) corpus humanum plurimis corporibus indiget a quibus
+continuo quasi regeneratur et ordo et connexio idearum idem est (per
+[propositionem 7 hujus][prop7]) ac ordo et connexio causarum, erit haec idea in
+Deo quatenus plurimarum rerum singularium ideis affectus consideratur. Deus
+itaque ideam corporis humani habet sive corpus humanum cognoscit quatenus
+plurimis aliis ideis affectus est et non quatenus naturam humanae mentis
+constituit hoc est (per [corollarium propositionis 11 hujus][prop11cor]) mens
+humana corpus humanum non cognoscit. At ideae affectionum corporis in Deo sunt
+quatenus humanae mentis naturam constituit sive mens humana easdem affectiones
+percipit (per [propositionem 12 hujus][prop12]) et consequenter (per
+[propositionem 16 hujus][prop16]) ipsum corpus humanum idque (per [propositionem
+17 hujus][prop17]) ut actu existens; percipit ergo eatenus tantum mens humana
+ipsum humanum corpus. Q.E.D.
+"""
+
+refs = {
+    prop13 = "pars.2.prop.13",
+    prop9 = "pars.2.prop.9",
+    post4 = "pars.2.post.4",
+    prop7 = "pars.2.prop.7",
+    prop11cor = "pars.2.prop.11.cor",
+    2prop12 = "pars.2.prop.12",
+    prop16 = "pars.2.prop.16",
+    prop17 = "pars.2.prop.17",
+}
+
+[pars.2.prop.20]
+txt = """
+Mentis humanae datur etiam in Deo idea sive cognitio quae in Deo eodem modo
+sequitur et ad Deum eodem modo refertur ac idea sive cognitio corporis humani.
+"""
+
+[pars.2.prop.20.demo]
+txt = """
+Cogitatio attributum Dei est (per [propositionem 1 hujus][prop1]) adeoque (per
+[propositionem 3 hujus][prop3]) tam ejus quam omnium ejus affectionum et
+consequenter (per [propositionem 11 hujus][prop11]) mentis etiam humanae debet
+necessario in Deo dari idea. Deinde haec mentis idea sive cognitio non sequitur
+in Deo dari quatenus infinitus sed quatenus alia rei singularis idea affectus
+est (per [propositionem 9 hujus][prop9]). Sed ordo et connexio idearum idem est
+ac ordo et connexio causarum (per [propositionem 7 hujus][prop7]); sequitur ergo
+haec mentis idea sive cognitio in Deo et ad Deum eodem modo refertur ac idea
+sive cognitio corporis. Q.E.D.
+"""
+
+refs = {
+    prop1 = "pars.2.prop.1",
+    prop7 = "pars.2.prop.7",
+    prop3 = "pars.2.prop.3",
+    prop9 = "pars.2.prop.9",
+    prop11 = "pars.2.prop.11",
+}
+
+[pars.2.prop.21]
+txt = """
+Haec mentis idea eodem modo unita est menti ac ipsa mens unita est corpori.
+"""
+
+[pars.2.prop.21.demo]
+txt = """
+Mentem unitam esse corpori ex eo ostendimus quod scilicet corpus mentis sit
+objectum (vide [propositiones 12][prop12] [et 13 hujus][prop13]) adeoque per
+eandem illam rationem idea mentis cum suo objecto hoc est cum ipsa mente eodem
+modo unita esse debet ac ipsa mens unita est corpori. Q.E.D.
+"""
+
+refs = {
+    prop12 = "pars.2.prop.12",
+    prop13 = "pars.2.prop.13",
+}
+
+[pars.2.prop.21.sc]
+txt = """
+Haec propositio longe clarius intelligitur ex dictis in [scholio propositionis 7
+hujus][prop7sc]; ibi enim ostendimus corporis ideam et corpus hoc est (per
+[propositionem 13 hujus][prop13]) mentem et corpus unum et idem esse individuum
+quod jam sub cogitationis jam sub extensionis attributo concipitur; quare mentis
+idea et ipsa mens una eademque est res quae sub uno eodemque attributo nempe
+cogitationis concipitur. Mentis inquam idea et ipsa mens in Deo eadem
+necessitate ex eadem cogitandi potentia sequuntur dari. Nam revera idea mentis
+hoc est idea ideae nihil aliud est quam forma ideae quatenus haec ut modus
+cogitandi absque relatione ad objectum consideratur; simulac enim quis aliquid
+scit, eo ipso scit se id scire et simul scit se scire quod scit et sic in
+infinitum. Sed de his postea.
+"""
+
+refs = {
+    prop7sc = "pars.2.prop.7.sc",
+    prop13 = "pars.2.prop.13",
+}
+
+[pars.2.prop.22]
+txt = """
+Mens humana non tantum corporis affectiones sed etiam harum affectionum ideas
+percipit.
+"""
+
+[pars.2.prop.22.demo]
+txt = """
+Affectionum idearum ideae in Deo eodem modo sequuntur et ad Deum eodem modo
+referuntur ac ipsae affectionum ideae; quod eodem modo demonstratur ac
+[propositio 20 hujus][prop20]. At ideae affectionum corporis in mente humana
+sunt (per [propositionem 12 hujus][prop12]) hoc est (per [corollarium
+propositionis 11 hujus][prop11cor]) in Deo quatenus humanae mentis essentiam
+constituit; ergo harum idearum ideae in Deo erunt quatenus humanae mentis
+cognitionem sive ideam habet hoc est (per [propositionem 21 hujus][prop21]) in
+ipsa mente humana quae propterea non tantum corporis affectiones sed earum etiam
+ideas percipit. Q.E.D.
+"""
+
+refs = {
+    prop12 = "pars.2.prop.12",
+    prop21 = "pars.2.prop.21",
+    prop11cor = "pars.2.prop.11.cor",
+    prop20 = "pars.2.prop.20",
+}
+
+[pars.2.prop.23]
+txt = """
+Mens se ipsam non cognoscit nisi quatenus corporis affectionum ideas percipit.
+"""
+
+[pars.2.prop.23.demo]
+txt = """
+Mentis idea sive cognitio (per [propositionem 20 hujus][prop20]) in Deo eodem
+modo sequitur et ad Deum eodem modo refertur ac corporis idea sive cognitio. At
+quoniam (per [propositionem 19 hujus][prop19]) mens humana ipsum humanum corpus
+non cognoscit hoc est (per [corollarium propositionis 11 hujus][prop11cor])
+quoniam cognitio corporis humani ad Deum non refertur quatenus humanae mentis
+naturam constituit; ergo nec cognitio mentis ad Deum refertur quatenus essentiam
+mentis humanae constituit atque adeo (per idem [corollarium propositionis 11
+hujus][prop11cor]) mens humana eatenus se ipsam non cognoscit. Deinde
+affectionum quibus corpus afficitur ideae naturam ipsius corporis humani
+involvunt (per propositionem 16 hujus) hoc est (per [propositionem 13
+hujus][prop13]) cum natura mentis conveniunt; quare harum idearum cognitio
+cognitionem mentis necessario involvet; at (per [propositionem
+praecedentem][prop22]) harum idearum cognitio in ipsa humana mente est; ergo
+mens humana eatenus tantum se ipsam novit. Q.E.D.
+"""
+
+refs = {
+    prop20 = "pars.2.prop.20",
+    prop19 = "pars.2.prop.19",
+    prop22 = "pars.2.prop.22",
+    prop11cor = "pars.2.prop.11.cor",
+    prop16 = "pars.2.prop.16.",
+    prop13 = "pars.2.prop.13",
+}
