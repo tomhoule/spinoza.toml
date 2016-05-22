@@ -2159,3 +2159,227 @@ refs = {
     prop44 = "pars.2.prop.44",
     prop16p1 = "pars.1.prop.16",
 }
+
+[pars.2.prop.45]
+txt = """
+Unaquaeque cujuscunque corporis vel rei singularis actu existentis idea Dei
+aeternam et infinitam essentiam necessario involvit.
+"""
+
+[pars.2.prop.45.demo]
+txt = """
+Idea rei singularis actu existentis ipsius rei tam essentiam quam existentiam
+necessario involvit (per [corollarium propositionis 8 hujus][prop8cor]). At res
+singulares (per [propositionem 15 partis I][prop15p1]) non possunt sine Deo
+concipi sed quia (per [propositionem 6 hujus][prop6]) Deum pro causa habent
+quatenus sub attributo consideratur cujus res ipsae modi sunt, debent necessario
+earum ideae (per [axioma 4 partis I][ax4p1]) ipsarum attributi conceptum hoc est
+(per [definitionem 6 partis I][def6p1]) Dei aeternam et infinitam essentiam
+involvere. Q.E.D.
+"""
+
+refs = {
+    prop8cor = "pars.2.prop.8.cor",
+    prop15p1 = "pars.1.prop.15",
+    prop6 = "pars.2.prop.6",
+    ax4p1 = "pars.1.axioma.4",
+    def6p1 = "pars.1.def.6",
+}
+
+[pars.2.prop.45.sc]
+txt = """
+Hic per existentiam non intelligo durationem hoc est existentiam quatenus
+abstracte concipitur et tanquam quaedam quantitatis species. Nam loquor de ipsa
+natura existentiae quae rebus singularibus tribuitur propterea quod ex aeterna
+necessitate Dei naturae infinita infinitis modis sequuntur (vide [propositionem
+16 partis I][prop16p1]). Loquor inquam de ipsa existentia rerum singularium
+quatenus in Deo sunt. Nam etsi unaquaeque ab alia re singulari determinetur ad
+certo modo existendum, vis tamen qua unaquaeque in existendo perseverat, ex
+aeterna necessitate naturae Dei sequitur. Qua de re vide [corollarium
+propositionis 24 partis I][prop24corp1].
+"""
+
+refs = {
+    prop16p1 = "pars.1.prop.16",
+    prop24corp1 = "pars.1.prop.24.cor",
+}
+
+[pars.2.prop.46]
+txt = """
+Cognitio aeternae et infinitae essentiae Dei quam unaquaeque idea involvit, est
+adaequata et perfecta.
+"""
+
+[pars.2.prop.46.demo]
+txt = """
+Demonstratio praecedentis propositionis universalis est et sive res ut pars sive
+ut totum consideretur, ejus idea sive totius sit sive partis (per [propositionem
+praecedentem][prop45]) Dei aeternam et infinitam essentiam involvet. Quare id
+quod cognitionem aeternae et infinitae essentiae Dei dat, omnibus commune et
+aeque in parte ac in toto est adeoque (per [propositionem 38 hujus][prop38])
+erit haec cognitio adaequata. Q.E.D.
+"""
+
+refs = {
+    prop45 = "pars.2.prop.45",
+    prop38 = "pars.2.prop.38",
+}
+
+[pars.2.prop.47]
+txt = """
+Mens humana adaequatam habet cognitionem aeternae et infinitae essentiae Dei.
+"""
+
+[pars.2.prop.47.demo]
+txt = """
+Mens humana ideas habet (per [propositionem 22 hujus][prop22]) ex quibus (per
+[propositionem 23 hujus][prop23]) se suumque corpus (per [propositionem 19
+hujus][prop19]) et (per [corollarium I propositionis 16][prop16cor1] et per
+[propositionem 17 hujus][prop17]) corpora externa ut actu existentia percipit
+adeoque (per [propositiones 45][prop45] [et 46 hujus][prop46]) cognitionem
+aeternae et infinitae essentiae Dei habet adaequatam. Q.E.D.
+"""
+
+refs = {
+    prop22 = "pars.2.prop.22",
+    prop23 = "pars.2.prop.23",
+    prop19 = "pars.2.prop.19",
+    prop16cor1 = "pars.2.prop.16.cor.1",
+    prop17 = "pars.2.prop.17",
+    prop45 = "pars.2.prop.45",
+    prop46 = "pars.2.prop.46",
+}
+
+[pars.2.prop.47.sc]
+txt = """
+Hinc videmus Dei infinitam essentiam ejusque aeternitatem omnibus esse notam.
+Cum autem omnia in Deo sint et per Deum concipiantur, sequitur nos ex cognitione
+hac plurima posse deducere quae adaequate cognoscamus atque adeo tertium illud
+cognitionis genus formare de quo diximus in [scholio II propositionis 40 hujus
+partis][prop40sc2] et de cujus praestantia et utilitate in quinta parte erit
+nobis dicendi locus. Quod autem homines non aeque claram Dei ac notionum
+communium habeant cognitionem, inde fit quod Deum imaginari nequeant ut corpora
+et quod nomen “Deus” junxerunt imaginibus rerum quas videre solent; quod homines
+vix vitare possunt quia continuo a corporibus externis afficiuntur. Et profecto
+plerique errores in hoc solo consistunt quod scilicet nomina rebus non recte
+applicamus. Cum enim aliquis ait lineas quae ex centro circuli ad ejusdem
+circumferentiam ducuntur esse inaequales, ille sane aliud tum saltem per
+circulum intelligit quam mathematici. Sic cum homines in calculo errant, alios
+numeros in mente, alios in charta habent. Quare si ipsorum mentem spectes, non
+errant sane; videntur tamen errare quia ipsos in mente putamus habere numeros
+qui in charta sunt. Si hoc non esset, nihil eosdem errare crederemus; ut non
+credidi quendam errare quem nuper audivi clamantem suum atrium volasse in
+gallinam vicini quia scilicet ipsius mens satis perspecta mihi videbatur. Atque
+hinc pleraeque oriuntur controversiae nempe quia homines mentem suam non recte
+explicant vel quia alterius mentem male interpretantur. Nam revera dum sibi
+maxime contradicunt, vel eadem vel diversa cogitant ita ut quos in alio errores
+et absurda esse putant, non sint.
+"""
+
+refs = {
+    prop40sc2 = "pars.2.prop.40.sc.2",
+}
+
+[pars.2.prop.48]
+txt = """
+In mente nulla est absoluta sive libera voluntas sed mens ad hoc vel illud
+volendum determinatur a causa quae etiam ab alia determinata est et haec iterum
+ab alia et sic in infinitum.
+"""
+
+[pars.2.prop.48.demo]
+txt = """
+Mens certus et determinatus modus cogitandi est (per [propositionem 11
+hujus][prop11]) adeoque (per [corollarium II propositionis 17 partis
+I][prop17cor2p1]) suarum actionum non potest esse causa libera sive absolutam
+facultatem volendi et nolendi habere non potest sed ad hoc vel illud volendum
+(per [propositionem 28 partis I][prop28p1]) determinari debet a causa quae etiam
+ab alia determinata est et haec iterum ab alia etc. Q.E.D.
+"""
+
+refs = {
+    prop11 = "pars.2.prop.11",
+    prop17cor2p1 = "pars.1.prop.17.cor.2",
+    prop28p1 = "pars.1.prop.28",
+}
+
+[pars.2.prop.48.sc]
+txt = """
+Eodem hoc modo demonstratur in mente nullam dari facultatem absolutam
+intelligendi, cupiendi, amandi, etc. Unde sequitur has et similes facultates vel
+prorsus fictitias, vel nihil esse praeter entia metaphysica sive universalia,
+quae ex particularibus formare solemus. Adeo ut intellectus et voluntas ad hanc
+et illam ideam vel ad hanc et illam volitionem eodem modo sese habeant ac
+lapideitas ad hunc et illum lapidem, vel ut homo ad Petrum et Paulum. Causam
+autem, cur homines se liberos esse putent, explicuimus in [appendice partis
+primae][appendixp1].
+
+Verum, antequam ulterius pergam, venit hic notandum me per voluntatem affirmandi
+et negandi facultatem, non autem cupiditatem intelligere; facultatem, inquam,
+intelligo, qua mens, quid verum quidve falsum sit, affirmat vel negat, et non
+cupiditatem, qua mens res appetit vel aversatur. At postquam demonstravimus has
+facultates notiones esse universales, quae a singularibus, ex quibus easdem
+formamus, non distinguuntur, inquirendum jam est, an ipsae volitiones aliquid
+sint praeter ipsas rerum ideas. Inquirendum, inquam, est, an in mente alia
+affirmatio et negatio detur praeter illam, quam idea, quatenus idea est,
+involvit, qua de re vide [sequentem propositionem][prop49] ut et [definitionem
+3][def3] hujus, ne cogitatio in picturas incidat. Non enim per ideas imagines,
+quales in fundo oculi et, si placet, in medio cerebro formantur, sed
+Cogitationis conceptus intelligo.
+"""
+
+refs = {
+    appendixp1 = "pars.1.appendix",
+    prop49 = "pars.2.prop.49",
+    def3 = "pars.2.def.3",
+}
+
+[pars.2.prop.49]
+txt = """
+In mente nulla datur volitio sive affirmatio et negatio praeter illam quam idea
+quatenus idea est, involvit.
+"""
+
+[pars.2.prop.49.demo]
+txt = """
+In mente (per [propositionem praecedentem][prop48]) nulla datur absoluta
+facultas volendi et nolendi sed tantum singulares volitiones nempe haec et illa
+affirmatio et haec et illa negatio. Concipiamus itaque singularem aliquam
+volitionem nempe modum cogitandi quo mens affirmat tres angulos trianguli
+aequales esse duobus rectis. Haec affirmatio conceptum sive ideam trianguli
+involvit hoc est sine idea trianguli non potest concipi. Idem enim est si dicam
+quod A conceptum B debeat involvere ac quod A sine B non possit concipi. Deinde
+haec affirmatio (per [axioma 3 hujus][ax3]) non potest etiam sine idea trianguli
+esse. Haec ergo affirmatio sine idea trianguli nec esse nec concipi potest.
+Porro haec trianguli idea hanc eandem affirmationem involvere debet nempe quod
+tres ejus anguli aequentur duobus rectis. Quare et vice versa haec trianguli
+idea sine hac affirmatione nec esse nec concipi potest adeoque (per
+[definitionem 2 hujus][def2]) haec affirmatio ad essentiam ideae trianguli
+pertinet nec aliud praeter ipsam est. Et quod de hac volitione diximus
+(quandoquidem eam ad libitum sumpsimus) dicendum etiam est de quacunque
+volitione nempe quod praeter ideam nihil sit. Q.E.D.
+"""
+
+refs = {
+    prop48 = "pars.2.prop.48",
+    ax3 = "pars.2.ax.3",
+    def2 = "pars.2.def.2",
+}
+
+[pars.2.prop.49.cor]
+txt = """
+Voluntas et intellectus unum et idem sunt.
+"""
+
+[pars.2.prop.49.cor.demo]
+txt = """
+Voluntas et intellectus nihil praeter ipsas singulares volitiones et ideas sunt
+(per [propositionem 48][prop48] hujus et [ejusdem scholium][prop48sc]). At
+singularis volitio et idea (per [propositionem praecedentem][prop49]) unum et
+idem sunt, ergo voluntas et intellectus unum et idem sunt. Q.E.D.
+"""
+
+[pars.2.prop.49.sc]
+txt = """
+
+"""
