@@ -1,0 +1,107 @@
+[pars.3]
+
+title = "De Origine et Natura Afectuum"
+
+[pars.3.prae]
+txt = """
+Plerique qui de affectibus et hominum vivendi ratione scripserunt, videntur non
+de rebus naturalibus quae communes naturae leges sequuntur sed de rebus quae
+extra naturam sunt, agere. Imo hominem in natura veluti imperium in imperio
+concipere videntur. Nam hominem naturae ordinem magis perturbare quam sequi
+ipsumque in suas actiones absolutam habere potentiam nec aliunde quam a se ipso
+determinari credunt. Humanae deinde impotentiae et inconstantiae causam non
+communi naturae potentiae sed nescio cui naturae humanae vitio tribuunt quam
+propterea flent, rident, contemnunt vel quod plerumque fit, detestantur et qui
+humanae mentis impotentiam eloquentius vel argutius carpere novit, veluti
+divinus habetur. Non defuerunt tamen viri praestantissimi (quorum labori et
+industriae nos multum debere fatemur) qui de recta vivendi ratione praeclara
+multa scripserint et plena prudentiae consilia mortalibus dederint; verum
+affectuum naturam et vires et quid contra mens in iisdem moderandis possit, nemo
+quod sciam determinavit. Scio equidem celeberrimum Cartesium, licet etiam
+crediderit mentem in suas actiones absolutam habere potentiam, affectus tamen
+humanos per primas suas causas explicare simulque viam ostendere studuisse qua
+mens in affectus absolutum habere possit imperium sed mea quidem sententia nihil
+praeter magni sui ingenii acumen ostendit, ut suo loco demonstrabo. Nam ad illos
+revertere volo qui hominum affectus et actiones detestari vel ridere malunt quam
+intelligere. His sine dubio mirum videbitur quod hominum vitia et ineptias more
+geometrico tractare aggrediar et certa ratione demonstrare velim ea quae rationi
+repugnare quaeque vana, absurda et horrenda esse clamitant. Sed mea haec est
+ratio. Nihil in natura fit quod ipsius vitio possit tribui; est namque natura
+semper eadem et ubique una eademque ejus virtus et agendi potentia hoc est
+naturae leges et regulae secundum quas omnia fiunt et ex unis formis in alias
+mutantur, sunt ubique et semper eaedem atque adeo una eademque etiam debet esse
+ratio rerum qualiumcunque naturam intelligendi nempe per leges et regulas
+naturae universales. Affectus itaque odii, irae, invidiae etc. in se considerati
+ex eadem naturae necessitate et virtute consequuntur ac reliqua singularia ac
+proinde certas causas agnoscunt per quas intelliguntur certasque proprietates
+habent cognitione nostra aeque dignas ac proprietates cujuscunque alterius rei
+cujus sola contemplatione delectamur. De affectuum itaque natura et viribus ac
+mentis in eosdem potentia eadem methodo agam qua in praecedentibus de Deo et
+mente egi et humanas actiones atque appetitus considerabo perinde ac si quaestio
+de lineis, planis aut de corporibus esset.
+"""
+
+[pars.3.def.1]
+txt = """
+Causam adaequatam appello eam cujus effectus potest clare et distincte per
+eandem percipi. Inadaequatam autem seu partialem illam voco cujus effectus per
+ipsam solam intelligi nequit.
+"""
+
+[pars.3.def.2]
+txt = """
+Nos tum agere dico cum aliquid in nobis aut extra nos fit cujus adaequata sumus
+causa hoc est (per [definitionem praecedentem][def1]) cum ex nostra natura
+aliquid in nobis aut extra nos sequitur quod per eandem solam potest clare et
+distincte intelligi. At contra nos pati dico cum in nobis aliquid fit vel ex
+nostra natura aliquid sequitur cujus nos non nisi partialis sumus causa.
+"""
+
+refs = {
+    def1 = "pars.3.def.1",
+}
+
+[pars.3.def.3]
+txt = """
+Per affectum intelligo corporis affectiones quibus ipsius corporis agendi
+potentia augetur vel minuitur, juvatur vel coercetur et simul harum affectionum
+ideas.
+"""
+
+[pars.3.def.3.expl]
+txt = """
+Si itaque alicujus harum affectionum adaequata possimus esse causa, tum per
+affectum actionem intelligo, alias passionem.
+"""
+
+[pars.3.post.1]
+txt = """
+Corpus humanum potest multis affici modis quibus ipsius agendi potentia augetur
+vel minuitur et etiam aliis qui ejusdem agendi potentiam nec majorem nec minorem
+reddunt.
+"""
+
+[pars.3.post.1.expl]
+txt = """
+Hoc postulatum seu axioma nititur [postulato 1][post1p2] et [lemmatibus
+5][lemma5p2] [et 7][lemma7p2], quae vide post propositionem 13 partis II.
+"""
+
+refs = {
+    post1p2 = "pars.2.post.1",
+    lemma5p2 = "pars.2.lemma.5",
+    lemma7p2 = "pars.2.lemma.7",
+}
+
+[pars.3.post.2]
+txt = """
+Corpus humanum multas pati potest mutationes et nihilominus retinere objectorum
+impressiones seu vestigia (de quibus vide [postulatum 5 partis II][post5p2]) et
+consequenter easdem rerum imagines; quarum definitionem vide in [scholio
+propositionis 17 partis II][prop17scp2].
+"""
+
+refs = {
+    post5p2 = "pars.2.post.5",
+    prop17scp2 = "pars.2.prop.17.sc",
+}
